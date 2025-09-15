@@ -1,0 +1,325 @@
+[
+  {
+    "id": "1",
+    "name": "Godrej Matrix 3016 (Digi+KL)",
+    "price": "1,40,899",
+    "size": ["(cm)90.3(h)x53.6(w)x54.7(d)", "(mm)903(h)x536(w)x547(d)"],
+    "weight": "210kg",
+    "volume": "112L",
+    "category": ["250x"],
+    "slug": "godrej-matrix-3016-digi-kl",
+    "description": "A premium safe with modern lock mechanisms and high fire resistance.",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016.webp",
+      "/images/250x/Godrej-Matrix-3016.webp"
+    ],
+    "tags": ["best-seller", "featured"],
+    "lock_mechanism": ["digital", "keylock"]
+  },
+  {
+    "id": "2",
+    "name": "Godrej Matrix 3016 (KL)",
+    "price": "1,06,199",
+    "size": ["(cm)90.3(h)x53.6(w)x54.7(d)", "(mm)903(h)x536(w)x547(d)"],
+    "weight": "210kg",
+    "volume": "112L",
+    "category": ["250x"],
+    "slug": "godrej-matrix-3016-kl",
+    "description": "A premium safe with modern lock mechanisms and high fire resistance.",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016.webp",
+      "/images/250x/Godrej-Matrix-3016.webp"
+    ],
+    "tags": ["best-seller", "featured"],
+    "lock_mechanism": ["keylock"]
+  },
+  {
+    "id": "3",
+    "name": "Godrej Matrix 2414 (Digi+KL)",
+    "price": "1,19,499",
+    "size": ["(cm)74.8(h)x48.6(w)x54.7(d)", "(mm)748(h)x486(w)x547(d)"],
+    "weight": "175kg",
+    "volume": "78L",
+    "category": ["250x"],
+    "slug": "godrej-matrix-2414-digi-kl",
+    "description": "A premium safe with modern lock mechanisms and high fire resistance.",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016.webp",
+      "/images/250x/Godrej-Matrix-3016.webp"
+    ],
+    "tags": ["best-seller", "featured"],
+    "lock_mechanism": ["digital", "keylock"]
+  },
+  {
+    "id": "4",
+    "name": "Godrej Matrix 2414 (KL)",
+    "price": "90,199",
+    "size": ["(cm)74.8(h)x48.6(w)x54.7(d)", "(mm)748(h)x486(w)x547(d)"],
+    "weight": "175kg",
+    "volume": "78L",
+    "category": ["250x"],
+    "slug": "godrej-matrix-2414-kl",
+    "description": "A premium safe with modern lock mechanisms and high fire resistance.",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016.webp",
+      "/images/250x/Godrej-Matrix-3016.webp"
+    ],
+    "tags": ["best-seller", "featured"],
+    "lock_mechanism": ["keylock"]
+  },
+  {
+    "id": "5",
+    "name": "Godrej Matrix 1814 (Digi+KL)",
+    "price": "96,299",
+    "size": ["(cm)59.6(h)x48.6(w)x54.7(d)", "(mm)596(h)x486(w)x547(d)"],
+    "weight": "145kg",
+    "volume": "59L",
+    "category": ["250x"],
+    "slug": "godrej-matrix-1814-digi-kl",
+    "description": "A premium safe with modern lock mechanisms and high fire resistance.",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016.webp",
+      "/images/250x/Godrej-Matrix-3016.webp"
+    ],
+    "tags": ["best-seller", "featured"],
+    "lock_mechanism": ["digital", "keylock"]
+  },
+  {
+    "id": "6",
+    "name": "Godrej Matrix 1814 (KL)",
+    "price": "85,099",
+    "size": ["(cm)59.6(h)x48.6(w)x54.7(d)", "(mm)596(h)x486(w)x547(d)"],
+    "weight": "145kg",
+    "volume": "59L",
+    "category": ["250x"],
+    "slug": "godrej-matrix-1814-kl",
+    "description": "A premium safe with modern lock mechanisms and high fire resistance.",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016.webp",
+      "/images/250x/Godrej-Matrix-3016.webp"
+    ],
+    "tags": ["best-seller", "featured"],
+    "lock_mechanism": ["keylock"]
+  },
+  {
+    "id": "7",
+    "name": "Godrej Presidio(KL)",
+    "price": "69,999",
+    "size": ["(cm)61.3(h)x43(w)x43(d)", "(mm)613(h)x430(w)x430(d)"],
+    "weight": "98kg",
+    "volume": " 48.9L",
+    "category": ["250x"],
+    "slug": "godrej-presidio-kl",
+    "description": "A premium safe with modern lock mechanisms and high fire resistance.",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016.webp",
+      "/images/250x/Godrej-Matrix-3016.webp"
+    ],
+    "tags": ["best-seller", "featured"],
+    "lock_mechanism": ["keylock"]
+  },
+  {
+    "id": "8",
+    "name": "Godrej Nx Advanced 560L(Digi+Bio+KL)",
+    "price": "2,41,849",
+    "size": ["(cm)158(h)x70(w)x60(d)", "(mm)1580(h)x700(w)x600(d)"],
+    "weight": "270kg",
+    "volume": " 560L",
+    "category": ["100x"],
+    "slug": "godrej-nx-advanced-560l-digi-bio-kl",
+    "description": "A premium safe with modern lock mechanisms and high fire resistance.",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016.webp",
+      "/images/250x/Godrej-Matrix-3016.webp"
+    ],
+    "tags": ["featured"],
+    "lock_mechanism": ["digital","biometric","keylock"]
+  },
+  {
+    "id": "9",
+    "name": "Godrej Nx Advanced 370L(Digi+Bio+KL)",
+    "price": "1,99,949",
+    "size": ["(cm)125(h)x60(w)x60(d)", "(mm)1250(h)x600(w)x600(d)"],
+    "weight": "200kg",
+    "volume": " 370L",
+    "category": ["100x"],
+    "slug": "godrej-nx-advanced-370l-digi-bio-kl",
+    "description": "A premium safe with modern lock mechanisms and high fire resistance.",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016.webp",
+      "/images/250x/Godrej-Matrix-3016.webp"
+    ],
+    "tags": ["featured"],
+    "lock_mechanism": ["digital","biometric","keylock"]
+  },
+  {
+    "id": "10",
+    "name": "Godrej Nx Advanced 210L(Digi+Bio+KL)",
+    "price": "1,56,149",
+    "size": ["(cm)106(h)x50(w)x50(d)", "(mm)1060(h)x500(w)x500(d)"],
+    "weight": "141kg",
+    "volume": " 210L",
+    "category": ["100x"],
+    "slug": "godrej-nx-advanced-210l-digi-bio-kl",
+    "description": "A premium safe with modern lock mechanisms and high fire resistance.",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016.webp",
+      "/images/250x/Godrej-Matrix-3016.webp"
+    ],
+    "tags": ["featured"],
+    "lock_mechanism": ["digital","biometric","keylock"]
+  },
+  {
+    "id": "11",
+    "name": "Godrej Nx Advanced 160L(Digi+Bio+KL)",
+    "price": "1,24,049",
+    "size": ["(cm)80(h)x50(w)x50(d)","(mm)800(h)x500(w)x500(d)"],
+    "weight": "113kg",
+    "volume": " 160L",
+    "category": ["100x"],
+    "slug": "godrej-nx-advanced-160l-digi-bio-kl",
+    "description": "A premium safe with modern lock mechanisms and high fire resistance.",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016.webp",
+      "/images/250x/Godrej-Matrix-3016.webp"
+    ],
+    "tags": ["featured"],
+    "lock_mechanism": ["digital","biometric","keylock"]
+  },
+  {
+    "id": "12",
+    "name": "Godrej Rhino Regal(KL)",
+    "price": "62,899",
+    "size": ["(cm)61(h)x46(w)x40.7(d)","(mm)610(h)x460(w)x407(d)"],
+    "weight": "50kg",
+    "volume": "100L",
+    "category": ["100x"],
+    "slug": "godrej-rhino-regal-kl",
+    "description": "A premium safe with modern lock mechanisms and high fire resistance.",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016.webp",
+      "/images/250x/Godrej-Matrix-3016.webp"
+    ],
+    "tags": ["featured"],
+    "lock_mechanism": ["keylock"]
+  },
+  {
+    "id": "13",
+    "name": "Godrej Rhino Advanced(Digi)",
+    "price": "54,399",
+    "size": ["(cm)61(h)x46(w)x41.5(d)","(mm)610(h)x460(w)x415(d)"],
+    "weight": "52kg",
+    "volume": "79L",
+    "category": ["100x"],
+    "slug": "godrej-rhino-Advanced-digitel",
+    "description": "A premium safe with modern lock mechanisms and high fire resistance.",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016.webp",
+      "/images/250x/Godrej-Matrix-3016.webp"
+    ],
+    "tags": ["featured"],
+    "lock_mechanism": ["digitel"]
+  },
+  {
+    "id": "14",
+    "name": "Godrej Rhino Advanced(KL)",
+    "price": "44,299",
+    "size": ["(cm)61(h)x46(w)x40.7(d)","(mm)610(h)x460(w)x407(d)"],
+    "weight": "51kg",
+    "volume": "79L",
+    "category": ["100x"],
+    "slug": "godrej-rhino-advanced-kl",
+    "description": "A premium safe with modern lock mechanisms and high fire resistance.",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016.webp",
+      "/images/250x/Godrej-Matrix-3016.webp"
+    ],
+    "tags": ["featured"],
+    "lock_mechanism": ["keylock"]
+  },
+   {
+    "id": "15",
+    "name": "Godrej Rhino(Digi)",
+    "price": "36,499",
+    "size": ["(cm)42.4(h)x46(w)x41.5(d)","(mm)424(h)x460(w)x415(d)"],
+    "weight": "35kg",
+    "volume": "55L",
+    "category": ["100x"],
+    "slug": "godrej-rhino-digi",
+    "description": "A premium safe with modern lock mechanisms and high fire resistance.",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016.webp",
+      "/images/250x/Godrej-Matrix-3016.webp"
+    ],
+    "tags": ["featured"],
+    "lock_mechanism": ["digitel"]
+  },
+  {
+    "id": "16",
+    "name": "Godrej Rhino Advanced(KL)",
+    "price": "29,599",
+    "size": ["(cm)42.4(h)x46(w)x40.7(d)","(mm)424(h)x460(w)x407(d)"],
+    "weight": "35kg",
+    "volume": "55L",
+    "category": ["100x"],
+    "slug": "godrej-rhino-kl",
+    "description": "A premium safe with modern lock mechanisms and high fire resistance.",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016.webp",
+      "/images/250x/Godrej-Matrix-3016.webp"
+    ],
+    "tags": ["featured"],
+    "lock_mechanism": ["keylock"]
+  },
+  {
+    "id": "17",
+    "name": "Godrej Ritz(Bio)",
+    "price": "40,299",
+    "size": ["(cm)33(h)x40(w)x32(d)","(mm)330(h)x400(w)x320(d)"],
+    "weight": "22.5kg",
+    "volume": "30L",
+    "category": ["100x"],
+    "slug": "godrej-ritz-bio",
+    "description": "A premium safe with modern lock mechanisms and high fire resistance.",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016.webp",
+      "/images/250x/Godrej-Matrix-3016.webp"
+    ],
+    "tags": ["featured"],
+    "lock_mechanism": ["biometric"]
+  },
+  {
+    "id": "18",
+    "name": "Godrej Ritz(Digi)",
+    "price": "35,999",
+    "size": ["(cm)33(h)x40(w)x32(d)","(mm)330(h)x400(w)x320(d)"],
+    "weight": "22.5kg",
+    "volume": "30L",
+    "category": ["100x"],
+    "slug": "godrej-ritz-digi",
+    "description": "A premium safe with modern lock mechanisms and high fire resistance.",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016.webp",
+      "/images/250x/Godrej-Matrix-3016.webp"
+    ],
+    "tags": ["featured"],
+    "lock_mechanism": ["digitel"]
+  },
+  {
+    "id": "19",
+    "name": "Godrej Citadel 45-v2(KL)",
+    "price": "39,799",
+    "size": ["(cm)47(h)x49(w)x45(d)","(mm)470(h)x490(w)x450(d)"],
+    "weight": "56kg",
+    "volume": "42L",
+    "category": ["100x"],
+    "slug": "godrej-citadel-45-v2-kl",
+    "description": "A premium safe with modern lock mechanisms and high fire resistance.",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016.webp",
+      "/images/250x/Godrej-Matrix-3016.webp"
+    ],
+    "tags": ["featured"],
+    "lock_mechanism": ["keylock"]
+  }
+]
