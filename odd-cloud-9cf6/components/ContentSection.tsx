@@ -20,10 +20,10 @@ export default function ContentSection({
 }: ContentSectionProps) {
   return (
     <section
-      className={`flex flex-col md:flex-row items-center justify-between gap-6 md:gap-12 max-w-6xl mx-auto px-4 my-8 ${
+  className={`flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 max-w-6xl mx-auto px-4 my-2 ${
     reverse ? "md:flex-row-reverse" : ""
-      }`}
-    >
+  }`}
+>
       {/* Image Section */}
       <div className="w-full md:w-1/2 flex justify-center">
         <Image
@@ -31,7 +31,7 @@ export default function ContentSection({
           alt={title}
           width={450}
           height={320}
-          className="rounded-xl shadow-md max-w-[90%] md:max-w-full"
+          className="rounded-xl max-w-[90%] md:max-w-full"
         />
       </div>
 

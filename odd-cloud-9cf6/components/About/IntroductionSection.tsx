@@ -4,7 +4,7 @@ export default function IntroductionSection() {
   return (
     <section className="bg-white py-16 px-4">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl md:text-5xl font-extrabold text-sky-700 mb-6">
+        <h2 className="text-xl md:text-3xl font-bold text-sky-700 mb-6">
           About Secure Home Solutions
         </h2>
 
@@ -14,7 +14,7 @@ export default function IntroductionSection() {
         </p>
 
         {/* Unique Tagline */}
-        <p className="mt-8 text-2xl md:text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-orange-400 to-red-500 inline-block px-6 py-2 rounded-full shadow-lg">
+        <p className="mt-8 text-2xl md:text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-orange-400 to-red-500 inline-block px-6 py-2 rounded-full shadow-lg">
           🔑 KEY TO YOUR PEACE OF MIND
         </p>
 

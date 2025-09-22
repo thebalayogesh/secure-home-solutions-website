@@ -1,50 +1,82 @@
 import { getProductsByCategory, getAllProducts } from "@/lib/getProducts";
 import ProductCard from "@/components/ProductCard";
 import { ProductType } from "@/types/product";
+import products from "@/data/products.json";
 
-// interface ProductCardProps {
-//   product: ProductType;
-// }
-
-// app/products/[category]/page.tsx
-export async function generateStaticParams() {
-  return [
-    { category: "lockers" },
-    { category: "cctv" },
-    { category: "digital-locks" },
-  ];
+// Generate category paths
+export function generateStaticParams() {
+  const categories = new Set<string>();
+  products.forEach((p) => p.category.forEach((c: string) => categories.add(c)));
+  return Array.from(categories).map((category) => ({ category }));
 }
 
+// 🔹 SEO metadata
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ category: string }>;
+}) {
+  const { category } = await params;
+
+  const productsByCategory = getProductsByCategory(category);
+  const isValidCategory = productsByCategory.length > 0;
+
+  const title = isValidCategory
+    ? `${category} Products | Secure Home Solutions`
+    : "All Products | Secure Home Solutions";
+
+  const description = isValidCategory
+    ? `Browse the best ${category} products at Secure Home Solutions. Explore features, prices, and specifications.`
+    : "Explore all security products including safes, lockers, and more at Secure Home Solutions.";
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `https://yourdomain.com/products/${isValidCategory ? category : ""}`,
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
+  };
+}
 
 export default async function CategoryPage({
   params,
 }: {
   params: Promise<{ category: string }>;
 }) {
-  // 🔹 unwrap the params
   const { category } = await params;
 
   // Fetch products for category
-  const products: ProductType[] = getProductsByCategory(category);
-
-  // Fallback to all products if invalid category
-  const isValidCategory = products.length > 0;
+  const productsByCategory: ProductType[] = getProductsByCategory(category);
+  const isValidCategory = productsByCategory.length > 0;
   const displayProducts: ProductType[] = isValidCategory
-    ? products
+    ? productsByCategory
     : getAllProducts();
 
   return (
     <main className="max-w-7xl mx-auto px-6 py-12">
+      {/* SEO-friendly H1 */}
       <h1 className="text-3xl font-bold text-gray-900 mb-8 capitalize text-center">
         {isValidCategory ? `${category} Products` : "All Products"}
       </h1>
 
+      {/* Product grid */}
       {displayProducts.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <section
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
+          aria-label="Product listings"
+        >
           {displayProducts.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
-        </div>
+        </section>
       ) : (
         <p className="text-center text-gray-600">
           No products available right now.

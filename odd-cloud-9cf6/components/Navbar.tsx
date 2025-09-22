@@ -2,12 +2,13 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navItems = [
   { label: "Home", href: "/" },
   { label: "Products", href: "/products" },
   { label: "About Us", href: "/about" },
-  { label: "Contact", href: "/contact" },
+  // { label: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
@@ -18,7 +19,14 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
         {/* Logo */}
         <Link href="/" className="text-xl font-bold text-blue-600">
-          MyBrand
+          {/* <Link href="/" className="flex items-center"> */}
+            <Image
+              src="/images/site/shs-logo.webp"
+              alt="Secure Home Solutions"
+              width={300}
+              height={60}
+            />
+          {/* </Link> */}
         </Link>
 
         {/* Desktop Links */}
@@ -36,7 +44,7 @@ export default function Navbar() {
             href="/contact"
             className="px-3 py-1 bg-blue-600 text-white rounded font-semibold hover:bg-blue-700 transition"
           >
-            Enquire
+            Contact Us
           </Link>
         </div>
 
@@ -47,19 +55,16 @@ export default function Navbar() {
           aria-label="Toggle Menu"
         >
           <span
-            className={`h-0.5 w-6 bg-gray-800 rounded transition-transform ${
-              open ? "rotate-45 translate-y-2" : ""
-            }`}
+            className={`h-0.5 w-6 bg-gray-800 rounded transition-transform ${open ? "rotate-45 translate-y-2" : ""
+              }`}
           ></span>
           <span
-            className={`h-0.5 w-6 bg-gray-800 rounded transition-opacity ${
-              open ? "opacity-0" : "opacity-100"
-            }`}
+            className={`h-0.5 w-6 bg-gray-800 rounded transition-opacity ${open ? "opacity-0" : "opacity-100"
+              }`}
           ></span>
           <span
-            className={`h-0.5 w-6 bg-gray-800 rounded transition-transform ${
-              open ? "-rotate-45 -translate-y-2" : ""
-            }`}
+            className={`h-0.5 w-6 bg-gray-800 rounded transition-transform ${open ? "-rotate-45 -translate-y-2" : ""
+              }`}
           ></span>
         </button>
       </div>

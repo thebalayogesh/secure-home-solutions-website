@@ -1,6 +1,5 @@
 export const dynamic = "force-static";
 
-
 import IntroductionSection from '@/components/About/IntroductionSection';
 import Timeline from '@/components/About/TimeLine';
 import WhyChooseUsSection from '@/components/About/WhyChooseUsSection';

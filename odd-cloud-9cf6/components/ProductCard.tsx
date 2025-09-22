@@ -20,13 +20,16 @@ export default function ProductCard({ product }: ProductCardProps) {
       href={`/products/${product.category[0]}/${product.slug}`}
       className="group block rounded-lg border border-gray-200 hover:shadow-xl transition bg-white overflow-hidden"
     >
-      {/* Product Image */}
+      {/* Product Image with SEO-friendly attributes */}
       <div className="relative w-full h-64">
         <Image
           src={product.images[0]}
-          alt={product.name}
+          alt={`${product.name} - ${product.category[0]} | Secure Storage`}
+          title={product.name}
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-300"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+          priority={false}
         />
 
         {/* Category Chip */}
@@ -46,8 +49,14 @@ export default function ProductCard({ product }: ProductCardProps) {
 
       {/* Product Info */}
       <div className="p-4">
-        <h3 className="text-lg font-semibold text-gray-900 group-hover:text-blue-600 line-clamp-1">
-          {product.name}
+        {/* SEO-friendly heading */}
+        <h3 className="text-lg font-semibold text-gray-900 group-hover:text-blue-600">
+          <span
+            className="block truncate"
+            title={product.name} // Tooltip for full title
+          >
+            {product.name}
+          </span>
         </h3>
 
         <p className="text-gray-600 text-sm mt-1 line-clamp-2">

@@ -8,15 +8,14 @@ interface TeamMember {
 
 const founders: TeamMember[] = [
   {
-    name: "Yogeshwaran",
+    name: "Kishore Kumar",
     role: "Founder & CEO",
-    image: "/images/team/kishore.png",
-
+    image: "/images/team/Kishore-pro.png",
   },
   {
-    name: "Divya S.",
-    role: "Co-Founder & CTO",
-    image: "/images/team/sathish.png",
+    name: "Sathish",
+    role: "Manager",
+    image: "/images/team/sathish-pro.png",
   },
 ];
 
@@ -43,9 +42,6 @@ export default function FoundersSection() {
                 width={176}
                 height={176}
                 className="object-cover w-full h-full rounded-full"
-                placeholder="blur"
-                blurDataURL="/images/placeholder.png" // tiny blurred placeholder
-                priority
               />
 
             </div>

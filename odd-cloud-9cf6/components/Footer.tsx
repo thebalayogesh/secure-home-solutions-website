@@ -51,10 +51,10 @@ export default function Footer() {
             </li>
             <li className="flex items-start gap-2">
               <Mail size={16} />
-              <span>mayuritours@example.com</span>
+              <span>godrejsecurehomes@mail.com</span>
             </li>
             <li className="flex items-start gap-2">
-              <MapPin size={16} />
+              <MapPin size={45} />
               <span>Door No. 103, First Floor, Plot No.18, Pammal Main Road, Pammal, Chennai - 600075</span>
             </li>
           </ul>
@@ -64,10 +64,10 @@ export default function Footer() {
         <div>
           <h4 className="font-semibold mb-3">Follow Us</h4>
           <div className="flex space-x-4">
-            <a href="#" className="hover:text-white">
+            <a href="http://facebook.com" target="_blank" className="hover:text-white">
               <Facebook href="https://fb.com" />
             </a>
-            <a href="#" className="hover:text-white">
+            <a href="https://www.instagram.com/godrej_locker_shop/" target="_blank" className="hover:text-white">
               <Instagram />
             </a>
           </div>
