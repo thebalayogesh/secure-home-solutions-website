@@ -3,6 +3,8 @@ import "./globals.css";
 import ContactTopbar from "@/components/ContactBar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import BackToTop from "@/components/BackToTop";
+
 
 export const metadata: Metadata = {
   title: "Secure Home Solutions",
@@ -35,6 +37,7 @@ export default function RootLayout({
         <ContactTopbar />
         <Navbar />
         {children}
+        <BackToTop />
         <Footer />
         </body>
     </html>

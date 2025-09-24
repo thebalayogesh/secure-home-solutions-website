@@ -1,16 +1,25 @@
 import React from "react";
-import { Facebook, Instagram, Mail, MapPin, Phone } from "lucide-react";
+import {
+  Facebook,
+  Instagram,
+  Linkedin,
+  Twitter,
+  Mail,
+  MapPin,
+  Phone,
+} from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-sky-900 text-white pt-10 pb-6">
-      <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer className="bg-sky-900 text-white pt-12 pb-6">
+      <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* Column 1 */}
         <div>
           <h3 className="text-lg font-bold mb-3">Secure Home Solutions</h3>
-          <p className="text-sm text-gray-300">
-            We believe every home deserves safety, convenience, and very importantly Peace Of Mind.
+          <p className="text-sm text-gray-300 leading-relaxed">
+            We believe every home deserves safety, convenience, and most
+            importantly — Peace Of Mind.
           </p>
         </div>
 
@@ -44,18 +53,28 @@ export default function Footer() {
         {/* Column 3 - Contact */}
         <div>
           <h4 className="font-semibold mb-3">Contact</h4>
-          <ul className="text-sm text-gray-300 space-y-2">
-            <li className="flex items-start gap-2">
-              <Phone size={16} />
-              <span>+91 75500 84414</span>
+          <ul className="text-sm text-gray-300 space-y-3">
+            <li className="flex items-center gap-2">
+              <Phone size={16} className="text-white" />
+              <a href="tel:+917550084414" className="hover:text-white">
+                +91 75500 84414
+              </a>
+            </li>
+            <li className="flex items-center gap-2">
+              <Mail size={16} className="text-white" />
+              <a
+                href="mailto:godrejsecurehomes@mail.com"
+                className="hover:text-white"
+              >
+                godrejsecurehomes@mail.com
+              </a>
             </li>
             <li className="flex items-start gap-2">
-              <Mail size={16} />
-              <span>godrejsecurehomes@mail.com</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <MapPin size={45} />
-              <span>Door No. 103, First Floor, Plot No.18, Pammal Main Road, Pammal, Chennai - 600075</span>
+              <MapPin size={18} className="mt-1 text-white" />
+              <span>
+                Door No. 103, First Floor, Plot No.18,
+                <br /> Pammal Main Road, Pammal, Chennai - 600075
+              </span>
             </li>
           </ul>
         </div>
@@ -64,11 +83,37 @@ export default function Footer() {
         <div>
           <h4 className="font-semibold mb-3">Follow Us</h4>
           <div className="flex space-x-4">
-            <a href="http://facebook.com" target="_blank" className="hover:text-white">
-              <Facebook href="https://fb.com" />
+            <a
+              href="https://www.facebook.com/kishore.kumar.585277"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-400 transition-colors"
+            >
+              <Facebook className="w-6 h-6" />
             </a>
-            <a href="https://www.instagram.com/godrej_locker_shop/" target="_blank" className="hover:text-white">
-              <Instagram />
+            <a
+              href="https://www.instagram.com/godrej_locker_shop/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-pink-400 transition-colors"
+            >
+              <Instagram className="w-6 h-6" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/secure-home-solutions"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-500 transition-colors"
+            >
+              <Linkedin className="w-6 h-6" />
+            </a>
+            <a
+              href="https://www.x.com/GodrejLockers/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-200 transition-colors"
+            >
+              <Twitter className="w-6 h-6" />
             </a>
           </div>
           <p className="text-sm text-gray-400 mt-4">#PeaceOfMind</p>
@@ -76,10 +121,10 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div className="border-t border-gray-500 mt-8 pt-4 text-center text-sm text-gray-400">
-        © {new Date().getFullYear()} Secure Home Solutions. All rights reserved.
+      <div className="border-t border-gray-700 mt-10 pt-4 text-center text-sm text-gray-400">
+        © {new Date().getFullYear()} Secure Home Solutions. All rights
+        reserved.
       </div>
-
     </footer>
   );
 }

@@ -55,35 +55,51 @@ export default function Home() {
     {/* <HeroCarousel slides={slides} /> */}
     {/* <ResponsiveCarousel /> */}
 
-      <HeroSection
-        title="10X Lockers"
-        description="Ensure standard strength security for your valuables. while these lockers offer a basic level of burglary resistant protection, for enhanced security, we strongly recommend our advanced and extreme strength models. with advanced features and reinforced constuction, they provide superior protection for your valuables"
-        primaryText="Explore Products"
-        primaryLink="/products/10x"
-        imageSrc="/images/hero/luxe-10x.webp"
-        reverse
-      />
 
-
-      <HeroSection
+<HeroSection
         title="250X Lockers"
         description="SafeGuard your precious valuables with confidence and peace of mind with our trusted, strongest and most secure lockers with double walls and patented construction. The best in class - unmatched protection for your valuables."
         primaryText="View Lockers"
         primaryLink="/products/250x"
         // secondaryText="Contact Us"
         // secondaryLink="/contact"
-        imageSrc="/images/hero/presidio.webp"
+        imageSrc="/images/hero/1.png"
+        reverse
+      />
+
+
+      <HeroSection
+        title="Fire Resistant Lockers"
+        description="Ensure standard strength security for your valuables. while these lockers offer a basic level of burglary resistant protection, for enhanced security, we strongly recommend our advanced and extreme strength models. with advanced features and reinforced constuction, they provide superior protection for your valuables"
+        primaryText="View Lockers"
+        primaryLink="/products/fire-resistant"
+        imageSrc="/images/hero/4.png"
 
       />
 
-      <HeroSection
+
+ <HeroSection
         title="100x Lockers"
         description="Heightened Protection for your valuables with innovative single wall reinforcement technology. Each Locker features fortified walls, powered by state-of-the-art technology for maximum security, ensuring peace of mind."
         primaryText="View Lockers"
         primaryLink="/products/100x"
-        imageSrc="/images/hero/rhino-100x.webp"
+        imageSrc="/images/hero/2.png"
         reverse
       />
+
+      <HeroSection
+        title="10X Lockers"
+        description="Ensure standard strength security for your valuables. while these lockers offer a basic level of burglary resistant protection, for enhanced security, we strongly recommend our advanced and extreme strength models. with advanced features and reinforced constuction, they provide superior protection for your valuables"
+        primaryText="Explore Products"
+        primaryLink="/products/10x"
+        imageSrc="/images/hero/3.png"
+
+      />
+
+
+
+
+
 
       <CategoryShowcase categories={categorie} />
 

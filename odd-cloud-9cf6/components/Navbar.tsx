@@ -18,14 +18,24 @@ export default function Navbar() {
     <nav className="bg-white shadow top-0 left-0 right-0 z-50">
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
         {/* Logo */}
-        <Link href="/" className="text-xl font-bold text-blue-600">
+        <Link href="/" className="flex items-center space-x-4">
           {/* <Link href="/" className="flex items-center"> */}
             <Image
+
               src="/images/site/shs-logo.webp"
               alt="Secure Home Solutions"
               width={300}
               height={60}
             />
+<div className="text-gray-500 text-3xl hidden sm:block">|</div>
+             <Image
+              className="hidden sm:block"
+    src="/images/site/godrej-logo.webp"
+    alt="Godrej Brand"
+    width={70}
+    height={40}
+    priority
+  />
           {/* </Link> */}
         </Link>
 

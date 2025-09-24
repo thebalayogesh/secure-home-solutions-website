@@ -101,52 +101,52 @@ export default function HeroSection({
   reverse = false,
 }: HeroSectionProps) {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 items-center max-w-7xl mx-auto px-5 gap-4">
-      {/* Text Section */}
-      <div
-        className={`bg-gray-100 p-8 rounded-lg flex flex-col justify-center text-center md:text-left ${
-          reverse ? "md:order-2" : "md:order-1"
-        }`}
-      >
-        <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
-          {title}
-        </h2>
-        <p className="text-gray-600 text-base md:text-lg mb-6">
-          {description}
-        </p>
+    <section className="grid grid-cols-1 md:grid-cols-2 items-center max-w-7xl py-2 mx-auto px-5 gap-4">
+  {/* Text Section */}
+  <div
+    className={`bg-gray-100 p-8 rounded-lg flex flex-col justify-center text-center md:text-left
+      order-2 ${reverse ? "md:order-2" : "md:order-1"}`}
+  >
+    <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
+      {title}
+    </h2>
+    <p className="text-gray-600 text-base md:text-lg mb-6">
+      {description}
+    </p>
 
-        {/* Buttons */}
-        <div className="flex flex-wrap justify-center md:justify-start gap-4">
-          <Link
-            href={primaryLink}
-            className="px-6 py-3 bg-blue-600 text-white rounded-md font-medium shadow hover:bg-green-700 transition"
-          >
-            {primaryText}
-          </Link>
-          {secondaryText && secondaryLink && (
-            <Link
-              href={secondaryLink}
-              className="px-6 py-3 bg-gray-200 text-gray-800 rounded-md font-medium shadow hover:bg-gray-300 transition"
-            >
-              {secondaryText}
-            </Link>
-          )}
-        </div>
-      </div>
-
-      {/* Image Section */}
-      <div
-        className={`flex justify-center ${reverse ? "md:order-1" : "md:order-2"}`}
+    {/* Buttons */}
+    <div className="flex flex-wrap justify-center md:justify-start gap-4">
+      <Link
+        href={primaryLink}
+        className="px-6 py-3 bg-blue-600 text-white rounded-md font-medium shadow hover:bg-green-700 transition"
       >
-        <Image
-          src={imageSrc}
-          alt={title}
-          width={500}
-          height={400}
-          className="object-contain rounded-lg"
-          priority
-        />
-      </div>
-    </section>
+        {primaryText}
+      </Link>
+      {secondaryText && secondaryLink && (
+        <Link
+          href={secondaryLink}
+          className="px-6 py-3 bg-gray-200 text-gray-800 rounded-md font-medium shadow hover:bg-gray-300 transition"
+        >
+          {secondaryText}
+        </Link>
+      )}
+    </div>
+  </div>
+
+  {/* Image Section */}
+  <div
+    className={`flex justify-center order-1 ${reverse ? "md:order-1" : "md:order-2"}`}
+  >
+    <Image
+      src={imageSrc}
+      alt={title}
+      width={500}
+      height={400}
+      className="object-contain rounded-lg"
+      priority
+    />
+  </div>
+</section>
+
   );
 }
