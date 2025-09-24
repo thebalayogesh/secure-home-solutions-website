@@ -6,6 +6,15 @@ import { ChevronLeft, ChevronRight, Phone, MessageCircle } from "lucide-react";
 import { ProductType } from "@/types/product";
 import ProductCard from "@/components/ProductCard";
 
+// Helper function for Title Case
+const toTitleCase = (text: string) => {
+  return text
+    .split(/[-\s]/) // split by dash or space
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+};
+
+
 export default function ProductPageClient({
   product,
   relatedProducts = [],
@@ -151,55 +160,55 @@ export default function ProductPageClient({
           </div>
 
           {/* Lock Mechanism */}
-          {Array.isArray(product.lock_mechanism) && product.lock_mechanism.length > 0 && (
-            <div className="mt-6">
-              <h3 className="font-semibold mb-2">Lock Mechanism</h3>
-              <div className="flex flex-wrap gap-2">
-                {product.lock_mechanism.map((lock, i) => (
-                  <span
-                    key={i}
-                    className="px-3 py-1 text-sm rounded-full bg-gray-100 border"
-                  >
-                    {lock}
-                  </span>
-                ))}
-              </div>
-            </div>
-          )}
+{Array.isArray(product.lock_mechanism) && product.lock_mechanism.length > 0 && (
+  <div className="mt-6">
+    <h3 className="font-semibold mb-2">Lock Mechanism</h3>
+    <div className="flex flex-wrap gap-2">
+      {product.lock_mechanism.map((lock, i) => (
+        <span
+          key={i}
+          className="px-3 py-1 text-sm rounded-full bg-gray-100 border"
+        >
+          {toTitleCase(lock)}
+        </span>
+      ))}
+    </div>
+  </div>
+)}
 
           {/* Tags */}
           {Array.isArray(product.tags) && product.tags.length > 0 && (
-            <div className="mt-6">
-              <h3 className="font-semibold mb-2">Highlights</h3>
-              <div className="flex flex-wrap gap-2">
-                {product.tags.map((tag, i) => (
-                  <span
-                    key={i}
-                    className="px-3 py-1 text-sm rounded-full bg-yellow-100 text-yellow-800 border border-yellow-300"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </div>
-          )}
+  <div className="mt-6">
+    <h3 className="font-semibold mb-2">Highlights</h3>
+    <div className="flex flex-wrap gap-2">
+      {product.tags.map((tag, i) => (
+        <span
+          key={i}
+          className="px-3 py-1 text-sm rounded-full bg-yellow-100 text-yellow-800 border border-yellow-300"
+        >
+          {toTitleCase(tag)}
+        </span>
+      ))}
+    </div>
+  </div>
+)}
 
-          {/* Categories */}
-          {Array.isArray(product.category) && product.category.length > 0 && (
-            <div className="mt-6">
-              <h3 className="font-semibold mb-2">Category</h3>
-              <div className="flex flex-wrap gap-2">
-                {product.category.map((cat, i) => (
-                  <span
-                    key={i}
-                    className="px-3 py-1 text-sm rounded-full bg-blue-50 text-blue-700 border border-blue-200"
-                  >
-                    {cat}
-                  </span>
-                ))}
-              </div>
-            </div>
-          )}
+         {/* Categories */}
+{Array.isArray(product.category) && product.category.length > 0 && (
+  <div className="mt-6">
+    <h3 className="font-semibold mb-2">Category</h3>
+    <div className="flex flex-wrap gap-2">
+      {product.category.map((cat, i) => (
+        <span
+          key={i}
+          className="px-3 py-1 text-sm rounded-full bg-blue-50 text-blue-700 border border-blue-200"
+        >
+          {toTitleCase(cat)}
+        </span>
+      ))}
+    </div>
+  </div>
+)}
 
           {/* Desktop CTA Buttons */}
           <div className="hidden md:flex gap-4 mt-8">
@@ -250,14 +259,15 @@ export default function ProductPageClient({
         >
           <Phone className="w-5 h-5" /> Call Now
         </a>
-        <a
-          href="https://wa.me/917550084414"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex-1 flex items-center justify-center gap-2 py-3 text-white bg-green-600 hover:bg-green-700 font-medium"
-          aria-label="Chat on WhatsApp"
-        >
-          <MessageCircle className="w-5 h-5" /> WhatsApp
+         <a
+    href={`https://wa.me/917550084414?text=${encodeURIComponent(
+      `Hi, I'm interested in ${product.name}`
+    )}`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex-1 flex items-center justify-center gap-2 py-3 text-white bg-green-600 hover:bg-green-700 font-medium"
+    aria-label="Chat on WhatsApp"
+  >          <MessageCircle className="w-5 h-5" /> WhatsApp
         </a>
       </div>
     </main>

@@ -15,6 +15,14 @@ export default function ProductCard({ product }: ProductCardProps) {
     return price.toLocaleString("en-IN");
   };
 
+  // Format text like "fire-resistant" => "Fire Resistant"
+  const formatText = (text: string) => {
+    return text
+      .split(/[-\s]/) // split by dash or space
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ");
+  };
+
   return (
     <Link
       href={`/products/${product.category[0]}/${product.slug}`}
@@ -35,14 +43,14 @@ export default function ProductCard({ product }: ProductCardProps) {
         {/* Category Chip */}
         {product.category?.[0] && (
           <span className="absolute top-2 left-2 bg-gray-900 text-white text-xs px-2 py-1 rounded">
-            {product.category[0]}
+            {formatText(product.category[0])}
           </span>
         )}
 
         {/* Tag Badge */}
         {product.tags?.length ? (
           <span className="absolute top-2 right-2 bg-yellow-400 text-black text-xs px-2 py-1 rounded font-medium shadow">
-            {product.tags[0]}
+            {formatText(product.tags[0])}
           </span>
         ) : null}
       </div>
@@ -51,10 +59,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       <div className="p-4">
         {/* SEO-friendly heading */}
         <h3 className="text-lg font-semibold text-gray-900 group-hover:text-blue-600">
-          <span
-            className="block truncate"
-            title={product.name} // Tooltip for full title
-          >
+          <span className="block truncate" title={product.name}>
             {product.name}
           </span>
         </h3>

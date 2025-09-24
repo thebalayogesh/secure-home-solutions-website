@@ -30,7 +30,7 @@ export default function BackToTop() {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-6 right-6 p-3 rounded-full bg-sky-600 text-white shadow-lg hover:bg-sky-700 transition"
+          className="fixed bottom-20 right-6 p-3 rounded-full bg-sky-600 text-white shadow-lg hover:bg-sky-700 transition"
         >
           <ArrowUp size={20} />
         </button>

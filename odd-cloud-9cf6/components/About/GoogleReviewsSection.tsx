@@ -3,32 +3,32 @@ import Link from "next/link";
 
 const reviews = [
   {
-    name: "Divya S.",
+    name: "Uma Srinivasan",
     location: "Chennai, Tamil Nadu",
     rating: 5,
     review:
-      "The lockers are high-quality and very secure. Installation was smooth and professional.",
+      "One of the best and dedicated sales and service outlet. They have multiple models in display. Mr.Satish is so responsible,informative and answers all the queries patiently. I would highly recommend this outlet for vault purchases.",
   },
   {
-    name: "Raj K.",
-    location: "Coimbatore, TN",
+    name: "Arasu D",
+    location: "Chennai, Tamil Nadu",
     rating: 5,
     review:
-      "I purchased a Godrej safe for my office. Extremely satisfied with the quality and service!",
+      "We have been using a Godrej video door phone supplied by Secure Home Solutions for the past four years and have been very satisfied with the product. Today, we decided to upgrade our system and requested Secure Home Solutions to supply and install a new Godrej video door phone on the same day. They did not disappoint! They provided same-day delivery and installation, handling the case with utmost professionalism. We are delighted with their prompt service and highly recommend Secure Home Solutions to anyone in need of Godrej video door phones. Excellent service and customer care!",
   },
   {
-    name: "Meena R.",
-    location: "Bengaluru, Karnataka",
+    name: "Yogeshwaran Jayakumar",
+    location: "Chennai, Tamil Nadu",
     rating: 5,
     review:
-      "Excellent customer support and top-notch security solutions. Highly recommended!",
+      "I feel truly lucky to have purchased my Golden Colour Godrej Rhino Advanced Safe Locker from Secure Home Solutions, Chennai. From the day I brought this locker home, I’ve started seeing my golden wishes coming true, and my wealth goals are moving in the right direction. This locker has become very special and sentimental for me. I sincerely thank Secure Home Solutions for offering me such a wonderful and truly golden Godrej locker. Highly recommend them for anyone looking for the right safe locker!",
   },
   {
-    name: "Sathish P.",
-    location: "Hyderabad, AP",
+    name: "Girijaa Doraiswamy",
+    location: "Chennai, Tamil Nadu",
     rating: 5,
     review:
-      "Very reliable and secure lockers. Peace of mind knowing my valuables are safe.",
+      "We ordered the Godrej Matrix, and Sathish assisted us with all our queries. The entire process was smoothly coordinated over the phone, and the installation was completed the very next day. Excellent service!",
   },
 ];
 
@@ -73,7 +73,7 @@ export default function ReviewsSection() {
       {/* Optional CTA */}
       <div className="text-center mt-10">
         <Link
-          href="https://www.google.com/search?q=secure+home+solutions+pammal+reviews"
+          href="https://www.google.com/search?num=10&sca_esv=8b6aaa0e07ec78a3&rlz=1C1GCEA_enIN1176IN1176&biw=1366&bih=645&sxsrf=AE3TifNAI7wRXfQi2svq1LMWpbeFTWbtqg:1758740180860&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E5XChMffoxoY6OkKPuh78jMFPSnNuFds2S8sj-ZLlEarnwF3NRzXK13FmL_QFJpzy3MybzdxU714MonGZUvYhsoQ1xFnexyta95fM2bGO-eq3pCkrHJhqgreVIxYxs1oD__NLCA%3D&q=Secure+Home+Solutions+-+A+Godrej+Locker+Shop+Reviews&sa=X&ved=2ahUKEwio5O3difKPAxUwSGwGHWpBDf8Q0bkNegQIPRAE"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-yellow-500 hover:bg-yellow-600 text-black text-sm px-6 py-3 rounded-full font-semibold transition"
