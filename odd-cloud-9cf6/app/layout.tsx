@@ -1,12 +1,15 @@
-import type { Metadata } from "next";
+// app/layout.tsx
+import Script from "next/script";
 import "./globals.css";
 import ContactTopbar from "@/components/ContactBar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import type { Metadata } from "next";
+
 import BackToTop from "@/components/BackToTop";
 
-
 export const metadata: Metadata = {
+  metadataBase: new URL("https://homelockers.in"),
   title: "Secure Home Solutions",
   description: "Your key to peace of mind. Explore our security solutions.",
    icons: {
@@ -15,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Secure Home Solutions",
     description: "Your key to peace of mind. Explore our security solutions.",
-    url: "https://yourdomain.com",
+    url: "https://homelockers.in",
     siteName: "Secure Home Solutions",
     type: "website",
   },
@@ -26,20 +29,97 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const localBusinessJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Secure Home Solutions",
+    "image": "https://homelockers.in/images/site/shs-logo.webp",
+    "telephone": "+91-7550084414",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Door No. 103, Plot No. 18, Pammal Main Road",
+      "addressLocality": "Chennai",
+      "postalCode": "600075",
+      "addressCountry": "IN"
+    },
+    "url": "https://homelockers.in",
+    "openingHours": "Mo-Su 09:00-20:00",
+    "priceRange": "₹₹₹"
+  };
+
   return (
     <html lang="en">
-      <body className="" data-new-gr-c-s-check-loaded="14.1254.0" data-gr-ext-installed="">
+      <head>
+        {/* ✅ JSON-LD in <head> */}
+        <Script
+          id="localbusiness-schema"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(localBusinessJsonLd),
+          }}
+        />
+      </head>
+      <body>
         <ContactTopbar />
         <Navbar />
         {children}
         <BackToTop />
         <Footer />
-        </body>
+      </body>
     </html>
   );
 }
+
+
+
+
+
+
+
+// import type { Metadata } from "next";
+// import "./globals.css";
+// import ContactTopbar from "@/components/ContactBar";
+// import Navbar from "@/components/Navbar";
+// import Footer from "@/components/Footer";
+// import BackToTop from "@/components/BackToTop";
+
+
+// export const metadata: Metadata = {
+//   title: "Secure Home Solutions",
+//   description: "Your key to peace of mind. Explore our security solutions.",
+//    icons: {
+//     icon: "/images/site/shs-ico.webp",
+//   },
+//   openGraph: {
+//     title: "Secure Home Solutions",
+//     description: "Your key to peace of mind. Explore our security solutions.",
+//     url: "https://yourdomain.com",
+//     siteName: "Secure Home Solutions",
+//     type: "website",
+//   },
+//   twitter: {
+//     card: "summary_large_image",
+//     title: "Secure Home Solutions",
+//     description: "Your key to peace of mind. Explore our security solutions.",
+//   },
+// };
+
+// export default function RootLayout({
+//   children,
+// }: {
+//   children: React.ReactNode;
+// }) {
+//   return (
+//     <html lang="en">
+//       <body className="" data-new-gr-c-s-check-loaded="14.1254.0" data-gr-ext-installed="">
+//         <ContactTopbar />
+//         <Navbar />
+//         {children}
+//         <BackToTop />
+//         <Footer />
+//         </body>
+//     </html>
+//   );
+// }

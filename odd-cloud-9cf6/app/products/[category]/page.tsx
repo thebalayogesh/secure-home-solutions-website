@@ -35,7 +35,7 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-      url: `https://yourdomain.com/products/${isValidCategory ? category : ""}`,
+      url: `https://homelockers.in/products/${isValidCategory ? category : ""}`,
       type: "website",
     },
     twitter: {

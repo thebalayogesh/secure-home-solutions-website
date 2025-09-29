@@ -2,11 +2,14 @@
 import { Metadata } from "next";
 import { getAllProducts } from "@/lib/getProducts";
 import ProductCard from "@/components/ProductCard";
+// import type { Metadata } from "next";
+
 
 export const dynamic = "force-static";
 
 
 export const metadata: Metadata = {
+    metadataBase: new URL("https://homelockers.in"),
   title: "Our Products | Lockers",
   description: "Explore our range of lockers including 10x, 100x, 250x, fire-resistant, and digital lockers.",
   openGraph: {
