@@ -1,0 +1,42 @@
+# robots.txt for https://www.homelockers.in/
+# Last updated: 2025-09-30
+
+# ✅ Allow all standard search engine crawlers to index the site
+User-agent: *
+Disallow:
+
+# ✅ Sitemap (helps Google Search Console & others)
+Sitemap: https://www.homelockers.in/sitemap.xml
+
+# --- Optional: AI Crawlers ---
+
+# ✅ Allow OpenAI's GPTBot (ChatGPT) to crawl your site
+User-agent: GPTBot
+Allow: /
+
+# ✅ Allow Anthropic's ClaudeBot
+User-agent: ClaudeBot
+Allow: /
+
+# ✅ Allow Perplexity AI crawler
+User-agent: PerplexityBot
+Allow: /
+
+# ✅ Allow Common Crawl (used by many LLM datasets)
+User-agent: CCBot
+Allow: /
+
+# ✅ Allow Google-Extended (AI training crawler from Google)
+User-agent: Google-Extended
+Allow: /
+
+# ✅ Allow other AI crawlers
+User-agent: FacebookBot
+Allow: /
+
+# --- Security / Optimization ---
+# Disallow crawling of admin or backend paths (if any)
+User-agent: *
+Disallow: /admin/
+Disallow: /server/
+Disallow: /private/
