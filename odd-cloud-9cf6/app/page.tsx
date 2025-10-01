@@ -92,7 +92,7 @@ export default function Home() {
         description="Ensure standard strength security for your valuables. while these lockers offer a basic level of burglary resistant protection, for enhanced security, we strongly recommend our advanced and extreme strength models. with advanced features and reinforced constuction, they provide superior protection for your valuables"
         primaryText="Explore Products"
         primaryLink="/products/10x"
-        imageSrc="/images/hero3.webp"
+        imageSrc="/images/hero/3.webp"
 
       />
 
