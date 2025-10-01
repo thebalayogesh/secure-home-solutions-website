@@ -24,21 +24,17 @@ export default function HeroSection({
   reverse = false,
 }: HeroSectionProps) {
   return (
-    <section className="max-w-7xl mx-auto px-5 py-6 md:py-10 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+    <section className="grid grid-cols-1 md:grid-cols-2 items-center max-w-7xl py-10 mx-auto px-5 gap-6">
       
       {/* Text Section */}
       <div
-        className={`flex flex-col justify-center text-center md:text-left bg-gray-100 p-6 md:p-8 rounded-lg order-2 ${
-          reverse ? "md:order-2" : "md:order-1"
-        }`}
+        className={`bg-gray-100 p-6 md:p-8 rounded-lg flex flex-col justify-center text-center md:text-left
+          order-2 ${reverse ? "md:order-2" : "md:order-1"}`}
       >
-        <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4 leading-tight">
-          {title}
-        </h2>
-        <p className="text-gray-600 text-base md:text-lg mb-6 leading-relaxed">
-          {description}
-        </p>
+        <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">{title}</h2>
+        <p className="text-gray-600 text-base md:text-lg mb-6">{description}</p>
 
+        {/* Buttons */}
         <div className="flex flex-wrap justify-center md:justify-start gap-4">
           <Link
             href={primaryLink}
@@ -59,17 +55,24 @@ export default function HeroSection({
 
       {/* Image Section */}
       <div
-        className={`relative w-full order-1 ${reverse ? "md:order-1" : "md:order-2"}`}
+        className={`relative w-full order-1 flex justify-center ${reverse ? "md:order-1" : "md:order-2"}`}
       >
         <Image
           src={imageSrc}
           alt={title}
-          width={1080}          // intrinsic size for LCP & SEO
-          height={1350}         // intrinsic size for LCP & SEO
+          width={1080}           // intrinsic width for SEO
+          height={1350}          // intrinsic height for SEO
           priority
           fetchPriority="high"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 540px"
-          className="w-full h-auto object-contain rounded-lg"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          className="w-full max-w-full h-auto object-contain rounded-lg"
+          quality={80}
+          placeholder="blur"
+          blurDataURL="/images/placeholder.png"
+          style={{
+            maxHeight: "550px", // desktop max height
+            margin: "0 auto",
+          }}
         />
       </div>
     </section>
