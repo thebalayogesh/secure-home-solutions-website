@@ -35,6 +35,7 @@ export default function Navbar() {
     width={70}
     height={40}
     priority
+    fetchpriority="high"
   />
 </Link>
 
