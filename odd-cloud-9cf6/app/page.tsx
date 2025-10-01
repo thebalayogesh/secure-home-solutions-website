@@ -63,7 +63,7 @@ export default function Home() {
         primaryLink="/products/250x"
         // secondaryText="Contact Us"
         // secondaryLink="/contact"
-        imageSrc="/images/hero/1.png"
+        imageSrc="/images/hero/1.webp"
         reverse
       />
 
@@ -73,7 +73,7 @@ export default function Home() {
         description="Ensure standard strength security for your valuables. while these lockers offer a basic level of burglary resistant protection, for enhanced security, we strongly recommend our advanced and extreme strength models. with advanced features and reinforced constuction, they provide superior protection for your valuables"
         primaryText="View Lockers"
         primaryLink="/products/fire-resistant"
-        imageSrc="/images/hero/4.png"
+        imageSrc="/images/hero/4.webp"
 
       />
 
@@ -83,7 +83,7 @@ export default function Home() {
         description="Heightened Protection for your valuables with innovative single wall reinforcement technology. Each Locker features fortified walls, powered by state-of-the-art technology for maximum security, ensuring peace of mind."
         primaryText="View Lockers"
         primaryLink="/products/100x"
-        imageSrc="/images/hero/2.png"
+        imageSrc="/images/hero/2.webp"
         reverse
       />
 
@@ -92,7 +92,7 @@ export default function Home() {
         description="Ensure standard strength security for your valuables. while these lockers offer a basic level of burglary resistant protection, for enhanced security, we strongly recommend our advanced and extreme strength models. with advanced features and reinforced constuction, they provide superior protection for your valuables"
         primaryText="Explore Products"
         primaryLink="/products/10x"
-        imageSrc="/images/hero/3.png"
+        imageSrc="/images/hero3.webp"
 
       />
 
