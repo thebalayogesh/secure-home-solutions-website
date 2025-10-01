@@ -25,7 +25,7 @@ export default function Navbar() {
             width={150}
             height={30}
             priority
-            fetchpriority="high"
+            fetchPriority="high"
             className="h-auto w-[100px] sm:w-[150px] md:w-[180px] lg:w-[200px]"
           />
 
@@ -40,8 +40,7 @@ export default function Navbar() {
             width={70}
             height={40}
             priority
-            fetchpriority="high"
-            
+            fetchPriority="high"
           />
         </Link>
 
