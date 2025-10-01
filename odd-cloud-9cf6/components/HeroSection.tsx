@@ -144,6 +144,7 @@ export default function HeroSection({
       height={400}
       className="object-contain rounded-lg"
       priority
+      fetchPriority="high"
     />
   </div>
 </section>
