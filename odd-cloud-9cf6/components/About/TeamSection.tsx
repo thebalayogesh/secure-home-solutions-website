@@ -12,13 +12,13 @@ const founders: TeamMember[] = [
     name: "Kishore Kumar",
     role: "Founder & CEO",
     desc: "Leads Secure Home Solutions with a vision to deliver innovative and reliable home safety solutions.",
-    image: "/images/team/kishore-team.jpg",
+    image: "/images/team/kishore-team.webp",
   },
   {
     name: "Sathish",
     role: "Manager",
     desc: "Handles operations and ensures smooth project execution with a focus on customer satisfaction.",
-    image: "/images/team/sathish-pro.png",
+    image: "/images/team/sathish-pro.webp",
   },
 ];
 
