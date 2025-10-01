@@ -24,7 +24,7 @@ export default function HeroSection({
   reverse = false,
 }: HeroSectionProps) {
   return (
-    <section className="max-w-7xl mx-auto px-5 py-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    <section className="max-w-7xl mx-auto px-5 py-6 md:py-10 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
       
       {/* Text Section */}
       <div
@@ -39,7 +39,6 @@ export default function HeroSection({
           {description}
         </p>
 
-        {/* Buttons */}
         <div className="flex flex-wrap justify-center md:justify-start gap-4">
           <Link
             href={primaryLink}
@@ -61,16 +60,16 @@ export default function HeroSection({
       {/* Image Section */}
       <div
         className={`relative w-full order-1 ${reverse ? "md:order-1" : "md:order-2"}`}
-        style={{ minHeight: "300px" }}
       >
         <Image
           src={imageSrc}
           alt={title}
-          fill
+          width={1080}          // intrinsic size for LCP & SEO
+          height={1350}         // intrinsic size for LCP & SEO
           priority
           fetchPriority="high"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 500px"
-          className="object-contain rounded-lg"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 540px"
+          className="w-full h-auto object-contain rounded-lg"
         />
       </div>
     </section>
