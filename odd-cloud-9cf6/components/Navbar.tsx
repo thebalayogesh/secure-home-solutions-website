@@ -21,13 +21,12 @@ export default function Navbar() {
         <Link href="/" className="flex items-center space-x-4">
           {/* <Link href="/" className="flex items-center"> */}
             <Image
-
               src="/images/site/shs-logo.webp"
               alt="Secure Home Solutions"
               width={300}
               height={60}
               fetchPriority="high"
-
+              priority
             />
 <div className="text-gray-500 text-3xl hidden sm:block">|</div>
              <Image
