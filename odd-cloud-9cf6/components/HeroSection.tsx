@@ -145,11 +145,11 @@ export default function HeroSection({
   <Image
     src={imageSrc}
     alt={title}
-    width={500}           // still needed for intrinsic sizing & SEO
-    height={400}
+    {/* width={500}           // still needed for intrinsic sizing & SEO
+    height={400} */}
     priority
     sizes="(max-width: 768px) 100vw, 372px"
-    className="object-contain rounded-lg w-full h-full"
+    className="object-contain w-full h-full"
   />
 </div>
 
