@@ -8,6 +8,7 @@ const navItems = [
   { label: "Home", href: "/" },
   { label: "Products", href: "/products" },
   { label: "About Us", href: "/about" },
+  // { label: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
@@ -18,30 +19,28 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-4">
-          {/* SHS Logo */}
-          <Image
-            src="/images/site/shs-logo.webp"
-            alt="Secure Home Solutions"
-            width={150}
-            height={30}
-            priority
-            fetchPriority="high"
-            className="h-auto w-[100px] sm:w-[150px] md:w-[180px] lg:w-[200px]"
-          />
+          {/* <Link href="/" className="flex items-center"> */}
+            <Image
 
-          {/* Divider */}
-          <div className="text-gray-500 text-3xl hidden sm:block">|</div>
+              src="/images/site/shs-logo.webp"
+              alt="Secure Home Solutions"
+              width={300}
+              height={60}
+              fetchPriority="high"
 
-          {/* Godrej Logo */}
-          <Image
-            className="hidden sm:block w-[50px] sm:w-[70px] md:w-[80px] lg:w-[90px]"
-            src="/images/site/godrej-logo.webp"
-            alt="Godrej Brand"
-            width={70}
-            height={40}
-            priority
-            fetchPriority="high"
-          />
+            />
+<div className="text-gray-500 text-3xl hidden sm:block">|</div>
+             <Image
+              className="hidden sm:block"
+    src="/images/site/godrej-logo.webp"
+    alt="Godrej Brand"
+    width={70}
+    height={40}
+    priority
+    fetchPriority="high"
+
+  />
+          {/* </Link> */}
         </Link>
 
         {/* Desktop Links */}
@@ -70,19 +69,16 @@ export default function Navbar() {
           aria-label="Toggle Menu"
         >
           <span
-            className={`h-0.5 w-6 bg-gray-800 rounded transition-transform ${
-              open ? "rotate-45 translate-y-2" : ""
-            }`}
+            className={`h-0.5 w-6 bg-gray-800 rounded transition-transform ${open ? "rotate-45 translate-y-2" : ""
+              }`}
           ></span>
           <span
-            className={`h-0.5 w-6 bg-gray-800 rounded transition-opacity ${
-              open ? "opacity-0" : "opacity-100"
-            }`}
+            className={`h-0.5 w-6 bg-gray-800 rounded transition-opacity ${open ? "opacity-0" : "opacity-100"
+              }`}
           ></span>
           <span
-            className={`h-0.5 w-6 bg-gray-800 rounded transition-transform ${
-              open ? "-rotate-45 -translate-y-2" : ""
-            }`}
+            className={`h-0.5 w-6 bg-gray-800 rounded transition-transform ${open ? "-rotate-45 -translate-y-2" : ""
+              }`}
           ></span>
         </button>
       </div>
