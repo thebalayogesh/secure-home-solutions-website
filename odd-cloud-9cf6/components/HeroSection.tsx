@@ -137,23 +137,22 @@ export default function HeroSection({
 
       {/* Image Section */}
       <div
-        className={`relative w-full h-[350px] flex justify-center order-1 ${
-          reverse ? "md:order-1" : "md:order-2"
-        }`}
-      >
-       <div className="relative w-full max-w-[372px] aspect-[5/4]">
-  <Image
-    src={imageSrc}
-    alt={title}
-    {/* width={500}           // still needed for intrinsic sizing & SEO
-    height={400} */}
-    priority
-    sizes="(max-width: 768px) 100vw, 372px"
-    className="object-contain w-full h-full"
-  />
+  className={`flex justify-center order-1 ${reverse ? "md:order-1" : "md:order-2"}`}
+>
+  <div className="relative w-full max-w-[500px] md:max-w-[500px] aspect-[5/4]">
+    <Image
+      src={imageSrc}
+      alt={title}
+      width={500}           // intrinsic size for desktop
+      height={400}          // intrinsic size for desktop
+      sizes="(max-width: 768px) 100vw, 500px" // responsive for mobile
+      className="object-contain rounded-lg w-full h-full"
+      priority
+      fetchPriority="high"
+    />
+  </div>
 </div>
 
-      </div>
     </section>
   );
 }
