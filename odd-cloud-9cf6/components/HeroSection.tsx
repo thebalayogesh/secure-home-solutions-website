@@ -141,15 +141,18 @@ export default function HeroSection({
           reverse ? "md:order-1" : "md:order-2"
         }`}
       >
-        <Image
-          src={imageSrc}
-          alt={title}
-          fill
-          priority
-          fetchPriority="high"
-          sizes="(max-width: 768px) 100vw, 372px"
-          className="object-contain rounded-lg"
-        />
+       <div className="relative w-full max-w-[372px] aspect-[5/4]">
+  <Image
+    src={imageSrc}
+    alt={title}
+    width={500}           // still needed for intrinsic sizing & SEO
+    height={400}
+    priority
+    sizes="(max-width: 768px) 100vw, 372px"
+    className="object-contain rounded-lg w-full h-full"
+  />
+</div>
+
       </div>
     </section>
   );
