@@ -60,6 +60,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             __html: JSON.stringify(localBusinessJsonLd),
           }}
         />
+        <link
+  rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+  as="style"
+/>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+/>
+
       </head>
       <body>
         <ContactTopbar />
