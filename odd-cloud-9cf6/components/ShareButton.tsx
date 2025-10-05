@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import {
   Share2,
   Twitter,
@@ -45,6 +45,11 @@ export default function ShareButtons({
     }
   };
 
+  // ✅ Reset copied state when URL changes
+  useEffect(() => {
+    setCopied(false);
+  }, [url]);
+
   return (
     <div className={`flex items-center gap-3 ${className}`}>
       {/* Native Share (Mobile) */}
@@ -55,39 +60,6 @@ export default function ShareButtons({
       >
         <Share2 className="w-5 h-5 text-gray-700" />
       </button>
-
-      {/* Twitter */}
-      {/*<a
-        href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(title)}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Share on Twitter"
-        className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition"
-      >
-        <Twitter className="w-5 h-5 text-sky-500" />
-      </a>*/}
-
-      {/* LinkedIn */}
-      {/*<a
-        href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Share on LinkedIn"
-        className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition"
-      >
-        <Linkedin className="w-5 h-5 text-blue-700" />
-      </a>*/}
-
-      {/* Facebook */}
-      {/*<a
-        href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Share on Facebook"
-        className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition"
-      >
-        <Facebook className="w-5 h-5 text-blue-600" />
-      </a>*/}
 
       {/* Copy URL */}
       <button
