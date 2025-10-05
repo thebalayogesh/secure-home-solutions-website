@@ -5,7 +5,9 @@ import Image from 'next/image';
 import { ChevronLeft, ChevronRight, Phone, MessageCircle } from 'lucide-react';
 import { ProductType } from '@/types/product';
 import ProductCard from '@/components/ProductCard';
-import ShareButtons from '@/components/ShareButton';
+import ShareButtons from '@/components/ShareButtons';
+import ShareButtonFloating from "@/components/ShareButtonFloating";
+
 
 // Helper function for Title Case
 const toTitleCase = (text: string) => {
@@ -44,6 +46,12 @@ export default function ProductPageClient({
   const seoDescription =
     product.description?.slice(0, 160) ||
     `Buy ${product.name} at Secure Home Solutions. Premium quality, secure storage, and durable design.`;
+
+
+  const siteUrl =
+    typeof window !== 'undefined' ? window.location.origin : '';
+
+  const productUrl = `${siteUrl}/products/${product.category}/${product.slug}`;
 
   return (
     <main className="max-w-7xl mx-auto px-6 py-12 pb-28">
@@ -98,9 +106,8 @@ export default function ProductPageClient({
                       alt={`${product.name} fullscreen`}
                       width={600}
                       height={600}
-                      className={`object-contain w-full h-auto transition-transform duration-300 ${
-                        zoomed ? 'scale-125' : 'scale-100'
-                      }`}
+                      className={`object-contain w-full h-auto transition-transform duration-300 ${zoomed ? 'scale-125' : 'scale-100'
+                        }`}
                       onClick={() => setZoomed(!zoomed)}
                       priority
                     />
@@ -168,9 +175,8 @@ export default function ProductPageClient({
               <button
                 key={i}
                 onClick={() => setCurrentIndex(i)}
-                className={`relative w-20 h-20 border-2 rounded-md overflow-hidden ${
-                  i === currentIndex ? 'border-blue-600' : 'border-gray-200'
-                }`}
+                className={`relative w-20 h-20 border-2 rounded-md overflow-hidden ${i === currentIndex ? 'border-blue-600' : 'border-gray-200'
+                  }`}
                 aria-label={`View image ${i + 1}`}
               >
                 <Image
@@ -191,13 +197,18 @@ export default function ProductPageClient({
             ₹{product.price}
           </p>
 
-          {/* ✅ Share Buttons */}
-          <div className="mt-4">
-            <ShareButtons
-              url={typeof window !== 'undefined' ? window.location.href : ''}
-              title={`Check out ${product.name} on Secure Home Solutions`}
-            />
-          </div>
+
+{/* ✅ Share Buttons Section */}
+<div className="mt-4">
+  {/* Under Price (Always visible, mobile + desktop) */}
+  <div className="flex gap-3 items-center">
+    <ShareButtons url={productUrl} title={product.name} />
+  </div>
+</div>
+{productUrl && <ShareButtonFloating url={productUrl} title={product.name} />}
+
+
+
 
           {/* Specs */}
           <div className="mt-6 space-y-2 text-gray-800">
