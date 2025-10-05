@@ -58,7 +58,7 @@ export default function Home() {
 
 <HeroSection
         title="250X Lockers"
-        description="SafeGuard your precious valuables with confidence and peace of mind with our trusted, strongest and most secure lockers with double walls and patented construction. The best in class - unmatched protection for your valuables."
+        description="SafeGuard your valuables with Godrej lockers and Godrej safe. Our home locker Godrej models feature double walls and patented construction for unmatched security and peace of mind. Check the best Godrej safe locker price and find your locker safe for home today."
         primaryText="View Lockers"
         primaryLink="/products/250x"
         // secondaryText="Contact Us"
