@@ -24,14 +24,19 @@ export default function ShareButtons({
   const [copied, setCopied] = useState(false);
 
   const handleCopy = async () => {
-    try {
-      await navigator.clipboard.writeText(url);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
-    } catch (err) {
-      console.error('Failed to copy:', err);
-    }
-  };
+  if (!navigator.clipboard) {
+    alert('Clipboard not supported in this browser');
+    return;
+  }
+  try {
+    await navigator.clipboard.writeText(url);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  } catch (err) {
+    console.error('Failed to copy:', err);
+  }
+};
+
 
   const handleNativeShare = async () => {
     if (navigator.share) {
@@ -76,3 +81,4 @@ export default function ShareButtons({
     </div>
   );
 }
+
