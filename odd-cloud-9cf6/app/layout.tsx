@@ -11,13 +11,13 @@ import BackToTop from "@/components/BackToTop";
 export const metadata: Metadata = {
   metadataBase: new URL("https://homelockers.in"),
   title: "Secure Home Solutions",
-  description: "Your key to peace of mind. Explore our security solutions.",
+  description: "Homelockers.in is your trusted destination for Godrej lockers, Godrej safe, and safe lockers for home. Explore a wide range of home locker Godrej models at the best Godrej safe locker price. Find the perfect locker safe for home at a Godrej locker showroom near you. Shop securely online or locate Godrej lockers near me with ease. and make sure add PEACE OF MIND AND MAKE SURE ABOUT KEYWORD I SPECIFYED",
    icons: {
     icon: "/images/site/shs-ico.webp",
   },
   openGraph: {
     title: "Secure Home Solutions",
-    description: "Your key to peace of mind. Explore our security solutions.",
+    description: "Homelockers.in is your trusted destination for Godrej lockers, Godrej safe, and safe lockers for home. Explore a wide range of home locker Godrej models at the best Godrej safe locker price. Find the perfect locker safe for home at a Godrej locker showroom near you. Shop securely online or locate Godrej lockers near me with ease. and make sure add PEACE OF MIND AND MAKE SURE ABOUT KEYWORD I SPECIFYED",
     url: "https://homelockers.in",
     siteName: "Secure Home Solutions",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Secure Home Solutions",
-    description: "Your key to peace of mind. Explore our security solutions.",
+    description: "Homelockers.in is your trusted destination for Godrej lockers, Godrej safe, and safe lockers for home. Explore a wide range of home locker Godrej models at the best Godrej safe locker price. Find the perfect locker safe for home at a Godrej locker showroom near you. Shop securely online or locate Godrej lockers near me with ease. and make sure add PEACE OF MIND AND MAKE SURE ABOUT KEYWORD I SPECIFYED",
   },
 };
 
