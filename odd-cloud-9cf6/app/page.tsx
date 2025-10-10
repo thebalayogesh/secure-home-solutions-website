@@ -118,6 +118,7 @@ export default function Home() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
+            title="Google Maps location of Godrej Lockers showroom homelockers.in"
           ></iframe>
         </div>
       </section>
