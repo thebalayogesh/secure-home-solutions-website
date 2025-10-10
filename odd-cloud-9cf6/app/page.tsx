@@ -107,6 +107,21 @@ export default function Home() {
 
       <FeaturedProductsCarousel products={featuredProducts} />
 
+       {/* Map Section */}
+      <section className="px-4 pb-10">
+        <h2 className="text-2xl font-semibold text-center mb-4">Our Showroom Location</h2>
+        <div className="relative w-full h-64 sm:h-80 md:h-[450px] rounded-lg overflow-hidden shadow-lg">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d970.7739837902907!2d80.13463256635623!3d12.974216368144445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8a9d2445c565bb15%3A0x24fedbe7a4248b05!2sSecure%20Home%20Solutions%20-%20A%20Godrej%20Locker%20Shop!5e1!3m2!1sen!2sin!4v1758555299931!5m2!1sen!2sin"
+            className="absolute top-0 left-0 w-full h-full"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
       <StickyCTA phoneNumber="+917550084414" whatsappNumber="+917550084414" />
     </>
   );
