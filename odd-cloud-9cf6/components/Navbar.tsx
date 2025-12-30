@@ -20,29 +20,29 @@ export default function Navbar() {
     <nav className="bg-white shadow top-0 left-0 right-0 z-50">
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
         {/* Logo */}
-        <Link href="/" className="flex items-center space-x-4">
-          {/* <Link href="/" className="flex items-center"> */}
+        <div className="flex items-center space-x-2">
+          <Link href="/" className="flex items-center">
             <Image
-              src="/images/site/shs-logo.webp"
+              src="/images/site/shs-logo.png"
               alt="Secure Home Solutions"
               width={300}
               height={60}
-              fetchPriority="high"
               priority
             />
-<div className="text-gray-500 text-3xl hidden sm:block">|</div>
-             <Image
-              className="hidden sm:block"
-    src="/images/site/godrej-logo.webp"
-    alt="Godrej Brand"
-    width={70}
-    height={40}
-    priority
-    fetchPriority="high"
+          </Link>
 
-  />
-          {/* </Link> */}
-        </Link>
+          <div className="text-gray-500 text-3xl hidden sm:block">|</div>
+
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/images/site/godrej-logo.webp"
+              alt="Godrej Brand"
+              width={70}
+              height={40}
+              priority
+            />
+          </Link>
+        </div>
 
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-6 items-center">
@@ -70,16 +70,19 @@ export default function Navbar() {
           aria-label="Toggle Menu"
         >
           <span
-            className={`h-0.5 w-6 bg-gray-800 rounded transition-transform ${open ? "rotate-45 translate-y-2" : ""
-              }`}
+            className={`h-0.5 w-6 bg-gray-800 rounded transition-transform ${
+              open ? "rotate-45 translate-y-2" : ""
+            }`}
           ></span>
           <span
-            className={`h-0.5 w-6 bg-gray-800 rounded transition-opacity ${open ? "opacity-0" : "opacity-100"
-              }`}
+            className={`h-0.5 w-6 bg-gray-800 rounded transition-opacity ${
+              open ? "opacity-0" : "opacity-100"
+            }`}
           ></span>
           <span
-            className={`h-0.5 w-6 bg-gray-800 rounded transition-transform ${open ? "-rotate-45 -translate-y-2" : ""
-              }`}
+            className={`h-0.5 w-6 bg-gray-800 rounded transition-transform ${
+              open ? "-rotate-45 -translate-y-2" : ""
+            }`}
           ></span>
         </button>
       </div>

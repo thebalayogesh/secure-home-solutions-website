@@ -125,7 +125,7 @@ export default function LockerRecommenderPage() {
 
         <p className="text-gray-600 mb-8 max-w-2xl">
           Just measure the space where you plan to keep the locker. <br />
-          I’ll show you the best options that fit
+          we show you the best options that fit
         </p>
 
         <button
