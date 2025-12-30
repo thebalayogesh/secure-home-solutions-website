@@ -14,12 +14,12 @@ type Cm = {
 type ProductCardProps = {
   product: Product;
   unit: "ftin" | "cm";
-  recommendationType: "best-fit" | "also-fits" | "recommended";
+  recommendationType: "best-fit" | "also-fits" | "recommended" | "fire-resistant";
   position: number;
 };
 
 
-const WA_NUMBER = "91XXXXXXXXXX";
+const WA_NUMBER = "917550084414";
 
 /* ---------- helpers ---------- */
 

@@ -28,7 +28,9 @@ export type ProductTag =
   | "best-fit"
   | "also-fits"
   | "recommended"
-  | "best-seller";
+  | "best-seller"
+  | "fire-resistant";
+
 
 
   export type RecommendedProduct = Product & {

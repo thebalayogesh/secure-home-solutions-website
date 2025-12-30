@@ -26,6 +26,16 @@ const ALLOWED_TAGS: ProductTag[] = [
   "also-fits",
   "recommended",
   "best-seller",
+  "fire-resistant",
+];
+
+const FIRE_KEYWORDS = [
+  "fire resistant",
+  "fire-resistan",
+  "fire rated",
+  "fire-proof",
+  "fireproof",
+  "fire protection",
 ];
 
 /* ---------- normalization ---------- */
@@ -117,7 +127,6 @@ export default function ResultsClient() {
 
   // const userVol = space.height * space.width * space.depth;
 
-
   const bestFit = allFits[0];
   const alsoFits = allFits.slice(1, 6);
 
@@ -128,6 +137,19 @@ export default function ResultsClient() {
   const featured = allFits
     .filter((p) => p.tags?.includes("recommended"))
     .slice(0, 4);
+
+  
+const documentSafe = allFits
+  .filter(
+    (p) =>
+      p.tags?.includes("fire-resistant") ||
+      p.category?.some((f) =>
+        FIRE_KEYWORDS.some((k) =>
+          f.toLowerCase().includes(k)
+        )
+      )
+  )
+  .slice(0, 4);
 
   // const futureProof = allFits
   //   .filter((p) => {
@@ -144,17 +166,16 @@ export default function ResultsClient() {
   //   .slice(0, 3);
 
   return (
-  <div className="bg-gray-50">
-    {/* MAIN CONTENT (under header) */}
-    <section className="max-w-6xl mx-auto px-4 py-8">
+    <div className="bg-gray-50">
+      {/* MAIN CONTENT (under header) */}
+      <section className="max-w-6xl mx-auto px-4 py-8">
+        {/* PAGE TITLE */}
+        <div className="mb-6">
+          <h1 className="text-2xl font-bold text-center">
+            Recommended Lockers
+          </h1>
 
-      {/* PAGE TITLE */}
-      <div className="mb-6">
-        <h1 className="text-2xl font-bold text-center">
-           Recommended Lockers
-        </h1>
-
-        {/* <p className="text-sm text-gray-600 mt-1">
+          {/* <p className="text-sm text-gray-600 mt-1">
           Based on your available space:{" "}
           <strong>
             {unit === "cm"
@@ -162,116 +183,147 @@ export default function ResultsClient() {
               : `${h} × ${w} × ${d} (converted from ft/in)`}
           </strong>
         </p> */}
-      </div>
-
-      {/* NO RESULTS */}
-      {allFits.length === 0 && (
-        <div className="bg-white rounded-lg border p-6 text-center max-w-xl">
-          <p className="font-medium mb-2">
-            No locker fits this exact space.
-          </p>
-
-          <p className="text-sm text-gray-600 mb-4">
-            Try increasing one of the dimensions slightly.
-          </p>
-
-          <button
-            className="underline text-sm"
-            onClick={() => router.push("/locker-recommender")}
-          >
-            Change measurements
-          </button>
         </div>
-      )}
 
-      {/* RESULTS GRID */}
-      {allFits.length > 0 && (
-        <div className="space-y-8">
+        {/* NO RESULTS */}
+        {allFits.length === 0 && (
+          <div className="bg-white rounded-lg border p-6 text-center max-w-xl">
+            <p className="font-medium mb-2">No locker fits this exact space.</p>
 
-          {/* BEST FIT */}
-          {bestFit && (
-            <section>
-              <h2 className="text-sm font-semibold mb-3">
-                ⭐ Best Fit for Your Space
-              </h2>
+            <p className="text-sm text-gray-600 mb-4">
+              Try increasing one of the dimensions slightly.
+            </p>
 
-              <div className="bg-white rounded-lg border">
-                <ProductCard
-                  product={bestFit}
-                  unit={unit}
-                  recommendationType="best-fit"
-                  position={0}
-                />
-              </div>
-            </section>
-          )}
+            <button
+              className="underline text-sm"
+              onClick={() => router.push("/locker-recommender")}
+            >
+              Change measurements
+            </button>
+          </div>
+        )}
 
-          {/* ALSO FITS */}
-          {alsoFits.length > 0 && (
-            <section>
-              <h3 className="text-sm font-semibold mb-3">
-                Also Fits Your Space
-              </h3>
+        {/* RESULTS GRID */}
+        {allFits.length > 0 && (
+          <div className="space-y-8">
+            {/* BEST FIT */}
+            {bestFit && (
+              <section>
+                <h2 className="text-sm font-semibold mb-3">
+                  ⭐ Best Fit for Your Space
+                </h2>
 
-              <div className="bg-white rounded-lg border divide-y">
-                {alsoFits.map((product, index) => (
+                <div className="bg-white rounded-lg border">
                   <ProductCard
-                    key={product.id}
-                    product={product}
+                    product={bestFit}
                     unit={unit}
-                    recommendationType="also-fits"
-                    position={index + 1}
+                    recommendationType="best-fit"
+                    position={0}
                   />
-                ))}
-              </div>
-            </section>
-          )}
+                </div>
+              </section>
+            )}
 
-          {/* BEST SELLERS */}
-          {bestSellers.length > 0 && (
-            <section>
-              <h3 className="text-sm font-semibold mb-3">
-                🔥 Best Sellers
-              </h3>
+            {/* ALSO FITS */}
+            {alsoFits.length > 0 && (
+              <section>
+                <h3 className="text-sm font-semibold mb-3">
+                  Also Fits Your Space
+                </h3>
 
+                <div className="bg-white rounded-lg border divide-y">
+                  {alsoFits.map((product, index) => (
+                    <ProductCard
+                      key={product.id}
+                      product={product}
+                      unit={unit}
+                      recommendationType="also-fits"
+                      position={index + 1}
+                    />
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* BEST SELLERS */}
+            {bestSellers.length > 0 && (
+              <section>
+                <h3 className="text-sm font-semibold mb-3">🔥 Best Sellers</h3>
+
+                <div className="bg-white rounded-lg border divide-y">
+                  {bestSellers.map((product, index) => (
+                    <ProductCard
+                      key={product.id}
+                      product={product}
+                      unit={unit}
+                      recommendationType="recommended"
+                      position={index}
+                    />
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* FEATURED */}
+            {featured.length > 0 && (
+              <section>
+                <h3 className="text-sm font-semibold mb-3">
+                  ⭐ Expert Recommended
+                </h3>
+
+                <div className="bg-white rounded-lg border divide-y">
+                  {featured.map((product, index) => (
+                    <ProductCard
+                      key={product.id}
+                      product={product}
+                      unit={unit}
+                      recommendationType="recommended"
+                      position={index}
+                    />
+                  ))}
+                </div>
+              </section>
+            )}
+          </div>
+        )}
+
+        {/* document safe */}
+        {documentSafe.length > 0 && (
+          <section>
+            <h3 className="text-sm font-semibold mb-3">
+              📄 Document Safe (Fire-Resistant)
+            </h3>
+
+            <p className="text-xs text-gray-600 mb-2">
+              Ideal for storing important documents, certificates, and
+              valuables.
+            </p>
+
+            {documentSafe.length > 0 ? (
               <div className="bg-white rounded-lg border divide-y">
-                {bestSellers.map((product, index) => (
+                {documentSafe.map((product, index) => (
                   <ProductCard
                     key={product.id}
                     product={product}
                     unit={unit}
-                    recommendationType="recommended"
+                    recommendationType="fire-resistant"
                     position={index}
                   />
                 ))}
               </div>
-            </section>
-          )}
-
-          {/* FEATURED */}
-          {featured.length > 0 && (
-            <section>
-              <h3 className="text-sm font-semibold mb-3">
-                ⭐ Expert Recommended
-              </h3>
-
-              <div className="bg-white rounded-lg border divide-y">
-                {featured.map((product, index) => (
-                  <ProductCard
-                    key={product.id}
-                    product={product}
-                    unit={unit}
-                    recommendationType="recommended"
-                    position={index}
-                  />
-                ))}
+            ) : (
+              <div className="bg-white rounded-lg border p-4 text-sm text-gray-600">
+                No fire-resistant locker fits this exact space.
+                <br />
+                <span className="block mt-1 text-xs">
+                  Consider increasing depth or width slightly, or explore larger
+                  document safes.
+                </span>
               </div>
-            </section>
-          )}
-        </div>
-      )}
-    </section>
-  </div>
-);
-
+            )}
+          </section>
+        )}
+      </section>
+    </div>
+  );
 }
