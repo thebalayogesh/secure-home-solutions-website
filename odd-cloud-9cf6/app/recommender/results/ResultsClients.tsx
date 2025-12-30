@@ -79,6 +79,39 @@ function recommend(
   const userVol = space.height * space.width * space.depth;
 
   return products
+    .filter((p) => !p.category?.includes("fire-resistant"))
+    .filter((p) => p.dimensions?.cm)
+    .filter((p) => fits(space, p.dimensions.cm))
+    .map((p) => {
+      const d = p.dimensions.cm;
+      const lockerVol = d.height * d.width * d.depth;
+
+      return {
+        ...p,
+        _fitScore: Math.abs(userVol - lockerVol),
+        _lockerVol: lockerVol,
+      };
+    })
+    .sort((a, b) => {
+      if (a._fitScore !== b._fitScore) {
+        return a._fitScore - b._fitScore;
+      }
+      return b._lockerVol - a._lockerVol;
+    })
+    .slice(0, limit);
+}
+
+// Fire Locker Recommendation based on size
+
+function fireRecommend(
+  products: Product[],
+  space: Cm,
+  limit = 50
+): RecommendedProduct[] {
+  const userVol = space.height * space.width * space.depth;
+
+  return products
+    // .filter((p) => !p.category?.includes("fire-resistant"))
     .filter((p) => p.dimensions?.cm)
     .filter((p) => fits(space, p.dimensions.cm))
     .map((p) => {
@@ -104,6 +137,7 @@ function recommend(
 
 const products = normalizeProducts(rawProducts);
 
+
 /* ---------- page ---------- */
 
 export default function ResultsClient() {
@@ -124,6 +158,7 @@ export default function ResultsClient() {
 
   // 🔑 Compute ONCE
   const allFits = recommend(products, space, 50);
+  const fireLockers = fireRecommend(products, space, 10);
 
   // const userVol = space.height * space.width * space.depth;
 
@@ -138,18 +173,15 @@ export default function ResultsClient() {
     .filter((p) => p.tags?.includes("recommended"))
     .slice(0, 4);
 
-  
-const documentSafe = allFits
-  .filter(
-    (p) =>
-      p.tags?.includes("fire-resistant") ||
-      p.category?.some((f) =>
-        FIRE_KEYWORDS.some((k) =>
-          f.toLowerCase().includes(k)
+  const documentSafe = fireLockers
+    .filter(
+      (p) =>
+        p.tags?.includes("fire-resistant") ||
+        p.category?.some((f) =>
+          FIRE_KEYWORDS.some((k) => f.toLowerCase().includes(k))
         )
-      )
-  )
-  .slice(0, 4);
+    )
+    .slice(0, 4);
 
   // const futureProof = allFits
   //   .filter((p) => {
@@ -210,7 +242,7 @@ const documentSafe = allFits
             {bestFit && (
               <section>
                 <h2 className="text-sm font-semibold mb-3">
-                  ⭐ Best Fit for Your Space
+                  Best Fit for Your Space ⭐ 
                 </h2>
 
                 <div className="bg-white rounded-lg border">
@@ -291,7 +323,7 @@ const documentSafe = allFits
         {documentSafe.length > 0 && (
           <section>
             <h3 className="text-sm font-semibold mb-3">
-              📄 Document Safe (Fire-Resistant)
+              Fire-Resistant 🔥
             </h3>
 
             <p className="text-xs text-gray-600 mb-2">

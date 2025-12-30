@@ -1082,7 +1082,7 @@
       "/images/fire-resistant/godrej-centiguard-1060-digi-1.webp",
       "/images/fire-resistant/godrej-centiguard-1060-digi-2.webp"
     ],
-    "tags": [],
+    "tags": ["fire-resistant"],
     "lock_mechanism": [
       "digital"
     ],
@@ -1118,7 +1118,8 @@
       "/images/fire-resistant/godrej-centiguard-1060-kl-1.webp",
       "/images/fire-resistant/godrej-centiguard-1060-kl-2.webp"
     ],
-    "tags": [],
+    "tags": ["fire-resistant"
+  ],
     "lock_mechanism": [
       "keylock"
     ],
@@ -1154,7 +1155,7 @@
       "/images/fire-resistant/godrej-centiguard-560-digi-1.webp",
       "/images/fire-resistant/godrej-centiguard-560-digi-2.webp"
     ],
-    "tags": [],
+    "tags": ["fire-resistant"],
     "lock_mechanism": [
       "digital"
     ],
@@ -1190,7 +1191,7 @@
       "/images/fire-resistant/godrej-centiguard-560-kl-1.webp",
       "/images/fire-resistant/godrej-centiguard-560-kl-2.webp"
     ],
-    "tags": [],
+    "tags": ["fire-resistant"],
     "lock_mechanism": [
       "keylock"
     ],
@@ -1226,7 +1227,7 @@
       "/images/fire-resistant/godrej-centiguard-560-kl-1.webp",
       "/images/fire-resistant/godrej-centiguard-560-kl-2.webp"
     ],
-    "tags": [],
+    "tags": ["fire-resistant"],
     "lock_mechanism": [
       "digital"
     ],
@@ -1262,7 +1263,7 @@
       "/images/fire-resistant/godrej-safire-40l-digi-1.webp",
       "/images/fire-resistant/godrej-safire-40l-digi-2.webp"
     ],
-    "tags": [],
+    "tags": ["fire-resistant"],
     "lock_mechanism": [
       "digital"
     ],
@@ -1293,7 +1294,7 @@
       "/images/fire-resistant/godrej-safire-40l-kl-1.webp",
       "/images/fire-resistant/godrej-safire-40l-kl-2.webp"
     ],
-    "tags": [],
+    "tags": ["fire-resistant"],
     "lock_mechanism": [
       "keylock"
     ],
@@ -1324,7 +1325,7 @@
       "/images/fire-resistant/godrej-safire-40l-kl-1.webp",
       "/images/fire-resistant/godrej-safire-40l-kl-2.webp"
     ],
-    "tags": [],
+    "tags": ["fire-resistant"],
     "lock_mechanism": [
       "keylock"
     ],
