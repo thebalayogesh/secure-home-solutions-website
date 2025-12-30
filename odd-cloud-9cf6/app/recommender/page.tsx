@@ -124,9 +124,20 @@ export default function LockerRecommenderPage() {
         </h1>
 
         <p className="text-gray-600 mb-8 max-w-2xl">
-          Just measure the space where you plan to keep the locker. <br/>
+          Just measure the space where you plan to keep the locker. <br />
           I’ll show you the best options that fit
         </p>
+
+        <button
+          onClick={() => {
+            document
+              .getElementById("measurement-guide")
+              ?.scrollIntoView({ behavior: "smooth" });
+          }}
+          className="text-sm text-blue-600 underline mb-6"
+        >
+          View measurement guide
+        </button>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
           {/* LEFT: INPUTS */}
@@ -216,7 +227,10 @@ export default function LockerRecommenderPage() {
           </div>
 
           {/* RIGHT: MEASUREMENT GUIDE IMAGE */}
-          <div className="flex flex-col items-center gap-4">
+          <div
+            id="measurement-guide"
+            className="flex flex-col items-center gap-4  scroll-mt-24"
+          >
             <img
               src="/images/locker-dimension-guide.gif"
               alt="Locker height width depth guide"
