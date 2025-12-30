@@ -1,0 +1,7 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <path fill="#f2f2f2" d="M0 0h400v400H0z"/>
+  <rect x="80" y="100" width="240" height="200" rx="8" fill="#ddd"/>
+  <text x="200" y="330" text-anchor="middle" font-size="16" fill="#999" font-family="Arial, sans-serif">
+    Image coming soon
+  </text>
+</svg>
