@@ -23,7 +23,7 @@ export default function Navbar() {
         <div className="flex items-center space-x-2">
           <Link href="/" className="flex items-center">
             <Image
-              src="/images/site/shs-logo.webp"
+              src="/images/site/shs-logo-2.webp"
               alt="Secure Home Solutions"
               width={300}
               height={60}
