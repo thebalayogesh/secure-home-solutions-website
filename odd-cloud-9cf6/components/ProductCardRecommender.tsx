@@ -14,10 +14,13 @@ type Cm = {
 type ProductCardProps = {
   product: Product;
   unit: "ftin" | "cm";
-  recommendationType: "best-fit" | "also-fits" | "recommended" | "fire-resistant";
+  recommendationType:
+    | "best-fit"
+    | "also-fits"
+    | "recommended"
+    | "fire-resistant";
   position: number;
 };
-
 
 const WA_NUMBER = "917550084414";
 
@@ -62,7 +65,7 @@ export default function ProductCard({ product, unit }: ProductCardProps) {
   );
 
   return (
-    <div  
+    <div
       onClick={() => router.push(`/products/${category}/${product.slug}`)}
       className="flex items-center gap-3 border-b pb-2 mb-2 overflow-hidden text-left cursor-pointer hover:bg-gray-50 transition"
     >
@@ -100,13 +103,29 @@ export default function ProductCard({ product, unit }: ProductCardProps) {
           {product.name}
         </h2>
 
-        <p className="text-sm text-gray-700">
-          Size:{" "}
-          {unit === "ftin"
-            ? `${cmToFtInText(dim.height)} (h) × ${cmToFtInText(
-                dim.width
-              )} (w) × ${cmToFtInText(dim.depth)} (d)`
-            : `${dim.height} cm (h) × ${dim.width} cm (w) × ${dim.depth} cm (d)`}
+        <p className="text-sm text-gray-700 flex flex-wrap gap-x-1">
+          <span className="whitespace-nowrap">
+            Size : {" "}
+            {unit === "ftin"
+              ? `${cmToFtInText(dim.height)} (h)`
+              : `${dim.height} cm (h)`}
+          </span>
+
+          <span>×</span>
+
+          <span className="whitespace-nowrap">
+            {unit === "ftin"
+              ? `${cmToFtInText(dim.width)} (w)`
+              : `${dim.width} cm (w)`}
+          </span>
+
+          <span>×</span>
+
+          <span className="whitespace-nowrap">
+            {unit === "ftin"
+              ? `${cmToFtInText(dim.depth)} (d)`
+              : `${dim.depth} cm (d)`}
+          </span>
         </p>
 
         {product.weight && (
