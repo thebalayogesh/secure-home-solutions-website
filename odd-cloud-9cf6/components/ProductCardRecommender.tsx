@@ -27,7 +27,7 @@ function cmToFtInText(cm: number) {
   const totalInches = cm / 2.54;
   const ft = Math.floor(totalInches / 12);
   const inch = Math.round(totalInches % 12);
-  return `${ft}' ${inch}"`;
+  return `${ft} ft ${inch} in`;
 }
 
 function getBadge(tag: string) {
@@ -106,7 +106,7 @@ export default function ProductCard({ product, unit }: ProductCardProps) {
             ? `${cmToFtInText(dim.height)} (h) × ${cmToFtInText(
                 dim.width
               )} (w) × ${cmToFtInText(dim.depth)} (d)`
-            : `${dim.height} (h) × ${dim.width} (w) × ${dim.depth} (d) cm`}
+            : `${dim.height} cm (h) × ${dim.width} cm (w) × ${dim.depth} cm (d)`}
         </p>
 
         {product.weight && (

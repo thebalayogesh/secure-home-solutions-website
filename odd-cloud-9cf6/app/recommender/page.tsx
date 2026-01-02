@@ -130,13 +130,20 @@ export default function LockerRecommenderPage() {
 
         <button
           onClick={() => {
-            document
-              .getElementById("measurement-guide")
-              ?.scrollIntoView({ behavior: "smooth" });
+            const el = document.getElementById("measurement-guide");
+            if (!el) return;
+
+            const y =
+              el.getBoundingClientRect().top +
+              window.pageYOffset -
+              window.innerHeight / 2 +
+              el.offsetHeight / 2;
+
+            window.scrollTo({ top: y, behavior: "smooth" });
           }}
           className="text-sm text-blue-600 underline mb-6"
         >
-          View measurement guide
+          How to measure (takes 30 seconds)
         </button>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
@@ -229,17 +236,17 @@ export default function LockerRecommenderPage() {
           {/* RIGHT: MEASUREMENT GUIDE IMAGE */}
           <div
             id="measurement-guide"
-            className="flex flex-col items-center gap-4  scroll-mt-24"
+            className="flex flex-col items-center gap-4 py-4"
           >
             <img
               src="/images/locker-dimension-guide.gif"
               alt="Locker height width depth guide"
-              className="max-w-full rounded-lg shadow-sm"
+              className="w-full max-w-xs sm:max-w-sm rounded-lg shadow-sm"
             />
 
             <p className="text-sm text-gray-600 text-center max-w-sm">
-              Measure <strong>height</strong>, <strong>width</strong>, and
-              <strong> depth</strong> of the free space where the locker will be
+              Measure <strong>height</strong>, <strong>width</strong>, and{" "}
+              <strong>depth</strong> of the free space where the locker will be
               placed.
             </p>
           </div>
