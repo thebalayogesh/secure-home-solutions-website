@@ -143,7 +143,7 @@ export default function LockerRecommenderPage() {
           }}
           className="text-sm text-blue-600 underline mb-6"
         >
-          How to measure (takes 30 seconds)
+          How to measure
         </button>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
