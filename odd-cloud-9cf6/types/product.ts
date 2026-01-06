@@ -27,6 +27,7 @@ export type ProductDimensions = {
 export type ProductTag =
   | "best-fit"
   | "also-fits"
+  | "slightlyBigger"
   | "recommended"
   | "best-seller"
   | "fire-resistant";

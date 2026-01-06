@@ -41,7 +41,7 @@ type Measure = {
 
 export default function LockerRecommenderPage() {
   const router = useRouter();
-  const [unit, setUnit] = useState<Unit>("ftin");
+  const [unit, setUnit] = useState<Unit>("cm");
 
   const [height, setHeight] = useState<Measure>({
     ft: "3",

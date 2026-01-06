@@ -29,14 +29,7 @@ const ALLOWED_TAGS: ProductTag[] = [
   "fire-resistant",
 ];
 
-const FIRE_KEYWORDS = [
-  "fire resistant",
-  "fire-resistan",
-  "fire rated",
-  "fire-proof",
-  "fireproof",
-  "fire protection",
-];
+const FIRE_KEYWORDS = ["fire-resistant"];
 
 /* ---------- normalization ---------- */
 
@@ -49,29 +42,76 @@ function normalizeProducts(raw: RawProduct[]): Product[] {
   }));
 }
 
-/* ---------- helpers ---------- */
+/* ---------- data guards (CRITICAL) ---------- */
 
-function fits(space: Cm, locker: Cm) {
-  if (
-    locker.height <= space.height &&
-    locker.width <= space.width &&
-    locker.depth <= space.depth
-  ) {
-    return true;
+function isUsableLocker(p: Product) {
+  if (!p.dimensions?.cm) return false;
+
+  // Exclude gifts
+  if (p.category?.includes("gift")) return false;
+
+  const { height, width, depth } = p.dimensions.cm;
+
+  // Guard broken data (ex: 400cm depth)
+  if (height > 300 || width > 300 || depth > 450) return false;
+
+  return true;
+}
+
+/* ---------- fit helpers ---------- */
+
+// STRICT physical fit
+function fitsHeightFirst(
+  space: Cm,
+  locker: Cm,
+  heightTolerance = 1.08,   // ⭐ main tolerance
+  sideTolerance = 1.15     // width & depth flexibility
+) {
+  // 1️⃣ Height is strict (with tolerance)
+  if (locker.height > space.height * heightTolerance) {
+    return false;
   }
 
+  // 2️⃣ Width & depth are soft constraints
+  if (space.width && locker.width > space.width * sideTolerance) {
+    return false;
+  }
+
+  if (space.depth && locker.depth > space.depth * sideTolerance) {
+    return false;
+  }
+
+  return true;
+}
+
+
+// TOLERANT fit (real-world)
+function fitsWithTolerance(
+  space: Cm,
+  locker: Cm,
+  toleranceRatio = 1.08 // ⭐ explained below
+) {
+  const tol = {
+    height: space.height * toleranceRatio,
+    width: space.width * toleranceRatio,
+    depth: space.depth * toleranceRatio,
+  };
+
   const rotations = [
+    [locker.height, locker.width, locker.depth],
     [locker.width, locker.height, locker.depth],
     [locker.depth, locker.width, locker.height],
-    [locker.height, locker.depth, locker.width],
   ];
 
   return rotations.some(
-    ([h, w, d]) => h <= space.height && w <= space.width && d <= space.depth
+    ([h, w, d]) =>
+      h <= tol.height && w <= tol.width && d <= tol.depth
   );
 }
 
-function recommend(
+/* ---------- recommenders ---------- */
+
+function recommendExact(
   products: Product[],
   space: Cm,
   limit = 50
@@ -79,11 +119,15 @@ function recommend(
   const userVol = space.height * space.width * space.depth;
 
   return products
-    .filter((p) => !p.category?.includes("fire-resistant"))
-    .filter((p) => p.dimensions?.cm)
-    .filter((p) => fits(space, p.dimensions.cm))
+    .filter(isUsableLocker)
+    .filter(
+      (p) =>
+        !p.tags?.includes("fire-resistant") &&
+        !p.category?.includes("fire-resistant")
+    )
+    .filter((p) => fitsHeightFirst(space, p.dimensions!.cm))
     .map((p) => {
-      const d = p.dimensions.cm;
+      const d = p.dimensions!.cm;
       const lockerVol = d.height * d.width * d.depth;
 
       return {
@@ -92,51 +136,62 @@ function recommend(
         _lockerVol: lockerVol,
       };
     })
-    .sort((a, b) => {
-      if (a._fitScore !== b._fitScore) {
-        return a._fitScore - b._fitScore;
-      }
-      return b._lockerVol - a._lockerVol;
-    })
+    .sort((a, b) => a._fitScore - b._fitScore)
     .slice(0, limit);
 }
 
-// Fire Locker Recommendation based on size
-
-function fireRecommend(
+function recommendSlightlyBigger(
   products: Product[],
   space: Cm,
-  limit = 50
+  exactIds: Set<string>,
+  limit = 4
 ): RecommendedProduct[] {
   const userVol = space.height * space.width * space.depth;
 
   return products
-    // .filter((p) => !p.category?.includes("fire-resistant"))
-    .filter((p) => p.dimensions?.cm)
-    .filter((p) => fits(space, p.dimensions.cm))
+    .filter(isUsableLocker)
+    .filter(
+      (p) =>
+        !p.tags?.includes("fire-resistant") &&
+        !p.category?.includes("fire-resistant")
+    )
+    .filter((p) => !exactIds.has(p.id))
+    .filter((p) => fitsWithTolerance(space, p.dimensions!.cm))
     .map((p) => {
-      const d = p.dimensions.cm;
+      const d = p.dimensions!.cm;
       const lockerVol = d.height * d.width * d.depth;
+      const ratio = lockerVol / userVol;
 
       return {
         ...p,
-        _fitScore: Math.abs(userVol - lockerVol),
         _lockerVol: lockerVol,
+        _fitRatio: ratio,
       };
     })
-    .sort((a, b) => {
-      if (a._fitScore !== b._fitScore) {
-        return a._fitScore - b._fitScore;
-      }
-      return b._lockerVol - a._lockerVol;
-    })
+    .filter((p) => p._fitRatio > 1 && p._fitRatio <= 1.08)
+    .sort((a, b) => a._fitRatio - b._fitRatio)
+    .slice(0, limit);
+}
+
+function recommendFire(
+  products: Product[],
+  space: Cm,
+  limit = 6
+): RecommendedProduct[] {
+  return products
+    .filter(isUsableLocker)
+    .filter(
+      (p) =>
+        p.tags?.includes("fire-resistant") ||
+        p.category?.includes("fire-resistant")
+    )
+    .filter((p) => fitsHeightFirst(space, p.dimensions!.cm))
     .slice(0, limit);
 }
 
 /* ---------- data ---------- */
 
 const products = normalizeProducts(rawProducts);
-
 
 /* ---------- page ---------- */
 
@@ -156,203 +211,96 @@ export default function ResultsClient() {
 
   const space: Cm = { height: h, width: w, depth: d };
 
-  // 🔑 Compute ONCE
-  const allFits = recommend(products, space, 50);
-  const fireLockers = fireRecommend(products, space, 10);
+  const exactFits = recommendExact(products, space);
+  const exactIds = new Set(exactFits.map((p) => p.id));
+  const slightlyBigger = recommendSlightlyBigger(
+    products,
+    space,
+    exactIds
+  );
+  const fireLockers = recommendFire(products, space);
 
-  // const userVol = space.height * space.width * space.depth;
-
-  const bestFit = allFits[0];
-  const alsoFits = allFits.slice(1, 6);
-
-  const bestSellers = allFits
-    .filter((p) => p.tags?.includes("best-seller"))
-    .slice(0, 4);
-
-  const featured = allFits
-    .filter((p) => p.tags?.includes("recommended"))
-    .slice(0, 4);
-
-  const documentSafe = fireLockers
-    .filter(
-      (p) =>
-        p.tags?.includes("fire-resistant") ||
-        p.category?.some((f) =>
-          FIRE_KEYWORDS.some((k) => f.toLowerCase().includes(k))
-        )
-    )
-    .slice(0, 4);
-
-  // const futureProof = allFits
-  //   .filter((p) => {
-  //     const ratio = p._lockerVol / userVol;
-  //     return ratio > 1.1 && ratio <= 1.4;
-  //   })
-  //   .slice(0, 4);
-
-  // const bigOptions = allFits
-  //   .filter((p) => {
-  //     const ratio = p._lockerVol / userVol;
-  //     return ratio > 1.4;
-  //   })
-  //   .slice(0, 3);
+  const bestFit = exactFits[0];
+  const alsoFits = exactFits.slice(1, 6);
 
   return (
     <div className="bg-gray-50">
-      {/* MAIN CONTENT (under header) */}
-      <section className="max-w-6xl mx-auto px-4 py-8">
-        {/* PAGE TITLE */}
-        <div className="mb-6">
-          <h1 className="text-2xl font-bold text-center">
-            Recommended Lockers
-          </h1>
+      <section className="max-w-6xl mx-auto px-4 py-8 space-y-8">
+        <h1 className="text-2xl font-bold text-center">
+          Recommended Lockers
+        </h1>
 
-          {/* <p className="text-sm text-gray-600 mt-1">
-          Based on your available space:{" "}
-          <strong>
-            {unit === "cm"
-              ? `${h} × ${w} × ${d} cm`
-              : `${h} × ${w} × ${d} (converted from ft/in)`}
-          </strong>
-        </p> */}
-        </div>
+        {bestFit && (
+          <section>
+            <h2 className="text-sm font-semibold mb-3">
+              Best Fit ⭐
+            </h2>
+            <ProductCard
+              product={bestFit}
+              unit={unit}
+              recommendationType="best-fit"
+              position={0}
+            />
+          </section>
+        )}
 
-        {/* NO RESULTS */}
-        {allFits.length === 0 && (
-          <div className="bg-white rounded-lg border p-6 text-center max-w-xl">
-            <p className="font-medium mb-2">No locker fits this exact space.</p>
+        {alsoFits.length > 0 && (
+          <section>
+            <h3 className="text-sm font-semibold mb-3">
+              Also Fits
+            </h3>
+            <div className="bg-white rounded-lg border divide-y">
+              {alsoFits.map((p, i) => (
+                <ProductCard
+                  key={p.id}
+                  product={p}
+                  unit={unit}
+                  recommendationType="also-fits"
+                  position={i + 1}
+                />
+              ))}
+            </div>
+          </section>
+        )}
 
-            <p className="text-sm text-gray-600 mb-4">
-              Try increasing one of the dimensions slightly.
+        {slightlyBigger.length > 0 && (
+          <section>
+            <h3 className="text-sm font-semibold mb-2">
+              Slightly Bigger (Installation Margin)
+            </h3>
+            <p className="text-xs text-gray-600 mb-3">
+              Up to ~1–2 inches larger. Usually fits with minor adjustment.
             </p>
-
-            <button
-              className="underline text-sm"
-              onClick={() => router.push("/locker-recommender")}
-            >
-              Change measurements
-            </button>
-          </div>
+            <div className="bg-white rounded-lg border divide-y">
+              {slightlyBigger.map((p, i) => (
+                <ProductCard
+                  key={p.id}
+                  product={p}
+                  unit={unit}
+                  recommendationType="recommended"
+                  position={i}
+                />
+              ))}
+            </div>
+          </section>
         )}
 
-        {/* RESULTS GRID */}
-        {allFits.length > 0 && (
-          <div className="space-y-8">
-            {/* BEST FIT */}
-            {bestFit && (
-              <section>
-                <h2 className="text-sm font-semibold mb-3">
-                  Best Fit for Your Space ⭐ 
-                </h2>
-
-                <div className="bg-white rounded-lg border">
-                  <ProductCard
-                    product={bestFit}
-                    unit={unit}
-                    recommendationType="best-fit"
-                    position={0}
-                  />
-                </div>
-              </section>
-            )}
-
-            {/* ALSO FITS */}
-            {alsoFits.length > 0 && (
-              <section>
-                <h3 className="text-sm font-semibold mb-3">
-                  Also Fits Your Space
-                </h3>
-
-                <div className="bg-white rounded-lg border divide-y">
-                  {alsoFits.map((product, index) => (
-                    <ProductCard
-                      key={product.id}
-                      product={product}
-                      unit={unit}
-                      recommendationType="also-fits"
-                      position={index + 1}
-                    />
-                  ))}
-                </div>
-              </section>
-            )}
-
-            {/* BEST SELLERS */}
-            {bestSellers.length > 0 && (
-              <section>
-                <h3 className="text-sm font-semibold mb-3">🔥 Best Sellers</h3>
-
-                <div className="bg-white rounded-lg border divide-y">
-                  {bestSellers.map((product, index) => (
-                    <ProductCard
-                      key={product.id}
-                      product={product}
-                      unit={unit}
-                      recommendationType="recommended"
-                      position={index}
-                    />
-                  ))}
-                </div>
-              </section>
-            )}
-
-            {/* FEATURED */}
-            {featured.length > 0 && (
-              <section>
-                <h3 className="text-sm font-semibold mb-3">
-                  ⭐ Expert Recommended
-                </h3>
-
-                <div className="bg-white rounded-lg border divide-y">
-                  {featured.map((product, index) => (
-                    <ProductCard
-                      key={product.id}
-                      product={product}
-                      unit={unit}
-                      recommendationType="recommended"
-                      position={index}
-                    />
-                  ))}
-                </div>
-              </section>
-            )}
-          </div>
-        )}
-
-        {/* document safe */}
-        {documentSafe.length > 0 && (
+        {fireLockers.length > 0 && (
           <section>
             <h3 className="text-sm font-semibold mb-3">
               Fire-Resistant 🔥
             </h3>
-
-            <p className="text-xs text-gray-600 mb-2">
-              Ideal for storing important documents, certificates, and
-              valuables.
-            </p>
-
-            {documentSafe.length > 0 ? (
-              <div className="bg-white rounded-lg border divide-y">
-                {documentSafe.map((product, index) => (
-                  <ProductCard
-                    key={product.id}
-                    product={product}
-                    unit={unit}
-                    recommendationType="fire-resistant"
-                    position={index}
-                  />
-                ))}
-              </div>
-            ) : (
-              <div className="bg-white rounded-lg border p-4 text-sm text-gray-600">
-                No fire-resistant locker fits this exact space.
-                <br />
-                <span className="block mt-1 text-xs">
-                  Consider increasing depth or width slightly, or explore larger
-                  document safes.
-                </span>
-              </div>
-            )}
+            <div className="bg-white rounded-lg border divide-y">
+              {fireLockers.map((p, i) => (
+                <ProductCard
+                  key={p.id}
+                  product={p}
+                  unit={unit}
+                  recommendationType="fire-resistant"
+                  position={i}
+                />
+              ))}
+            </div>
           </section>
         )}
       </section>
