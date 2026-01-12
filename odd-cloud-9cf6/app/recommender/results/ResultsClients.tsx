@@ -8,10 +8,9 @@ import {
   Product,
   RawProduct,
   ProductTag,
-  RecommendedProduct,
 } from "@/types/product";
 
-/* ---------- types ---------- */
+/* ---------- TYPES ---------- */
 
 type Cm = {
   height: number;
@@ -19,7 +18,21 @@ type Cm = {
   depth: number;
 };
 
-/* ---------- constants ---------- */
+type BaseRecommended = Product & {
+  _lockerVol: number;
+};
+
+type ExactRecommended = BaseRecommended & {
+  _fitScore: number;
+};
+
+type BiggerRecommended = BaseRecommended & {
+  _fitRatio: number;
+};
+
+type FireRecommended = Product;
+
+/* ---------- CONSTANTS ---------- */
 
 const ALLOWED_TAGS: ProductTag[] = [
   "best-fit",
@@ -29,9 +42,7 @@ const ALLOWED_TAGS: ProductTag[] = [
   "fire-resistant",
 ];
 
-const FIRE_KEYWORDS = ["fire-resistant"];
-
-/* ---------- normalization ---------- */
+/* ---------- NORMALIZATION ---------- */
 
 function normalizeProducts(raw: RawProduct[]): Product[] {
   return raw.map((p) => ({
@@ -42,7 +53,7 @@ function normalizeProducts(raw: RawProduct[]): Product[] {
   }));
 }
 
-/* ---------- data guards (CRITICAL) ---------- */
+/* ---------- DATA GUARDS ---------- */
 
 function isUsableLocker(p: Product) {
   if (!p.dimensions?.cm) return false;
@@ -52,44 +63,32 @@ function isUsableLocker(p: Product) {
 
   const { height, width, depth } = p.dimensions.cm;
 
-  // Guard broken data (ex: 400cm depth)
+  // Guard broken data
   if (height > 300 || width > 300 || depth > 450) return false;
 
   return true;
 }
 
-/* ---------- fit helpers ---------- */
+/* ---------- FIT HELPERS ---------- */
 
 // STRICT physical fit
 function fitsHeightFirst(
   space: Cm,
   locker: Cm,
-  heightTolerance = 1.08,   // ⭐ main tolerance
-  sideTolerance = 1.15     // width & depth flexibility
+  heightTolerance = 1.08,
+  sideTolerance = 1.15
 ) {
-  // 1️⃣ Height is strict (with tolerance)
-  if (locker.height > space.height * heightTolerance) {
-    return false;
-  }
-
-  // 2️⃣ Width & depth are soft constraints
-  if (space.width && locker.width > space.width * sideTolerance) {
-    return false;
-  }
-
-  if (space.depth && locker.depth > space.depth * sideTolerance) {
-    return false;
-  }
-
+  if (locker.height > space.height * heightTolerance) return false;
+  if (locker.width > space.width * sideTolerance) return false;
+  if (locker.depth > space.depth * sideTolerance) return false;
   return true;
 }
 
-
-// TOLERANT fit (real-world)
+// TOLERANT fit
 function fitsWithTolerance(
   space: Cm,
   locker: Cm,
-  toleranceRatio = 1.08 // ⭐ explained below
+  toleranceRatio = 1.08
 ) {
   const tol = {
     height: space.height * toleranceRatio,
@@ -104,18 +103,17 @@ function fitsWithTolerance(
   ];
 
   return rotations.some(
-    ([h, w, d]) =>
-      h <= tol.height && w <= tol.width && d <= tol.depth
+    ([h, w, d]) => h <= tol.height && w <= tol.width && d <= tol.depth
   );
 }
 
-/* ---------- recommenders ---------- */
+/* ---------- RECOMMENDERS ---------- */
 
 function recommendExact(
   products: Product[],
   space: Cm,
   limit = 50
-): RecommendedProduct[] {
+): ExactRecommended[] {
   const userVol = space.height * space.width * space.depth;
 
   return products
@@ -132,8 +130,8 @@ function recommendExact(
 
       return {
         ...p,
-        _fitScore: Math.abs(userVol - lockerVol),
         _lockerVol: lockerVol,
+        _fitScore: Math.abs(userVol - lockerVol),
       };
     })
     .sort((a, b) => a._fitScore - b._fitScore)
@@ -145,7 +143,7 @@ function recommendSlightlyBigger(
   space: Cm,
   exactIds: Set<string>,
   limit = 4
-): RecommendedProduct[] {
+): BiggerRecommended[] {
   const userVol = space.height * space.width * space.depth;
 
   return products
@@ -177,7 +175,7 @@ function recommendFire(
   products: Product[],
   space: Cm,
   limit = 6
-): RecommendedProduct[] {
+): FireRecommended[] {
   return products
     .filter(isUsableLocker)
     .filter(
@@ -189,11 +187,11 @@ function recommendFire(
     .slice(0, limit);
 }
 
-/* ---------- data ---------- */
+/* ---------- DATA ---------- */
 
 const products = normalizeProducts(rawProducts);
 
-/* ---------- page ---------- */
+/* ---------- PAGE ---------- */
 
 export default function ResultsClient() {
   const params = useSearchParams();
@@ -213,11 +211,7 @@ export default function ResultsClient() {
 
   const exactFits = recommendExact(products, space);
   const exactIds = new Set(exactFits.map((p) => p.id));
-  const slightlyBigger = recommendSlightlyBigger(
-    products,
-    space,
-    exactIds
-  );
+  const slightlyBigger = recommendSlightlyBigger(products, space, exactIds);
   const fireLockers = recommendFire(products, space);
 
   const bestFit = exactFits[0];
