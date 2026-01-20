@@ -1,20 +1,19 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import Image from 'next/image';
-import { ChevronLeft, ChevronRight, Phone, MessageCircle } from 'lucide-react';
-import { ProductType } from '@/types/product';
-import ProductCard from '@/components/ProductCard';
-import ShareButtons from '@/components/ShareButtons';
+import { useState } from "react";
+import Image from "next/image";
+import { ChevronLeft, ChevronRight, Phone, MessageCircle } from "lucide-react";
+import { ProductType } from "@/types/product";
+import ProductCard from "@/components/ProductCard";
+import ShareButtons from "@/components/ShareButtons";
 import ShareButtonFloating from "@/components/ShareButtonFloating";
-
 
 // Helper function for Title Case
 const toTitleCase = (text: string) => {
   return text
     .split(/[-\s]/) // split by dash or space
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' ');
+    .join(" ");
 };
 
 export default function ProductPageClient({
@@ -47,37 +46,35 @@ export default function ProductPageClient({
     product.description?.slice(0, 160) ||
     `Buy ${product.name} at Secure Home Solutions. Premium quality, secure storage, and durable design.`;
 
-
-  const siteUrl =
-    typeof window !== 'undefined' ? window.location.origin : '';
+  const siteUrl = typeof window !== "undefined" ? window.location.origin : "";
 
   const productUrl = `${siteUrl}/products/${product.category}/${product.slug}`;
 
   return (
     <main className="max-w-7xl mx-auto px-6 py-12 pb-28">
       {/* JSON-LD Schema for SEO */}
-      <script
+      {/* <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
-            '@context': 'https://schema.org/',
-            '@type': 'Product',
+            "@context": "https://schema.org/",
+            "@type": "Product",
             name: product.name,
             image: product.images,
             description: seoDescription,
             brand: {
-              '@type': 'Brand',
-              name: 'Secure Home Solutions',
+              "@type": "Brand",
+              name: "Secure Home Solutions",
             },
             offers: {
-              '@type': 'Offer',
-              priceCurrency: 'INR',
+              "@type": "Offer",
+              priceCurrency: "INR",
               price: product.price,
-              availability: 'https://schema.org/InStock',
+              availability: "https://schema.org/InStock",
             },
           }),
         }}
-      />
+      /> */}
 
       {/* Grid: Image Left - Info Right */}
       <div className="grid md:grid-cols-2 gap-10">
@@ -106,8 +103,9 @@ export default function ProductPageClient({
                       alt={`${product.name} fullscreen`}
                       width={600}
                       height={600}
-                      className={`object-contain w-full h-auto transition-transform duration-300 ${zoomed ? 'scale-125' : 'scale-100'
-                        }`}
+                      className={`object-contain w-full h-auto transition-transform duration-300 ${
+                        zoomed ? "scale-125" : "scale-100"
+                      }`}
                       onClick={() => setZoomed(!zoomed)}
                       priority
                     />
@@ -141,7 +139,7 @@ export default function ProductPageClient({
 
               <Image
                 src={product.images[currentIndex]}
-                alt={`${product.name} - ${product.category?.[0] || 'Secure Home Solutions'}`}
+                alt={`${product.name} - ${product.category?.[0] || "Secure Home Solutions"}`}
                 title={product.name}
                 width={600}
                 height={600}
@@ -175,8 +173,9 @@ export default function ProductPageClient({
               <button
                 key={i}
                 onClick={() => setCurrentIndex(i)}
-                className={`relative w-20 h-20 border-2 rounded-md overflow-hidden ${i === currentIndex ? 'border-blue-600' : 'border-gray-200'
-                  }`}
+                className={`relative w-20 h-20 border-2 rounded-md overflow-hidden ${
+                  i === currentIndex ? "border-blue-600" : "border-gray-200"
+                }`}
                 aria-label={`View image ${i + 1}`}
               >
                 <Image
@@ -194,21 +193,19 @@ export default function ProductPageClient({
         <div>
           <h1 className="text-3xl font-bold text-gray-900">{product.name}</h1>
           <p className="text-2xl text-blue-600 font-semibold mt-2">
-            ₹{product.price}
+            ₹{new Intl.NumberFormat("en-IN").format(Number(product.price))}
           </p>
 
-
-{/* ✅ Share Buttons Section */}
-<div className="mt-4">
-  {/* Under Price (Always visible, mobile + desktop) */}
-  <div className="flex gap-3 items-center">
-    <ShareButtons url={productUrl} title={product.name} />
-  </div>
-</div>
-{productUrl && <ShareButtonFloating url={productUrl} title={product.name} />}
-
-
-
+          {/* ✅ Share Buttons Section */}
+          <div className="mt-4">
+            {/* Under Price (Always visible, mobile + desktop) */}
+            <div className="flex gap-3 items-center">
+              <ShareButtons url={productUrl} title={product.name} />
+            </div>
+          </div>
+          {productUrl && (
+            <ShareButtonFloating url={productUrl} title={product.name} />
+          )}
 
           {/* Specs */}
           <div className="mt-6 space-y-2 text-gray-800">
@@ -342,14 +339,14 @@ export default function ProductPageClient({
         </a>
         <a
           href={`https://wa.me/917550084414?text=${encodeURIComponent(
-            `Hi, I'm interested in ${product.name}`
+            `Hi, I'm interested in ${product.name}`,
           )}`}
           target="_blank"
           rel="noopener noreferrer"
           className="flex-1 flex items-center justify-center gap-2 py-3 text-white bg-green-600 hover:bg-green-700 font-medium"
           aria-label="Chat on WhatsApp"
         >
-          {' '}
+          {" "}
           <MessageCircle className="w-5 h-5" /> WhatsApp
         </a>
       </div>

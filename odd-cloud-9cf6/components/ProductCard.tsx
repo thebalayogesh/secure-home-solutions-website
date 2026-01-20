@@ -69,7 +69,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         </p>
 
         <p className="text-blue-600 font-bold mt-3 text-lg">
-          ₹{formatPrice(product.price)}
+          ₹{new Intl.NumberFormat("en-IN").format(Number(product.price))}
         </p>
       </div>
     </Link>

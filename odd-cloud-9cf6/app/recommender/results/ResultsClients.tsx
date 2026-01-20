@@ -221,7 +221,7 @@ export default function ResultsClient() {
     <div className="bg-gray-50">
       <section className="max-w-6xl mx-auto px-4 py-8 space-y-8">
         <h1 className="text-2xl font-bold text-center">
-          Recommended Lockers
+           Lockers that Fits your Space
         </h1>
 
         {bestFit && (
