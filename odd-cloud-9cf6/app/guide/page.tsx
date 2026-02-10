@@ -110,7 +110,7 @@ export default function LockerRecommenderPage() {
 
     if (!h || !w || !d) return;
 
-    router.push(`/recommender/results?h=${h}&w=${w}&d=${d}&unit=${unit}`);
+    router.push(`/guide/results?h=${h}&w=${w}&d=${d}&unit=${unit}`);
   }
 
   /* -------------------- UI -------------------- */
