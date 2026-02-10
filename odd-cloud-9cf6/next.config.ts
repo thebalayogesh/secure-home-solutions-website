@@ -5,6 +5,21 @@ const nextConfig: NextConfig = {
   images: {
   unoptimized: true,
   },
+
+  async redirects() {
+    return [
+      {
+        source: '/recommender',
+        destination: '/guide',
+        permanent: true, // 308 redirect
+      },
+      {
+        source: '/recommender/:path*',
+        destination: '/guide/:path*',
+        permanent: true,
+      },
+    ]
+  },
   /* config options here */
 };
 
