@@ -313,7 +313,7 @@ export default function ProductPageClient({
       {/* Full Width Description */}
       <div className="mt-12">
         <h2 className="text-2xl font-semibold mb-4">Product Description</h2>
-        <p className="text-gray-700 leading-relaxed">{product.description}</p>
+        <p className="whitespace-pre-line text-gray-700 leading-relaxed">{product.description}</p>
       </div>
 
       {/* ✅ Related Products Section */}

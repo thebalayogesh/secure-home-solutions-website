@@ -1445,5 +1445,34 @@
     "lock_mechanism": [
       "keylock"
     ]
-  }
+  },
+  {
+  "id": "57",
+  "name": "Godrej Neo Pro-View",
+  "price": "24999",
+  
+  "category": [
+    "locks"
+  ],
+  "slug": "godrej-neo-pro-view",
+"description": "The Godrej Neo Pro-View is a premium home and office safe designed to provide high-level security with modern technology and durable construction.\n\nFeatures:\n- Multi-access locking system: passcode, fingerprint, RFID, key, and WiFi\n- Biometric authentication for fast and secure access\n- Strong steel body for durability and tamper resistance\n- Modern design suitable for home and office use\n\nSpecifications:\n- Dimensions: 90.3 cm (H) x 53.6 cm (W) x 54.7 cm (D)\n- Weight: 210 kg\n- Capacity: 112 Liters\n- Lock Types: Passcode, Fingerprint, RFID, Key, WiFi",  "images": [
+    "/images/locks/neo-pro-view-1.webp",
+    "/images/locks/neo-pro-view-5.webp",
+    "/images/locks/neo-pro-view-2.webp",
+    "/images/locks/neo-pro-view-3.webp",
+    "/images/locks/neo-pro-view-4.webp"
+
+  ],
+  "tags": [
+    "best-seller",
+    "featured"
+  ],
+  "lock_mechanism": [
+    "passcode",
+    "finger-print",
+    "RFID",
+    "key",
+    "wifi"
+  ]
+}
 ]
