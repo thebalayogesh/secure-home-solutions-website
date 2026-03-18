@@ -79,20 +79,31 @@ export default function ProductPageClient({
       {/* Grid: Image Left - Info Right */}
       <div className="grid md:grid-cols-2 gap-10">
         {/* Left: Image Slider */}
-        <div className="relative group">
-          <div className="overflow-hidden rounded-lg shadow-lg">
-            <div
-              className="relative w-full h-[450px] bg-gray-50 overflow-hidden  md:cursor-zoom-in"
-              onClick={() => {
-                if (window.innerWidth < 768) {
-                  setIsFullscreen(true);
-                }
-              }}
-            >
+        <div className="w-full max-w-md mx-auto md:max-w-full">
+          <div className="relative group">
+            <div className="relative w-full aspect-[4/5] sm:aspect-[4/3] bg-gray-50 rounded-lg overflow-hidden shadow-sm">
+              {" "}
+              {/* CLICK AREA */}
+              <div
+                className="relative w-full h-full cursor-zoom-in"
+                onClick={() => {
+                  if (window.innerWidth < 768) setIsFullscreen(true);
+                }}
+              >
+                <Image
+                  src={product.images[currentIndex]}
+                  alt={product.name}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-contain p-3 transition-transform duration-300 group-hover:scale-105"
+                  priority
+                />
+              </div>
+              {/* FULLSCREEN */}
               {isFullscreen && (
                 <div
-                  className="fixed inset-0 z-50 flex items-center justify-center p-4 backdrop-blur-sm bg-white/30"
-                  onClick={() => setIsFullscreen(false)} // click outside closes
+                  className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4"
+                  onClick={() => setIsFullscreen(false)}
                 >
                   <div
                     className="relative w-full max-w-lg"
@@ -100,92 +111,84 @@ export default function ProductPageClient({
                   >
                     <Image
                       src={product.images[currentIndex]}
-                      alt={`${product.name} fullscreen`}
-                      width={600}
-                      height={600}
-                      className={`object-contain w-full h-auto transition-transform duration-300 ${
+                      alt="fullscreen"
+                      width={800}
+                      height={800}
+                      className={`object-contain w-full h-auto ${
                         zoomed ? "scale-125" : "scale-100"
                       }`}
                       onClick={() => setZoomed(!zoomed)}
-                      priority
                     />
-                    {/* Close */}
+
                     <button
                       onClick={() => setIsFullscreen(false)}
-                      className="absolute top-2 right-2 bg-white rounded-full p-2 shadow-md z-50"
+                      className="absolute top-2 right-2 bg-white p-2 rounded-full"
                     >
                       ✕
                     </button>
-                    {/* Prev/Next */}
+
                     {totalImages > 1 && (
                       <>
                         <button
                           onClick={handlePrev}
-                          className="absolute left-0 top-1/2 -translate-y-1/2 bg-white rounded-full p-3 shadow-md"
+                          className="absolute left-2 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full"
                         >
-                          <ChevronLeft className="w-6 h-6 text-gray-800" />
+                          <ChevronLeft className="w-5 h-5" />
                         </button>
                         <button
                           onClick={handleNext}
-                          className="absolute right-0 top-1/2 -translate-y-1/2 bg-white rounded-full p-3 shadow-md"
+                          className="absolute right-2 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full"
                         >
-                          <ChevronRight className="w-6 h-6 text-gray-800" />
+                          <ChevronRight className="w-5 h-5" />
                         </button>
                       </>
                     )}
                   </div>
                 </div>
               )}
-
-              <Image
-                src={product.images[currentIndex]}
-                alt={`${product.name} - ${product.category?.[0] || "Secure Home Solutions"}`}
-                title={product.name}
-                width={600}
-                height={600}
-                className="object-contain w-full h-full transition-transform duration-300 ease-in-out group-hover:scale-110"
-                priority
-              />
             </div>
-          </div>
 
-          {/* Prev Button */}
-          <button
-            onClick={handlePrev}
-            aria-label="Previous image"
-            className="absolute top-1/2 left-3 -translate-y-1/2 bg-white p-3 rounded-full shadow-md hover:bg-gray-100 opacity-0 group-hover:opacity-100 transition"
-          >
-            <ChevronLeft className="w-6 h-6 text-gray-700" />
-          </button>
+            {/* NAV BUTTONS */}
+            {totalImages > 1 && (
+              <>
+                <button
+                  onClick={handlePrev}
+                  className="absolute top-1/2 left-2 -translate-y-1/2 bg-white p-2 rounded-full shadow opacity-0 group-hover:opacity-100 transition"
+                >
+                  <ChevronLeft className="w-5 h-5" />
+                </button>
+                <button
+                  onClick={handleNext}
+                  className="absolute top-1/2 right-2 -translate-y-1/2 bg-white p-2 rounded-full shadow opacity-0 group-hover:opacity-100 transition"
+                >
+                  <ChevronRight className="w-5 h-5" />
+                </button>
+              </>
+            )}
 
-          {/* Next Button */}
-          <button
-            onClick={handleNext}
-            aria-label="Next image"
-            className="absolute top-1/2 right-3 -translate-y-1/2 bg-white p-3 rounded-full shadow-md hover:bg-gray-100 opacity-0 group-hover:opacity-100 transition"
-          >
-            <ChevronRight className="w-6 h-6 text-gray-700" />
-          </button>
-
-          {/* Navigation Thumbnails */}
-          <div className="flex gap-3 mt-4 justify-center">
-            {product.images.map((img, i) => (
-              <button
-                key={i}
-                onClick={() => setCurrentIndex(i)}
-                className={`relative w-20 h-20 border-2 rounded-md overflow-hidden ${
-                  i === currentIndex ? "border-blue-600" : "border-gray-200"
-                }`}
-                aria-label={`View image ${i + 1}`}
-              >
-                <Image
-                  src={img}
-                  alt={`${product.name} thumbnail ${i + 1}`}
-                  fill
-                  className="object-cover"
-                />
-              </button>
-            ))}
+            {/* THUMBNAILS */}
+            <div className="mt-3 px-1">
+  <div className="flex gap-2 overflow-x-auto pb-2 snap-x snap-mandatory scrollbar-hide">
+    {product.images.map((img, i) => (
+      <button
+        key={i}
+        onClick={() => setCurrentIndex(i)}
+        className={`relative snap-start flex-shrink-0 w-[64px] h-[64px] rounded-md overflow-hidden border-2 transition ${
+          i === currentIndex
+            ? "border-blue-600 scale-105"
+            : "border-gray-200 opacity-80"
+        }`}
+      >
+        <Image
+          src={img}
+          alt={`thumbnail-${i}`}
+          fill
+          className="object-cover"
+        />
+      </button>
+    ))}
+  </div>
+</div>
           </div>
         </div>
 
@@ -313,7 +316,9 @@ export default function ProductPageClient({
       {/* Full Width Description */}
       <div className="mt-12">
         <h2 className="text-2xl font-semibold mb-4">Product Description</h2>
-        <p className="whitespace-pre-line text-gray-700 leading-relaxed">{product.description}</p>
+        <p className="whitespace-pre-line text-gray-700 leading-relaxed">
+          {product.description}
+        </p>
       </div>
 
       {/* ✅ Related Products Section */}
