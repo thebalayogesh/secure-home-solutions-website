@@ -1,7 +1,7 @@
 [{
   "id": "1",
   "name": "Godrej Matrix 3016 (Digi+KL)",
-  "price": "140899",
+  "price": "167499",
   "size": [
     "(cm) 90.3(h) x 53.6(w) x 54.7(d)",
     "(mm) 903(h) x 536(w) x 547(d)"
@@ -21,7 +21,7 @@
   {
   "id": "2",
   "name": "Godrej Matrix 3016 (KL)",
-  "price": "106199",
+  "price": "124949",
   "size": [
     "(cm) 90.3(h) x 53.6(w) x 54.7(d)",
     "(mm) 903(h) x 536(w) x 547(d)"
@@ -47,7 +47,7 @@
 },{
   "id": "3",
   "name": "Godrej Matrix 2414 (Digi+KL)",
-  "price": "119499",
+  "price": "144749",
   "size": [
     "(cm)74.8(h)x48.6(w)x54.7(d)",
     "(mm)748(h)x486(w)x547(d)"
@@ -75,7 +75,7 @@
   {
     "id": "4",
     "name": "Godrej Matrix 2414 (KL)",
-    "price": "90199",
+    "price": "105299",
     "size": [
       "(cm)74.8(h)x48.6(w)x54.7(d)",
       "(mm)748(h)x486(w)x547(d)"
@@ -102,7 +102,7 @@
   {
     "id": "5",
     "name": "Godrej Matrix 1814 (Digi)",
-    "price": "96299",
+    "price": "104299",
     "size": [
       "(cm)59.6(h)x48.6(w)x54.7(d)",
       "(mm)596(h)x486(w)x547(d)"
@@ -130,7 +130,7 @@
   {
     "id": "6",
     "name": "Godrej Matrix 1814 (KL)",
-    "price": "85099",
+    "price": "87599",
     "size": [
       "(cm)59.6(h)x48.6(w)x54.7(d)",
       "(mm)596(h)x486(w)x547(d)"
@@ -184,7 +184,7 @@
   {
     "id": "8",
     "name": "Godrej Nx Advanced 560L (Digi+Bio+KL)",
-    "price": "241849",
+    "price": "261199",
     "size": [
       "(cm)158(h)x70(w)x60(d)",
       "(mm)1580(h)x700(w)x600(d)"
@@ -212,7 +212,7 @@
   {
     "id": "9",
     "name": "Godrej Nx Advanced 370L (Digi+Bio+KL)",
-    "price": "199949",
+    "price": "213949",
     "size": [
       "(cm)125(h)x60(w)x60(d)",
       "(mm)1250(h)x600(w)x600(d)"
@@ -240,7 +240,7 @@
   {
     "id": "10",
     "name": "Godrej Nx Advanced 210L (Digi+Bio+KL)",
-    "price": "156149",
+    "price": "165549",
     "size": [
       "(cm)106(h)x50(w)x50(d)",
       "(mm)1060(h)x500(w)x500(d)"
@@ -268,7 +268,7 @@
   {
     "id": "11",
     "name": "Godrej Nx Advanced 160L (Digi+Bio+KL)",
-    "price": "124049",
+    "price": "130299",
     "size": [
       "(cm)80(h)x50(w)x50(d)",
       "(mm)800(h)x500(w)x500(d)"
@@ -296,7 +296,7 @@
   {
     "id": "12",
     "name": "Godrej Rhino Regal (KL)",
-    "price": "62899",
+    "price": "67649",
     "size": [
       "(cm)61(h)x46(w)x40.7(d)",
       "(mm)610(h)x460(w)x407(d)"
@@ -322,7 +322,7 @@
   {
     "id": "13",
     "name": "Godrej Rhino Advanced (Digi)",
-    "price": "54399",
+    "price": "59849",
     "size": [
       "(cm)61(h)x46(w)x41.5(d)",
       "(mm)610(h)x460(w)x415(d)"
@@ -332,7 +332,7 @@
     "category": [
       "100x"
     ],
-    "slug": "godrej-rhino-Advanced-digitel",
+    "slug": "godrej-rhino-Advanced-digital",
     "description": "The Godrej Rhino Advanced (Digi) is a high-performance home safe designed for those who require advanced 100X-rated security combined with the convenience of digital access. Engineered with a heavy-duty reinforced steel body, this safe offers 100 times the burglary resistance of standard cupboards. It is specifically designed for shared households and small businesses, featuring a multi-user digital keypad that supports multiple codes. With its generous 79-liter capacity, the Rhino Advanced is perfect for securing gold jewellery, expensive electronics, and important legal documents in a compact, wardrobe-friendly design.\n\nFeatures:\n- 100X Advanced Security: Independently certified to provide superior resistance against forced entry and professional-grade burglary tools.\n- Multi-User Digital Keypad: Intelligent electronic lock that supports multiple user codes, ideal for families or small office teams.\n- Reinforced Steel Construction: Features a fortified steel door and an anti-drill bolt mechanism to protect the safe’s internal lock-work.\n- Compact & Spacious: A versatile 79-liter volume that fits comfortably in bedroom cabinets while providing ample room for A4 files and jewellery trays.\n- Anti-Pry Design: Engineered with concealed hinges and minimal door gaps to deter tampering and prying attempts.\n\nSpecifications:\n- Dimensions: 61.0 cm (H) x 46.0 cm (W) x 41.5 cm (D)\n- Weight: 52 kg (Optimized for secure anchoring to floor or wardrobe shelves)\n- Volume: 79 Liters\n- Lock Type: Advanced Digital Keypad (Multi-Code Support)\n- Security Rating: 100X Advanced Burglary Resistance",
     "images": [
       "/images/100x/Godrej-Rhino-advanced-1.webp",
@@ -342,13 +342,13 @@
       "featured"
     ],
     "lock_mechanism": [
-      "digitel"
+      "digital"
     ]
   },
   {
     "id": "14",
     "name": "Godrej Rhino Advanced (KL)",
-    "price": "44299",
+    "price": "48749",
     "size": [
       "(cm)61(h)x46(w)x40.7(d)",
       "(mm)610(h)x460(w)x407(d)"
@@ -374,7 +374,7 @@
   {
     "id": "15",
     "name": "Godrej Rhino (Digi)",
-    "price": "36499",
+    "price": "40149",
     "size": [
       "(cm)42.4(h)x46(w)x41.5(d)",
       "(mm)424(h)x460(w)x415(d)"
@@ -394,13 +394,13 @@
       "featured"
     ],
     "lock_mechanism": [
-      "digitel"
+      "digital"
     ]
   },
   {
     "id": "16",
     "name": "Godrej Rhino Advanced (KL)",
-    "price": "29599",
+    "price": "32599",
     "size": [
       "(cm)42.4(h)x46(w)x40.7(d)",
       "(mm)424(h)x460(w)x407(d)"
@@ -472,13 +472,13 @@
       "featured"
     ],
     "lock_mechanism": [
-      "digitel"
+      "digital"
     ]
   },
   {
     "id": "19",
     "name": "Godrej Citadel 45-v2 (KL)",
-    "price": "38799",
+    "price": "44649",
     "size": [
       "(cm)47(h)x49(w)x45(d)",
       "(mm)470(h)x490(w)x450(d)"
@@ -504,7 +504,7 @@
   {
     "id": "20",
     "name": "MYST Big (Combination Lock)",
-    "price": "1199",
+    "price": "1749",
     "size": [
       "(cm)24.3(h)x15.9(w)x5.5(d)",
       "(mm)243(h)x159(w)x55(d)"
@@ -528,7 +528,7 @@
   {
     "id": "21",
     "name": "MYST Small (Combination Lock)",
-    "price": "999",
+    "price": "1449",
     "size": [
       "(cm)18(h)x11.8(w)x5.5(d)",
       "(mm)180(h)x118(w)x55(d)"
@@ -552,7 +552,7 @@
   {
     "id": "22",
     "name": "Dream Box (Blue)",
-    "price": "4499",
+    "price": "4999",
     "size": [
       "(cm)17(h)x23(w)x17(d)",
       "(mm)170(h)x230(w)x170(d)"
@@ -648,7 +648,7 @@
   {
     "id": "26",
     "name": "Dream Box (Keylock)",
-    "price": "3499",
+    "price": "3999",
     "size": [
       "(cm)17(h)x23(w)x17(d)",
       "(mm)170(h)x230(w)x170(d)"
@@ -672,7 +672,7 @@
   {
     "id": "27",
     "name": "Verge Biometric",
-    "price": "13499",
+    "price": "14049",
     "size": [
       "(cm)8.4(h)x34(w)x25.8(d)",
       "(mm)84(h)x340(w)x258(d)"
@@ -696,7 +696,7 @@
   {
     "id": "28",
     "name": "Verge Digital",
-    "price": "13000",
+    "price": "13549",
     "size": [
       "(cm)8.4(h)x34(w)x25.8(d)",
       "(mm)84(h)x340(w)x258(d)"
@@ -720,7 +720,7 @@
   {
     "id": "29",
     "name": "Godrej Centiguard 1060 (Digi)",
-    "price": "103399",
+    "price": "121499",
     "size": [
       "(cm)125.4(h)x58(w)x58.7(d)",
       "(mm)1254(h)x580(w)x587(d)"
@@ -744,7 +744,7 @@
   {
     "id": "30",
     "name": "Godrej Centiguard 1060 (Keylock)",
-    "price": "88599",
+    "price": "104149",
     "size": [
       "(cm)125.4(h)x58(w)x58.7(d)",
       "(mm)1254(h)x580(w)x587(d)"
@@ -768,7 +768,7 @@
   {
     "id": "31",
     "name": "Godrej Centiguard 560 (Digi)",
-    "price": "76999",
+    "price": "88549",
     "size": [
       "(cm)75.4(h)x58(w)x58.7(d)",
       "(mm)754(h)x580(w)x587(d)"
@@ -792,7 +792,7 @@
   {
     "id": "32",
     "name": "Godrej Centiguard 560 (Keylock)",
-    "price": "64699",
+    "price": "76049",
     "size": [
       "(cm)75.4(h)x58(w)x58.7(d)",
       "(mm)754(h)x580(w)x587(d)"
@@ -816,7 +816,7 @@
   {
     "id": "33",
     "name": "Godrej Centiguard 445 (Keylock)",
-    "price": "46499",
+    "price": "55799",
     "size": [
       "(cm)63.9(h)x49.5(w)x53.7(d)",
       "(mm)639(h)x495(w)x537(d)"
@@ -840,7 +840,7 @@
   {
     "id": "34",
     "name": "Godrej Safire 40L (Digi)",
-    "price": "46499",
+    "price": "51149",
     "size": [
       "(cm)56(h)x42.2(w)x49.1(d)",
       "(mm)560(h)x422(w)491(d)"
@@ -864,7 +864,7 @@
   {
     "id": "35",
     "name": "Godrej Safire 40L (Keylock)",
-    "price": "43199",
+    "price": "47549",
     "size": [
       "(cm)56(h)x42.2(w)x49.1(d)",
       "(mm)560(h)x422(w)x491(d)"
@@ -885,34 +885,11 @@
       "keylock"
     ]
   },
-  {
-    "id": "36",
-    "name": "Godrej Safire 20L (Keylock)",
-    "price": "46499",
-    "size": [
-      "(cm)44(h)x37.7(w)x43.1(d)",
-      "(mm)440(h)x377(w)x431(d)"
-    ],
-    "weight": "40kg",
-    "volume": "20L",
-    "category": [
-      "fire-resistant"
-    ],
-    "slug": "godrej-safire-20l-keylock",
-    "description": "The Godrej Safire 20L (Keylock) is a compact, high-performance fire-resistant safe designed for those who require elite thermal protection in a space-saving form factor. Perfectly suited for home offices or master bedrooms, this 20-liter model is certified to protect your most vital paper documents for up to 90 minutes in the event of a high-intensity fire. Combining Godrej’s legendary 6-lever mechanical locking reliability with specialized fire-insulating armor, it ensures that your passports, property deeds, and family heirlooms remain intact and secure without ever needing a battery change.\n\nFeatures:\n- Certified 90-Minute Fire Protection: Rigorously tested to keep internal temperatures well below the charring point of paper for 1.5 hours of fire exposure.\n- Precision Mechanical Key Lock: Features a high-security 6-lever mechanical lock for absolute reliability and zero-maintenance operation.\n- Advanced Fire Insulation: Constructed with a specialized fire-resistant compound encased within a reinforced steel body for superior thermal defense.\n- Tongue-and-Groove Seal: A precision-engineered door design that acts as a barrier against hot gases, smoke, and water during a fire emergency.\n- Compact & Practical: A 20L interior optimized for the storage of essential legal documents, jewelry boxes, and digital storage media.\n\nSpecifications:\n- Dimensions: 44.0 cm (H) x 37.7 cm (W) x 43.1 cm (D)\n- Weight: 40 kg (Solid, dense construction for stable placement and physical theft resistance)\n- Volume: 20 Liters\n- Lock Type: High-Security 6-Lever Mechanical Key Lock\n- Fire Rating: Certified 90 Minutes Fire Protection",
-    "images": [
-      "/images/fire-resistant/godrej-safire-40l-kl-1.webp",
-      "/images/fire-resistant/godrej-safire-40l-kl-2.webp"
-    ],
-    "tags": [],
-    "lock_mechanism": [
-      "keylock"
-    ]
-  },
+
   {
     "id": "37",
     "name": "Godrej Nx Pro Luxe 48L (Digi+Bio)",
-    "price": "47999",
+    "price": "51599",
     "size": [
       "(cm)53(h)x40(w)x35(d)",
       "(mm)530(h)x400(w)x350(d)"
@@ -939,7 +916,7 @@
   {
     "id": "38",
     "name": "Godrej Nx Pro Luxe 30L (Digi+Bio)",
-    "price": "38599",
+    "price": "40549",
     "size": [
       "(cm)33(h)x40(w)x35(d)",
       "(mm)330(h)x400(w)x350(d)"
@@ -993,7 +970,7 @@
   {
     "id": "40",
     "name": "Godrej Nx Pro Seal (Keylock)",
-    "price": "16599",
+    "price": "18299",
     "size": [
       "(cm)25(h)x35(w)x40(d)",
       "(mm)250(h)x350(w)x400(d)"
@@ -1019,7 +996,7 @@
   {
     "id": "41",
     "name": "Godrej Nx Pro Plus 70L (Digi+Bio)",
-    "price": "46299",
+    "price": "50949",
     "size": [
       "(cm)55.8(h)x37(w)x44.5(d)",
       "(mm)558(h)x370(w)x445(d)"
@@ -1046,7 +1023,7 @@
   {
     "id": "42",
     "name": "Godrej Nx Pro Plus 45L (Digi+Bio)",
-    "price": "35849",
+    "price": "39449",
     "size": [
       "(cm)50(h)x35.5(w)x33(d)",
       "(mm)500(h)x355(w)x330(d)"
@@ -1073,7 +1050,7 @@
   {
     "id": "43",
     "name": "Godrej Nx Pro Plus 30L (Digi+Bio)",
-    "price": "27599",
+    "price": "30399",
     "size": [
       "(cm)32(h)x40(w)x32(d)",
       "(mm)320(h)x400(w)x320(d)"
@@ -1100,7 +1077,7 @@
   {
     "id": "44",
     "name": "Godrej Nx Pro Plus 15L (Digi+Bio)",
-    "price": "18449",
+    "price": "21249",
     "size": [
       "(cm)25(h)x35(w)x25(d)",
       "(mm)250(h)x350(w)x250(d)"
@@ -1127,7 +1104,7 @@
   {
     "id": "45",
     "name": "Godrej Nx Pro 40L (Digi)",
-    "price": "23599",
+    "price": "25999",
     "size": [
       "(cm)42(h)x35(w)x35(d)",
       "(mm)420(h)x350(w)x350(d)"
@@ -1153,7 +1130,7 @@
   {
     "id": "46",
     "name": "Godrej Nx Pro 30L (Digi)",
-    "price": "21299",
+    "price": "23449",
     "size": [
       "(cm)32(h)x40(w)x32(d)",
       "(mm)320(h)x400(w)x320(d)"
@@ -1179,7 +1156,7 @@
   {
     "id": "47",
     "name": "Godrej Nx Pro 25L (Digi)",
-    "price": "18199",
+    "price": "20049",
     "size": [
       "(cm)20(h)x42(w)x37(d)",
       "(mm)200(h)x420(w)x370(d)"
@@ -1205,7 +1182,7 @@
   {
     "id": "48",
     "name": "Godrej Nx Pro 15L (Digi)",
-    "price": "12899",
+    "price": "13899",
     "size": [
       "(cm)25(h)x35(w)x25(d)",
       "(mm)250(h)x350(w)x250(d)"
@@ -1231,7 +1208,7 @@
   {
     "id": "49",
     "name": "Godrej Nx Pro 8L (Digi)",
-    "price": "10699",
+    "price": "11249",
     "size": [
       "(cm)20(h)x30(w)x20(d)",
       "(mm)200(h)x300(w)x200(d)"
@@ -1257,7 +1234,7 @@
   {
     "id": "50",
     "name": "Godrej Nx Pro 33L (Keylock)",
-    "price": "18399",
+    "price": "19799",
     "size": [
       "(cm)25(h)x45.5(w)x37.5(d)",
       "(mm)250(h)x455(w)x375(d)"
@@ -1283,7 +1260,7 @@
   {
     "id": "51",
     "name": "Godrej Nx Pro 15L (Keylock)",
-    "price": "9099",
+    "price": "10049",
     "size": [
       "(cm)25(h)x35(w)x25(d)",
       "(mm)250(h)x350(w)x250(d)"
@@ -1309,7 +1286,7 @@
   {
     "id": "52",
     "name": "Godrej E-Swipe (Digi)",
-    "price": "23699",
+    "price": "24899",
     "size": [
       "(cm)25(h)x45.5(w)x37.5(d)",
       "(mm)250(h)x455(w)x375(d)"
@@ -1335,7 +1312,7 @@
   {
     "id": "53",
     "name": "Godrej Premium Coffer (Keylock)",
-    "price": "14899",
+    "price": "16049",
     "size": [
       "(cm)25.4(h)x36.2(w)x34(d)",
       "(mm)254(h)x362(w)x340(d)"
@@ -1361,7 +1338,7 @@
   {
     "id": "54",
     "name": "Godrej Cashbox (Keylock)",
-    "price": "12299",
+    "price": "13249",
     "size": [
       "(cm)15.1(h)x35.6(w)x25.4(d)",
       "(mm)151(h)x356(w)x254(d)"
@@ -1387,7 +1364,7 @@
   {
     "id": "55",
     "name": "Godrej Privy (Digi)",
-    "price": "22499",
+    "price": "23649",
     "size": [
       "(cm)18(h)x40(w)x35(d)",
       "(mm)180(h)x400(w)x350(d)"
@@ -1413,7 +1390,7 @@
   {
     "id": "56",
     "name": "Godrej Nx Key Storage Locker (Keylock)",
-    "price": "16298",
+    "price": "17949",
     "size": [
       "(cm)36(h)x30(w)x10(d)",
       "(mm)360(h)x300(w)x100(d)"
