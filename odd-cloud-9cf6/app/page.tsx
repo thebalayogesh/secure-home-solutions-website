@@ -10,9 +10,9 @@ import TrustedCertificate from "@/components/Certificate";
 
 const categorie = [
   {
-    name: "250x Safes",
-    slug: "250x",
-    image: "/images/250x/Godrej-Matrix-3016-1.webp",
+    name: "300x Safes",
+    slug: "300x",
+    image: "/images/300x/Godrej-Matrix-3016-1.webp",
   },
   {
     name: "100x Safes",
@@ -39,10 +39,10 @@ export default function Home() {
       {/* <ResponsiveCarousel /> */}
 
       <HeroSection
-        title="250X Lockers"
+        title="300X Lockers"
         description="SafeGuard your valuables with Godrej lockers and Godrej safe. Our home locker Godrej models feature double walls and patented construction for unmatched security and peace of mind. Check the best Godrej safe locker price and find your locker safe for home today."
         primaryText="View Lockers"
-        primaryLink="/products/250x"
+        primaryLink="/products/300x"
         // secondaryText="Contact Us"
         // secondaryLink="/contact"
         imageSrc="/images/hero/1.webp"

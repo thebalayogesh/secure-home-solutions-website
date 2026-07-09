@@ -5,7 +5,7 @@ export interface ProductType {
   size?: string[];
   weight?: string;
   volume?: string;
-  category: string[]; // e.g., ["250x"]
+  category: string[]; // e.g., ["300x"]
   slug: string;
   description?: string;
   images: string[];
@@ -68,7 +68,7 @@ export type Product = {
   name: string;
   slug: string;
 
-  category: string[];          // e.g. ["250x"]
+  category: string[];          // e.g. ["300x"]
   price?: string;
 
   weight?: string;
