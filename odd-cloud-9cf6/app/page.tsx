@@ -15,11 +15,11 @@ const categorie = [
     image: "/images/300x/Godrej-Matrix-3016-1.webp",
   },
   {
-    name: "100x Safes",
-    slug: "100x",
-    image: "/images/100x/Godrej-Rhino-advanced-1.webp",
+    name: "200x Safes",
+    slug: "200x",
+    image: "/images/200x/Godrej-Rhino-advanced-1.webp",
   },
-  { name: "10x", slug: "10x", image: "/images/100x/Godrej-Citadel-1.webp" },
+  { name: "10x", slug: "10x", image: "/images/200x/Godrej-Citadel-1.webp" },
   { name: "Gifts", slug: "gift", image: "/images/gift/dreambox-red-1.webp" },
   {
     name: "Fire Proof",
@@ -58,10 +58,10 @@ export default function Home() {
       />
 
       <HeroSection
-        title="100x Lockers"
+        title="200x Lockers"
         description="Heightened Protection for your valuables with innovative single wall reinforcement technology. Each Locker features fortified walls, powered by state-of-the-art technology for maximum security, ensuring peace of mind."
         primaryText="View Lockers"
-        primaryLink="/products/100x"
+        primaryLink="/products/200x"
         imageSrc="/images/hero/2.webp"
         reverse
       />

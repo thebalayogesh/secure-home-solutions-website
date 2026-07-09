@@ -520,12 +520,12 @@
       "d": 40.7
     },
     "category": [
-      "100x"
+      "200x"
     ],
     "lock_mechanism": [
       "keylock"
     ],
-    "image": "/images/100x/Godrej-Rhino-v1-1.webp",
+    "image": "/images/200x/Godrej-Rhino-v1-1.webp",
     "tags": [
       "featured"
     ]
@@ -563,12 +563,12 @@
       "d": 32
     },
     "category": [
-      "100x"
+      "200x"
     ],
     "lock_mechanism": [
       "digitel"
     ],
-    "image": "/images/100x/Godrej-Ritz-digi-1.webp",
+    "image": "/images/200x/Godrej-Ritz-digi-1.webp",
     "tags": [
       "featured"
     ]
@@ -584,12 +584,12 @@
       "d": 41.5
     },
     "category": [
-      "100x"
+      "200x"
     ],
     "lock_mechanism": [
       "digitel"
     ],
-    "image": "/images/100x/Godrej-Rhino-digi-1.webp",
+    "image": "/images/200x/Godrej-Rhino-digi-1.webp",
     "tags": [
       "featured"
     ]
@@ -627,12 +627,12 @@
       "d": 45
     },
     "category": [
-      "100x"
+      "200x"
     ],
     "lock_mechanism": [
       "keylock"
     ],
-    "image": "/images/100x/Godrej-Citadel-1.webp",
+    "image": "/images/200x/Godrej-Citadel-1.webp",
     "tags": [
       "featured"
     ]
@@ -648,12 +648,12 @@
       "d": 32
     },
     "category": [
-      "100x"
+      "200x"
     ],
     "lock_mechanism": [
       "biometric"
     ],
-    "image": "/images/100x/Godrej-Ritz-1.webp",
+    "image": "/images/200x/Godrej-Ritz-1.webp",
     "tags": [
       "featured"
     ]
@@ -688,12 +688,12 @@
       "d": 40.7
     },
     "category": [
-      "100x"
+      "200x"
     ],
     "lock_mechanism": [
       "keylock"
     ],
-    "image": "/images/100x/Godrej-Rhino-advanced-kl-1.webp",
+    "image": "/images/200x/Godrej-Rhino-advanced-kl-1.webp",
     "tags": [
       "featured"
     ]
@@ -810,12 +810,12 @@
       "d": 41.5
     },
     "category": [
-      "100x"
+      "200x"
     ],
     "lock_mechanism": [
       "digitel"
     ],
-    "image": "/images/100x/Godrej-Rhino-advanced-1.webp",
+    "image": "/images/200x/Godrej-Rhino-advanced-1.webp",
     "tags": [
       "featured"
     ]
@@ -831,12 +831,12 @@
       "d": 40.7
     },
     "category": [
-      "100x"
+      "200x"
     ],
     "lock_mechanism": [
       "keylock"
     ],
-    "image": "/images/100x/Godrej-Rhino-Regal-1.webp",
+    "image": "/images/200x/Godrej-Rhino-Regal-1.webp",
     "tags": [
       "featured"
     ]
@@ -1062,14 +1062,14 @@
       "d": 50
     },
     "category": [
-      "100x"
+      "200x"
     ],
     "lock_mechanism": [
       "digital",
       "biometric",
       "keylock"
     ],
-    "image": "/images/100x/Godrej-Nx-Advanced-160l-1.webp",
+    "image": "/images/200x/Godrej-Nx-Advanced-160l-1.webp",
     "tags": [
       "featured"
     ]
@@ -1108,14 +1108,14 @@
       "d": 50
     },
     "category": [
-      "100x"
+      "200x"
     ],
     "lock_mechanism": [
       "digital",
       "biometric",
       "keylock"
     ],
-    "image": "/images/100x/Godrej-Nx-Advanced-210l-1.webp",
+    "image": "/images/200x/Godrej-Nx-Advanced-210l-1.webp",
     "tags": [
       "featured"
     ]
@@ -1131,14 +1131,14 @@
       "d": 60
     },
     "category": [
-      "100x"
+      "200x"
     ],
     "lock_mechanism": [
       "digital",
       "biometric",
       "keylock"
     ],
-    "image": "/images/100x/Godrej-Nx-Advanced-370l-1.webp",
+    "image": "/images/200x/Godrej-Nx-Advanced-370l-1.webp",
     "tags": [
       "featured"
     ]
@@ -1154,14 +1154,14 @@
       "d": 60
     },
     "category": [
-      "100x"
+      "200x"
     ],
     "lock_mechanism": [
       "digital",
       "biometric",
       "keylock"
     ],
-    "image": "/images/100x/Godrej-Nx-Advanced-560L-1.webp",
+    "image": "/images/200x/Godrej-Nx-Advanced-560L-1.webp",
     "tags": [
       "featured"
     ]
