@@ -19,7 +19,7 @@ const categorie = [
     slug: "200x",
     image: "/images/200x/Godrej-Rhino-advanced-1.webp",
   },
-  { name: "10x", slug: "10x", image: "/images/200x/Godrej-Citadel-1.webp" },
+  { name: "10x", slug: "10x", image: "/images/10x/godrej-nx-pro-30l-digi-1.webp" },
   { name: "Gifts", slug: "gift", image: "/images/gift/dreambox-red-1.webp" },
   {
     name: "Fire Proof",
