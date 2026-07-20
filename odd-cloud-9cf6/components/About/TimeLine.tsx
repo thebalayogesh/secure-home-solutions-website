@@ -2,23 +2,23 @@ export default function Timeline() {
   const timelineData = [
     {
       year: "2017",
-      desc: "Infocus Security Solutions is born with one mission: ensuring your peace of mind."
+      desc: "Infocus Security Solutions is Founded with a mission: ensuring your peace of mind."
     },
     {
       year: "2019",
-      desc: "Expanded our expertise: CCTV & advanced security solutions for every need."
+      desc: "Expanded our expertise with CCTV surveillance and advanced security solutions."
     },
     {
       year: "2021",
-      desc: "Building trust: served large projects, dealers, and institutions with unmatched reliability."
+      desc: "Expanded our retail presence and built lasting trust by successfully serving businesses, institutions, dealers, and residential customers."
     },
     {
       year: "2023",
-      desc: "Direct-to-home security made simple: launched Secure Home Solutions, our dedicated B2C brand."
+      desc: "After years of protecting businesses and institutions, we founded Secure Home Solutions to bring the same trusted security expertise directly to homeowners."
     },
     {
       year: "2025",
-      desc: "Trusted in Chennai: thousands of happy customers rely on our customer-first approach and expert team."
+      desc: "Became one of Chennai's trusted security solution providers, earning the confidence of thousands of satisfied customers."
     },
   ];
 

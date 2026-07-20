@@ -1,543 +1,355 @@
-[{
-  "id": "1",
-  "name": "Godrej Matrix 3016 (Digi+KL)",
-  "price": "167499",
-  "size": [
-    "(cm) 90.3(h) x 53.6(w) x 54.7(d)",
-    "(mm) 903(h) x 536(w) x 547(d)"
-  ],
-  "weight": "210kg",
-  "volume": "112L",
-  "category": ["300x"],
-  "slug": "godrej-matrix-3016-digi-kl",
-  "description": "The Godrej Matrix 3016 (Digi+KL) is the pinnacle of high-security home lockers in India, engineered for those who demand maximum protection for gold jewellery, heritage documents, and significant cash reserves. As the flagship of the 300x Extreme range, it offers 250 times more resistance to burglary than standard steel cupboards. This locker safe for home and office combines a heavy-duty double-wall body with an armored anti-drill plate, ensuring your assets remain untouched by even the most persistent intruders.\n\nFeatures:\n- Dual-Authentication Security: Features a master-user digital keypad paired with a high-precision mechanical key lock for redundant protection.\n- 300x Burglary Resistance: Independently certified for extreme strength and forced-entry deterrence.\n- Advanced Armor: Patented double-wall steel construction with a secondary re-locking device that triggers during tampering.\n- High-Volume Storage: Spaciously designed to accommodate multiple jewellery trays, A4 legal folders, and bulky electronics.\n- Climate-Resistant Finish: Premium anti-corrosion powder coating ensures long-lasting durability in humid Indian coastal regions.\n\nSpecifications:\n- Dimensions: 90.3 cm (H) x 53.6 cm (W) x 54.7 cm (D)\n- Security Rating: 300x Extreme Burglary Resistance\n- Weight: 210 kg (Heavy-Duty Anchoring Ready)\n- Interior Capacity: 112 Liters\n- Lock Types: Programmable Digital Keypad + Mechanical Key Override",
-  "images": [
-    "/images/300x/Godrej-Matrix-3016-1.webp",
-    "/images/300x/Godrej-Matrix-3016-2.webp"
-  ],
-  "tags": ["best-seller", "featured", "high-security"],
-  "lock_mechanism": ["digital", "keylock"]
-},
+[
   {
-  "id": "2",
-  "name": "Godrej Matrix 3016 (KL)",
-  "price": "124949",
-  "size": [
-    "(cm) 90.3(h) x 53.6(w) x 54.7(d)",
-    "(mm) 903(h) x 536(w) x 547(d)"
-  ],
-  "weight": "210kg",
-  "volume": "112L",
-  "category": [
-    "300x"
-  ],
-  "slug": "godrej-matrix-3016-kl",
-  "description": "The Godrej Matrix 3016 (KL) is an elite-grade mechanical security safe designed for those who prioritize traditional reliability and extreme burglary resistance. Part of the legendary 300x range, this high-security home locker is independently certified to offer 250 times more resistance than standard steel cabinets. Featuring a robust double-wall construction and a high-precision mechanical key lock, it is the ideal choice for jewellery retailers, heritage homes, and offices seeking a battery-free, zero-maintenance security solution for gold, legal documents, and high-value assets.\n\nFeatures:\n- 300x Extreme Security: Certified burglary resistance that is 250 times stronger than conventional cupboards.\n- Mechanical Precision: High-security 6-lever key lock system for dependable, battery-independent operation.\n- Armor-Plated Protection: Patented double-wall steel body integrated with an anti-drill plate to thwart forced entry attempts.\n- Multi-Point Boltwork: Precision-engineered locking bolts ensure a secure, tamper-proof door seal.\n- Large Storage Capacity: 112-liter interior comfortably accommodates large jewellery trays and A4 document folders.\n\nSpecifications:\n- Dimensions: 90.3 cm (H) x 53.6 cm (W) x 54.7 cm (D)\n- Weight: 210 kg (Heavy-duty construction for maximum stability)\n- Volume: 112 Liters\n- Lock Type: Mechanical Key Lock (Precision 6-Lever System)\n- Security Rating: 300x Extreme Burglary Resistance",
-  "images": [
-    "/images/300x/Godrej-Matrix-3016-kl-1.webp",
-    "/images/300x/Godrej-Matrix-3016-kl-2.webp"
-  ],
-  "tags": [
-    "best-seller",
-    "featured"
-  ],
-  "lock_mechanism": [
-    "keylock"
-  ]
-},{
-  "id": "3",
-  "name": "Godrej Matrix 2414 (Digi+KL)",
-  "price": "144749",
-  "size": [
-    "(cm)74.8(h)x48.6(w)x54.7(d)",
-    "(mm)748(h)x486(w)x547(d)"
-  ],
-  "weight": "175kg",
-  "volume": "78L",
-  "category": [
-    "300x"
-  ],
-  "slug": "godrej-matrix-2414-digi-kl",
-  "description": "The Godrej Matrix 2414 (Digi+KL) is a high-performance, mid-sized security safe engineered to deliver 300x-rated extreme burglary resistance. Designed specifically for luxury apartments, master bedrooms, and small business offices, this safe offers a compact yet robust solution for protecting gold jewellery, precious stones, and critical family documents. Its dual-mode locking system provides both the modern convenience of digital access and the fail-safe security of a mechanical key override, ensuring your valuables remain protected under a patented double-wall steel armor.\n\nFeatures:\n- 300x Extreme Strength: Independently certified to offer 250 times the resistance of a standard steel cabinet against forced entry.\n- Dual-Authentication Access: Equipped with a programmable digital keypad and a high-security mechanical key lock for double-layered protection.\n- Anti-Pry & Anti-Drill Design: Features reinforced anti-pry door edges and an integrated anti-drill plate to shield the locking mechanism from tampering.\n- Space-Optimized Security: Delivers maximum-grade protection in a compact 78L form factor, perfect for wardrobe or cupboard installations.\n- Premium Aesthetic Finish: Durable powder-coated exterior that resists corrosion and fits seamlessly into modern home interiors.\n\nSpecifications:\n- Dimensions: 74.8 cm (H) x 48.6 cm (W) x 54.7 cm (D)\n- Weight: 175 kg (Engineered for high-stability and secure anchoring)\n- Volume: 78 Liters\n- Lock Types: Digital PIN Code + Emergency Mechanical Key Override\n- Security Rating: 300x Extreme Burglary Resistance",
-  "images": [
-    "/images/300x/Godrej-Matrix-2414-1.webp",
-    "/images/300x/Godrej-Matrix-2414-2.webp"
-  ],
-  "tags": [
-    "best-seller",
-    "featured"
-  ],
-  "lock_mechanism": [
-    "digital",
-    "keylock"
-  ]
-}, 
+    "id": "1",
+    "name": "Godrej Matrix 3016 (Digi+KL)",
+    "price": "140899",
+    "size": [
+      "(cm) 90.3(h) x 53.6(w) x 54.7(d)",
+      "(mm) 903(h) x 536(w) x 547(d)"
+    ],
+    "weight": "210kg",
+    "volume": "112L",
+    "category": ["250x"],
+    "slug": "godrej-matrix-3016-digi-kl",
+    "description": "The Godrej Matrix 3016 (Digi+KL) is the pinnacle of high-security home lockers in India, engineered for those who demand maximum protection for gold jewellery, heritage documents, and significant cash reserves. As the flagship of the 250X Extreme range, it offers 250 times more resistance to burglary than standard steel cupboards. This locker safe for home and office combines a heavy-duty double-wall body with an armored anti-drill plate, ensuring your assets remain untouched by even the most persistent intruders.\n\nFeatures:\n- Dual-Authentication Security: Features a master-user digital keypad paired with a high-precision mechanical key lock for redundant protection.\n- 250X Burglary Resistance: Independently certified for extreme strength and forced-entry deterrence.\n- Advanced Armor: Patented double-wall steel construction with a secondary re-locking device that triggers during tampering.\n- High-Volume Storage: Spaciously designed to accommodate multiple jewellery trays, A4 legal folders, and bulky electronics.\n- Climate-Resistant Finish: Premium anti-corrosion powder coating ensures long-lasting durability in humid Indian coastal regions.\n\nSpecifications:\n- Dimensions: 90.3 cm (H) x 53.6 cm (W) x 54.7 cm (D)\n- Security Rating: 250X Extreme Burglary Resistance\n- Weight: 210 kg (Heavy-Duty Anchoring Ready)\n- Interior Capacity: 112 Liters\n- Lock Types: Programmable Digital Keypad + Mechanical Key Override",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016-1.webp",
+      "/images/250x/Godrej-Matrix-3016-2.webp"
+    ],
+    "tags": ["best-seller", "featured", "high-security"],
+    "lock_mechanism": ["digital", "keylock"]
+  },
+  {
+    "id": "2",
+    "name": "Godrej Matrix 3016 (KL)",
+    "price": "106199",
+    "size": [
+      "(cm) 90.3(h) x 53.6(w) x 54.7(d)",
+      "(mm) 903(h) x 536(w) x 547(d)"
+    ],
+    "weight": "210kg",
+    "volume": "112L",
+    "category": ["250x"],
+    "slug": "godrej-matrix-3016-kl",
+    "description": "The Godrej Matrix 3016 (KL) is an elite-grade mechanical security safe designed for those who prioritize traditional reliability and extreme burglary resistance. Part of the legendary 250X range, this high-security home locker is independently certified to offer 250 times more resistance than standard steel cabinets. Featuring a robust double-wall construction and a high-precision mechanical key lock, it is the ideal choice for jewellery retailers, heritage homes, and offices seeking a battery-free, zero-maintenance security solution for gold, legal documents, and high-value assets.\n\nFeatures:\n- 250X Extreme Security: Certified burglary resistance that is 250 times stronger than conventional cupboards.\n- Mechanical Precision: High-security 6-lever key lock system for dependable, battery-independent operation.\n- Armor-Plated Protection: Patented double-wall steel body integrated with an anti-drill plate to thwart forced entry attempts.\n- Multi-Point Boltwork: Precision-engineered locking bolts ensure a secure, tamper-proof door seal.\n- Large Storage Capacity: 112-liter interior comfortably accommodates large jewellery trays and A4 document folders.\n\nSpecifications:\n- Dimensions: 90.3 cm (H) x 53.6 cm (W) x 54.7 cm (D)\n- Weight: 210 kg (Heavy-duty construction for maximum stability)\n- Volume: 112 Liters\n- Lock Type: Mechanical Key Lock (Precision 6-Lever System)\n- Security Rating: 250X Extreme Burglary Resistance",
+    "images": [
+      "/images/250x/Godrej-Matrix-3016-kl-1.webp",
+      "/images/250x/Godrej-Matrix-3016-kl-2.webp"
+    ],
+    "tags": ["best-seller", "featured"],
+    "lock_mechanism": ["keylock"]
+  },
+  {
+    "id": "3",
+    "name": "Godrej Matrix 2414 (Digi+KL)",
+    "price": "119499",
+    "size": ["(cm)74.8(h)x48.6(w)x54.7(d)", "(mm)748(h)x486(w)x547(d)"],
+    "weight": "175kg",
+    "volume": "78L",
+    "category": ["250x"],
+    "slug": "godrej-matrix-2414-digi-kl",
+    "description": "The Godrej Matrix 2414 (Digi+KL) is a high-performance, mid-sized security safe engineered to deliver 250X-rated extreme burglary resistance. Designed specifically for luxury apartments, master bedrooms, and small business offices, this safe offers a compact yet robust solution for protecting gold jewellery, precious stones, and critical family documents. Its dual-mode locking system provides both the modern convenience of digital access and the fail-safe security of a mechanical key override, ensuring your valuables remain protected under a patented double-wall steel armor.\n\nFeatures:\n- 250X Extreme Strength: Independently certified to offer 250 times the resistance of a standard steel cabinet against forced entry.\n- Dual-Authentication Access: Equipped with a programmable digital keypad and a high-security mechanical key lock for double-layered protection.\n- Anti-Pry & Anti-Drill Design: Features reinforced anti-pry door edges and an integrated anti-drill plate to shield the locking mechanism from tampering.\n- Space-Optimized Security: Delivers maximum-grade protection in a compact 78L form factor, perfect for wardrobe or cupboard installations.\n- Premium Aesthetic Finish: Durable powder-coated exterior that resists corrosion and fits seamlessly into modern home interiors.\n\nSpecifications:\n- Dimensions: 74.8 cm (H) x 48.6 cm (W) x 54.7 cm (D)\n- Weight: 175 kg (Engineered for high-stability and secure anchoring)\n- Volume: 78 Liters\n- Lock Types: Digital PIN Code + Emergency Mechanical Key Override\n- Security Rating: 250X Extreme Burglary Resistance",
+    "images": [
+      "/images/250x/Godrej-Matrix-2414-1.webp",
+      "/images/250x/Godrej-Matrix-2414-2.webp"
+    ],
+    "tags": ["best-seller", "featured"],
+    "lock_mechanism": ["digital", "keylock"]
+  },
   {
     "id": "4",
     "name": "Godrej Matrix 2414 (KL)",
-    "price": "105299",
-    "size": [
-      "(cm)74.8(h)x48.6(w)x54.7(d)",
-      "(mm)748(h)x486(w)x547(d)"
-    ],
+    "price": "90199",
+    "size": ["(cm)74.8(h)x48.6(w)x54.7(d)", "(mm)748(h)x486(w)x547(d)"],
     "weight": "175kg",
     "volume": "78L",
-    "category": [
-      "300x"
-    ],
+    "category": ["250x"],
     "slug": "godrej-matrix-2414-kl",
-    "description": "The Godrej Matrix 2414 (KL) is a heavy-duty mechanical security safe designed for those who value absolute reliability and battery-free operation. Part of the elite 300x range, this safe is independently certified to provide 250 times the burglary resistance of standard steel cabinets. It is the perfect high-security solution for apartment residents, small offices, and jewellery retailers who require a dependable mechanical locking system to protect gold ornaments, legal property documents, and cash reserves without the complexity of electronic components.\n\nFeatures:\n- 300x Certified Protection: Engineered for extreme burglary resistance, offering maximum security against forced entry and prying.\n- Mechanical Precision: High-security 6-lever mechanical key lock ensures consistent performance without the need for batteries or electronic maintenance.\n- Armored Construction: Built with patented double-wall steel and an integrated anti-drill plate to protect the locking mechanism from sophisticated attacks.\n- Versatile Mid-Size Design: The 78-liter capacity is ideal for home wardrobes and office cabinets, providing ample space for A4 files and jewellery trays.\n- Anti-Pry Door Edges: Reinforced door design with minimal gaps to deter the use of crowbars and tampering tools.\n\nSpecifications:\n- Dimensions: 74.8 cm (H) x 48.6 cm (W) x 54.7 cm (D)\n- Weight: 175 kg (Heavy-gauge steel for superior stability and anchoring)\n- Volume: 78 Liters\n- Lock Type: Mechanical Key Lock (High-Security 6-Lever System)\n- Security Rating: 300x Extreme Burglary Resistance",
+    "description": "The Godrej Matrix 2414 (KL) is a heavy-duty mechanical security safe designed for those who value absolute reliability and battery-free operation. Part of the elite 250X range, this safe is independently certified to provide 250 times the burglary resistance of standard steel cabinets. It is the perfect high-security solution for apartment residents, small offices, and jewellery retailers who require a dependable mechanical locking system to protect gold ornaments, legal property documents, and cash reserves without the complexity of electronic components.\n\nFeatures:\n- 250X Certified Protection: Engineered for extreme burglary resistance, offering maximum security against forced entry and prying.\n- Mechanical Precision: High-security 6-lever mechanical key lock ensures consistent performance without the need for batteries or electronic maintenance.\n- Armored Construction: Built with patented double-wall steel and an integrated anti-drill plate to protect the locking mechanism from sophisticated attacks.\n- Versatile Mid-Size Design: The 78-liter capacity is ideal for home wardrobes and office cabinets, providing ample space for A4 files and jewellery trays.\n- Anti-Pry Door Edges: Reinforced door design with minimal gaps to deter the use of crowbars and tampering tools.\n\nSpecifications:\n- Dimensions: 74.8 cm (H) x 48.6 cm (W) x 54.7 cm (D)\n- Weight: 175 kg (Heavy-gauge steel for superior stability and anchoring)\n- Volume: 78 Liters\n- Lock Type: Mechanical Key Lock (High-Security 6-Lever System)\n- Security Rating: 250X Extreme Burglary Resistance",
     "images": [
-      "/images/300x/Godrej-Matrix-2414-kl-1.webp",
-      "/images/300x/Godrej-Matrix-2414-kl-2.webp"
+      "/images/250x/Godrej-Matrix-2414-kl-1.webp",
+      "/images/250x/Godrej-Matrix-2414-kl-2.webp"
     ],
-    "tags": [
-      "best-seller",
-      "featured"
-    ],
-    "lock_mechanism": [
-      "keylock"
-    ]
+    "tags": ["best-seller", "featured"],
+    "lock_mechanism": ["keylock"]
   },
   {
     "id": "5",
     "name": "Godrej Matrix 1814 (Digi)",
-    "price": "104299",
-    "size": [
-      "(cm)59.6(h)x48.6(w)x54.7(d)",
-      "(mm)596(h)x486(w)x547(d)"
-    ],
+    "price": "96299",
+    "size": ["(cm)59.6(h)x48.6(w)x54.7(d)", "(mm)596(h)x486(w)x547(d)"],
     "weight": "145kg",
     "volume": "59L",
-    "category": [
-      "300x"
-    ],
+    "category": ["250x"],
     "slug": "godrej-matrix-1814-digi-kl",
-    "description": "The Godrej Matrix 1814 (Digi) is an ultra-secure, compact home safe engineered for maximum protection within limited spaces. As part of the elite 300x series, it is independently certified to provide 250 times the resistance of standard steel cupboards against burglary and forced entry. This model is the perfect security solution for modern urban homes and small offices, offering a high-tech digital locking system to safeguard expensive jewellery, cash, and digital assets. Its heavy-duty construction ensures that even in its compact 59L form, it delivers the same legendary strength as larger Matrix models.\n\nFeatures:\n- 300x Extreme Burglary Resistance: Certified high-grade protection designed to withstand aggressive prying and tampering.\n- Intelligent Digital Locking: Features a programmable master and user code system with a secondary mechanical override for total access control.\n- Patented Double-Wall Armor: Constructed with high-density steel walls and an integrated anti-drill plate to protect internal locking bolt-work.\n- Compact & Discreet: Its optimized height makes it ideal for placement inside wardrobes, under desks, or within bedroom cabinets.\n- Secondary Re-locking Device: An advanced safety feature that automatically deadlocks the safe if the primary lock is compromised during a burglary attempt.\n\nSpecifications:\n- Dimensions: 59.6 cm (H) x 48.6 cm (W) x 54.7 cm (D)\n- Weight: 145 kg (Heavy-duty build for superior stability and anti-theft anchoring)\n- Volume: 59 Liters\n- Lock Type: Advanced Digital Keypad with Emergency Mechanical Key\n- Security Rating: 300x Extreme Strength Burglary Resistance",
+    "description": "The Godrej Matrix 1814 (Digi) is an ultra-secure, compact home safe engineered for maximum protection within limited spaces. As part of the elite 250X series, it is independently certified to provide 250 times the resistance of standard steel cupboards against burglary and forced entry. This model is the perfect security solution for modern urban homes and small offices, offering a high-tech digital locking system to safeguard expensive jewellery, cash, and digital assets. Its heavy-duty construction ensures that even in its compact 59L form, it delivers the same legendary strength as larger Matrix models.\n\nFeatures:\n- 250X Extreme Burglary Resistance: Certified high-grade protection designed to withstand aggressive prying and tampering.\n- Intelligent Digital Locking: Features a programmable master and user code system with a secondary mechanical override for total access control.\n- Patented Double-Wall Armor: Constructed with high-density steel walls and an integrated anti-drill plate to protect internal locking bolt-work.\n- Compact & Discreet: Its optimized height makes it ideal for placement inside wardrobes, under desks, or within bedroom cabinets.\n- Secondary Re-locking Device: An advanced safety feature that automatically deadlocks the safe if the primary lock is compromised during a burglary attempt.\n\nSpecifications:\n- Dimensions: 59.6 cm (H) x 48.6 cm (W) x 54.7 cm (D)\n- Weight: 145 kg (Heavy-duty build for superior stability and anti-theft anchoring)\n- Volume: 59 Liters\n- Lock Type: Advanced Digital Keypad with Emergency Mechanical Key\n- Security Rating: 250X Extreme Strength Burglary Resistance",
     "images": [
-      "/images/300x/Godrej-Matrix-1814-1.webp",
-      "/images/300x/Godrej-Matrix-1814-2.webp"
+      "/images/250x/Godrej-Matrix-1814-1.webp",
+      "/images/250x/Godrej-Matrix-1814-2.webp"
     ],
-    "tags": [
-      "best-seller",
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital",
-      "keylock"
-    ]
+    "tags": ["best-seller", "featured"],
+    "lock_mechanism": ["digital", "keylock"]
   },
   {
     "id": "6",
     "name": "Godrej Matrix 1814 (KL)",
-    "price": "87599",
-    "size": [
-      "(cm)59.6(h)x48.6(w)x54.7(d)",
-      "(mm)596(h)x486(w)x547(d)"
-    ],
+    "price": "85099",
+    "size": ["(cm)59.6(h)x48.6(w)x54.7(d)", "(mm)596(h)x486(w)x547(d)"],
     "weight": "145kg",
     "volume": "59L",
-    "category": [
-      "300x"
-    ],
+    "category": ["250x"],
     "slug": "godrej-matrix-1814-kl",
-    "description": "The Godrej Matrix 1814 (KL) is a heavy-duty mechanical safe that brings extreme-strength security to a compact form factor. Engineered for those who prefer mechanical certainty over electronic systems, this safe belongs to the 300x range, offering 250 times the resistance of standard steel cupboards. It is the perfect high-security locker for protecting gold jewellery, precious stones, and critical family documents in homes or offices where space is limited but security cannot be compromised. The battery-free operation ensures that your valuables are accessible at all times without the need for power or maintenance.\n\nFeatures:\n- 300x Extreme Strength: Certified protection against forced entry, drilling, and prying attempts, exceeding standard safety benchmarks.\n- Precision Key Locking: High-security mechanical 6-lever lock provides robust, battery-independent security for total peace of mind.\n- Armor-Plated Body: Patented double-wall steel construction with an integrated anti-drill plate specifically designed to protect the locking bolt-work.\n- Compact & Wardrobe-Ready: Optimized dimensions allow for discreet installation inside bedroom cupboards, shelves, or under desks.\n- Multi-Point Boltwork: Precision shooting bolts provide a firm, tamper-proof seal when the door is locked, deterring aggressive physical attacks.\n\nSpecifications:\n- Dimensions: 59.6 cm (H) x 48.6 cm (W) x 54.7 cm (D)\n- Weight: 145 kg (Heavy-gauge build ensures superior stability and anchoring capabilities)\n- Volume: 59 Liters\n- Lock Type: High-Security Mechanical Key Lock\n- Security Rating: 300x Extreme Burglary Resistance",
+    "description": "The Godrej Matrix 1814 (KL) is a heavy-duty mechanical safe that brings extreme-strength security to a compact form factor. Engineered for those who prefer mechanical certainty over electronic systems, this safe belongs to the 250X range, offering 250 times the resistance of standard steel cupboards. It is the perfect high-security locker for protecting gold jewellery, precious stones, and critical family documents in homes or offices where space is limited but security cannot be compromised. The battery-free operation ensures that your valuables are accessible at all times without the need for power or maintenance.\n\nFeatures:\n- 250X Extreme Strength: Certified protection against forced entry, drilling, and prying attempts, exceeding standard safety benchmarks.\n- Precision Key Locking: High-security mechanical 6-lever lock provides robust, battery-independent security for total peace of mind.\n- Armor-Plated Body: Patented double-wall steel construction with an integrated anti-drill plate specifically designed to protect the locking bolt-work.\n- Compact & Wardrobe-Ready: Optimized dimensions allow for discreet installation inside bedroom cupboards, shelves, or under desks.\n- Multi-Point Boltwork: Precision shooting bolts provide a firm, tamper-proof seal when the door is locked, deterring aggressive physical attacks.\n\nSpecifications:\n- Dimensions: 59.6 cm (H) x 48.6 cm (W) x 54.7 cm (D)\n- Weight: 145 kg (Heavy-gauge build ensures superior stability and anchoring capabilities)\n- Volume: 59 Liters\n- Lock Type: High-Security Mechanical Key Lock\n- Security Rating: 250X Extreme Burglary Resistance",
     "images": [
-      "/images/300x/Godrej-Matrix-1814-kl-1.webp",
-      "/images/300x/Godrej-Matrix-1814-kl-2.webp"
+      "/images/250x/Godrej-Matrix-1814-kl-1.webp",
+      "/images/250x/Godrej-Matrix-1814-kl-2.webp"
     ],
-    "tags": [
-      "best-seller",
-      "featured"
-    ],
-    "lock_mechanism": [
-      "keylock"
-    ]
+    "tags": ["best-seller", "featured"],
+    "lock_mechanism": ["keylock"]
   },
   {
     "id": "7",
     "name": "Godrej Presidio (KL)",
     "price": "69999",
-    "size": [
-      "(cm)61.3(h)x43(w)x43(d)",
-      "(mm)613(h)x430(w)x430(d)"
-    ],
+    "size": ["(cm)61.3(h)x43(w)x43(d)", "(mm)613(h)x430(w)x430(d)"],
     "weight": "98kg",
     "volume": "48.9L",
-    "category": [
-      "300x"
-    ],
+    "category": ["250x"],
     "slug": "godrej-presidio-kl",
-    "description": "The Godrej Presidio (KL) serves as the sophisticated entry point into the elite 300x extreme-strength security family. Engineered for homeowners and businesses seeking certified maximum-grade burglary resistance at a competitive price, this safe offers unparalleled protection against forced entry. Built with a reinforced solid steel body and a high-security mechanical locking system, the Presidio is the perfect choice for first-time safe buyers or as a secondary office safe for securing cash reserves and essential legal documents without the need for electronic maintenance.\n\nFeatures:\n- 300x Certified Security: Offers 250 times the resistance of standard steel cupboards, providing elite protection for your most valuable assets.\n- High-Security Mechanical Lock: Features a precision-engineered key lock system for reliable, battery-free operation and long-term durability.\n- Reinforced Solid Steel Construction: Fabricated with heavy-duty steel plates designed to resist aggressive drilling and prying attempts.\n- Compact & Efficient Design: The 48.9L capacity is perfectly sized for document folders, cash boxes, and precious jewellery sets.\n- Robust Multi-Point Boltwork: Equipped with heavy-duty shooting bolts that provide a secure, tamper-resistant seal upon locking.\n\nSpecifications:\n- Dimensions: 61.3 cm (H) x 43.0 cm (W) x 43.0 cm (D)\n- Weight: 98 kg (Solid steel build optimized for stability and secure floor anchoring)\n- Volume: 48.9 Liters\n- Lock Type: High-Security Mechanical Key Lock\n- Security Rating: 300x Extreme Burglary Resistance",
+    "description": "The Godrej Presidio (KL) serves as the sophisticated entry point into the elite 250X extreme-strength security family. Engineered for homeowners and businesses seeking certified maximum-grade burglary resistance at a competitive price, this safe offers unparalleled protection against forced entry. Built with a reinforced solid steel body and a high-security mechanical locking system, the Presidio is the perfect choice for first-time safe buyers or as a secondary office safe for securing cash reserves and essential legal documents without the need for electronic maintenance.\n\nFeatures:\n- 250X Certified Security: Offers 250 times the resistance of standard steel cupboards, providing elite protection for your most valuable assets.\n- High-Security Mechanical Lock: Features a precision-engineered key lock system for reliable, battery-free operation and long-term durability.\n- Reinforced Solid Steel Construction: Fabricated with heavy-duty steel plates designed to resist aggressive drilling and prying attempts.\n- Compact & Efficient Design: The 48.9L capacity is perfectly sized for document folders, cash boxes, and precious jewellery sets.\n- Robust Multi-Point Boltwork: Equipped with heavy-duty shooting bolts that provide a secure, tamper-resistant seal upon locking.\n\nSpecifications:\n- Dimensions: 61.3 cm (H) x 43.0 cm (W) x 43.0 cm (D)\n- Weight: 98 kg (Solid steel build optimized for stability and secure floor anchoring)\n- Volume: 48.9 Liters\n- Lock Type: High-Security Mechanical Key Lock\n- Security Rating: 250X Extreme Burglary Resistance",
     "images": [
-      "/images/300x/Godrej-Presidio-1.webp",
-      "/images/300x/Godrej-Presidio-2.webp"
+      "/images/250x/Godrej-Presidio-1.webp",
+      "/images/250x/Godrej-Presidio-2.webp"
     ],
-    "tags": [
-      "best-seller",
-      "featured"
-    ],
-    "lock_mechanism": [
-      "keylock"
-    ]
+    "tags": ["best-seller", "featured"],
+    "lock_mechanism": ["keylock"]
   },
   {
     "id": "8",
     "name": "Godrej Nx Advanced 560L (Digi+Bio+KL)",
-    "price": "261199",
-    "size": [
-      "(cm)158(h)x70(w)x60(d)",
-      "(mm)1580(h)x700(w)x600(d)"
-    ],
+    "price": "241849",
+    "size": ["(cm)158(h)x70(w)x60(d)", "(mm)1580(h)x700(w)x600(d)"],
     "weight": "270kg",
     "volume": "560L",
-    "category": [
-      "200x"
-    ],
+    "category": ["100x"],
     "slug": "godrej-nx-advanced-560l-digi-bio-kl",
-    "description": "The Godrej Nx Advanced 560L is the ultimate high-capacity security solution, designed for large family homes, luxury villas, and corporate offices. As the largest model in the 200x advanced range, it offers 100 times more burglary resistance than standard steel cupboards. This powerhouse safe features a sophisticated triple-authentication system—Biometric, Digital, and Mechanical Key—ensuring that access is always fast, secure, and failsafe. With its massive 560-litre interior, it is specifically engineered to store extensive document collections, multiple jewellery trays, laptops, and high-end camera equipment, providing complete peace of mind through advanced anti-tamper technology.\n\nFeatures:\n- Triple-Authentication Access: Secure entry via high-precision biometric fingerprint scanner, programmable digital keypad, and emergency mechanical key.\n- 200x Advanced Strength: Certified reinforced steel construction designed to resist forced entry attempts and common burglary tools.\n- Massive 560L Capacity: Expansive storage space with multi-tier shelving, ideal for large-scale asset management and bulk document storage.\n- Anti-Tamper Alarm System: Intelligent built-in buzzer that triggers upon unauthorized access attempts or repeated incorrect code entries.\n- Premium Interior LED: Automatic internal lighting ensures clear visibility of your valuables even in low-light environments.\n\nSpecifications:\n- Dimensions: 158.0 cm (H) x 70.0 cm (W) x 60.0 cm (D)\n- Weight: 270 kg (High-stability build with heavy-duty floor anchoring support)\n- Volume: 560 Liters\n- Lock Types: Fingerprint (Biometric) + Digital PIN + Master Key Lock\n- Security Rating: 200x Advanced Burglary Resistance",
+    "description": "The Godrej Nx Advanced 560L is the ultimate high-capacity security solution, designed for large family homes, luxury villas, and corporate offices. As the largest model in the 100X advanced range, it offers 100 times more burglary resistance than standard steel cupboards. This powerhouse safe features a sophisticated triple-authentication system—Biometric, Digital, and Mechanical Key—ensuring that access is always fast, secure, and failsafe. With its massive 560-litre interior, it is specifically engineered to store extensive document collections, multiple jewellery trays, laptops, and high-end camera equipment, providing complete peace of mind through advanced anti-tamper technology.\n\nFeatures:\n- Triple-Authentication Access: Secure entry via high-precision biometric fingerprint scanner, programmable digital keypad, and emergency mechanical key.\n- 100X Advanced Strength: Certified reinforced steel construction designed to resist forced entry attempts and common burglary tools.\n- Massive 560L Capacity: Expansive storage space with multi-tier shelving, ideal for large-scale asset management and bulk document storage.\n- Anti-Tamper Alarm System: Intelligent built-in buzzer that triggers upon unauthorized access attempts or repeated incorrect code entries.\n- Premium Interior LED: Automatic internal lighting ensures clear visibility of your valuables even in low-light environments.\n\nSpecifications:\n- Dimensions: 158.0 cm (H) x 70.0 cm (W) x 60.0 cm (D)\n- Weight: 270 kg (High-stability build with heavy-duty floor anchoring support)\n- Volume: 560 Liters\n- Lock Types: Fingerprint (Biometric) + Digital PIN + Master Key Lock\n- Security Rating: 100X Advanced Burglary Resistance",
     "images": [
-      "/images/200x/Godrej-Nx-Advanced-560L-1.webp",
-      "/images/200x/Godrej-Nx-Advanced-560L-2.webp"
+      "/images/100x/Godrej-Nx-Advanced-560L-1.webp",
+      "/images/100x/Godrej-Nx-Advanced-560L-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital",
-      "biometric",
-      "keylock"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digital", "biometric", "keylock"]
   },
   {
     "id": "9",
     "name": "Godrej Nx Advanced 370L (Digi+Bio+KL)",
-    "price": "213949",
-    "size": [
-      "(cm)125(h)x60(w)x60(d)",
-      "(mm)1250(h)x600(w)x600(d)"
-    ],
+    "price": "199949",
+    "size": ["(cm)125(h)x60(w)x60(d)", "(mm)1250(h)x600(w)x600(d)"],
     "weight": "200kg",
     "volume": "370L",
-    "category": [
-      "200x"
-    ],
+    "category": ["100x"],
     "slug": "godrej-nx-advanced-370l-digi-bio-kl",
-    "description": "The Godrej Nx Advanced 370L is a high-capacity, advanced-strength security safe designed for those who require significant storage without compromising on modern access technology. Part of the 200x range, this safe is certified to offer 100 times the burglary resistance of standard cabinets. It features a sophisticated triple-authentication system—Biometric (Fingerprint), Digital (PIN), and Mechanical Key—making it an ideal choice for large households, small offices, and retail businesses that need to secure bulkier items like laptops, large document binders, and extensive jewellery collections.\n\nFeatures:\n- Triple Access Security: Maximum flexibility and security with a high-speed biometric scanner, programmable digital keypad, and emergency mechanical key override.\n- 200x Advanced Strength: Reinforced steel body construction designed to withstand forced entry attempts and heavy-duty usage.\n- Large 370L Capacity: Expansive vertical storage space featuring multi-tier shelves for organized management of business ledgers and family assets.\n- Smart Anti-Tamper Alarm: Integrated security buzzer that activates upon unauthorized vibration or repeated incorrect code entries.\n- Premium Build Quality: Finished with a scratch-resistant powder coating to ensure long-term durability and a professional aesthetic.\n\nSpecifications:\n- Dimensions: 125.0 cm (H) x 60.0 cm (W) x 60.0 cm (D)\n- Weight: 200 kg (Heavy-duty floor anchoring ready for enhanced theft prevention)\n- Volume: 370 Liters\n- Lock Types: Biometric Fingerprint + Digital Keypad + Master Key Lock\n- Security Rating: 200x Advanced Burglary Resistance",
+    "description": "The Godrej Nx Advanced 370L is a high-capacity, advanced-strength security safe designed for those who require significant storage without compromising on modern access technology. Part of the 100X range, this safe is certified to offer 100 times the burglary resistance of standard cabinets. It features a sophisticated triple-authentication system—Biometric (Fingerprint), Digital (PIN), and Mechanical Key—making it an ideal choice for large households, small offices, and retail businesses that need to secure bulkier items like laptops, large document binders, and extensive jewellery collections.\n\nFeatures:\n- Triple Access Security: Maximum flexibility and security with a high-speed biometric scanner, programmable digital keypad, and emergency mechanical key override.\n- 100X Advanced Strength: Reinforced steel body construction designed to withstand forced entry attempts and heavy-duty usage.\n- Large 370L Capacity: Expansive vertical storage space featuring multi-tier shelves for organized management of business ledgers and family assets.\n- Smart Anti-Tamper Alarm: Integrated security buzzer that activates upon unauthorized vibration or repeated incorrect code entries.\n- Premium Build Quality: Finished with a scratch-resistant powder coating to ensure long-term durability and a professional aesthetic.\n\nSpecifications:\n- Dimensions: 125.0 cm (H) x 60.0 cm (W) x 60.0 cm (D)\n- Weight: 200 kg (Heavy-duty floor anchoring ready for enhanced theft prevention)\n- Volume: 370 Liters\n- Lock Types: Biometric Fingerprint + Digital Keypad + Master Key Lock\n- Security Rating: 100X Advanced Burglary Resistance",
     "images": [
-      "/images/200x/Godrej-Nx-Advanced-370l-1.webp",
-      "/images/200x/Godrej-Nx-Advanced-370l-2.webp"
+      "/images/100x/Godrej-Nx-Advanced-370l-1.webp",
+      "/images/100x/Godrej-Nx-Advanced-370l-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital",
-      "biometric",
-      "keylock"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digital", "biometric", "keylock"]
   },
   {
     "id": "10",
     "name": "Godrej Nx Advanced 210L (Digi+Bio+KL)",
-    "price": "165549",
-    "size": [
-      "(cm)106(h)x50(w)x50(d)",
-      "(mm)1060(h)x500(w)x500(d)"
-    ],
+    "price": "156149",
+    "size": ["(cm)106(h)x50(w)x50(d)", "(mm)1060(h)x500(w)x500(d)"],
     "weight": "141kg",
     "volume": "210L",
-    "category": [
-      "200x"
-    ],
+    "category": ["100x"],
     "slug": "godrej-nx-advanced-210l-digi-bio-kl",
-    "description": "The Godrej Nx Advanced 210L is a high-performance security safe engineered for those who require substantial storage space combined with cutting-edge access technology. As a key model in the 200x advanced range, it provides 100 times more burglary resistance than standard cabinets, making it the perfect choice for securing gold jewellery, cash reserves, and critical business documents. This safe features a triple-authentication system—Biometric, Digital, and Key—ensuring a failsafe and highly secure experience for large households, retail outlets, and professional offices.\n\nFeatures:\n- Triple Access Security: Versatile entry options including a high-speed biometric fingerprint scanner, a programmable digital keypad, and an emergency mechanical key lock.\n- 200x Burglary Resistance: Reinforced steel body construction independently certified to withstand professional-grade forced entry attempts.\n- Generous 210L Storage: Designed with a vertical form factor to accommodate A4 document binders, jewellery trays, and valuable electronics without occupying excessive floor space.\n- Smart Security Alarm: Features an integrated anti-tamper buzzer that activates during unauthorized vibration or multiple incorrect password attempts.\n- Durable Powder Coating: Finished with a premium, scratch-resistant coating to ensure long-term durability and a sleek look in any modern interior.\n\nSpecifications:\n- Dimensions: 106.0 cm (H) x 50.0 cm (W) x 50.0 cm (D)\n- Weight: 141 kg (Sturdy build with support for secure floor anchoring)\n- Volume: 210 Liters\n- Lock Types: Biometric Fingerprint + Digital PIN + Emergency Key Override\n- Security Rating: 200x Advanced Burglary Resistance",
+    "description": "The Godrej Nx Advanced 210L is a high-performance security safe engineered for those who require substantial storage space combined with cutting-edge access technology. As a key model in the 100X advanced range, it provides 100 times more burglary resistance than standard cabinets, making it the perfect choice for securing gold jewellery, cash reserves, and critical business documents. This safe features a triple-authentication system—Biometric, Digital, and Key—ensuring a failsafe and highly secure experience for large households, retail outlets, and professional offices.\n\nFeatures:\n- Triple Access Security: Versatile entry options including a high-speed biometric fingerprint scanner, a programmable digital keypad, and an emergency mechanical key lock.\n- 100X Burglary Resistance: Reinforced steel body construction independently certified to withstand professional-grade forced entry attempts.\n- Generous 210L Storage: Designed with a vertical form factor to accommodate A4 document binders, jewellery trays, and valuable electronics without occupying excessive floor space.\n- Smart Security Alarm: Features an integrated anti-tamper buzzer that activates during unauthorized vibration or multiple incorrect password attempts.\n- Durable Powder Coating: Finished with a premium, scratch-resistant coating to ensure long-term durability and a sleek look in any modern interior.\n\nSpecifications:\n- Dimensions: 106.0 cm (H) x 50.0 cm (W) x 50.0 cm (D)\n- Weight: 141 kg (Sturdy build with support for secure floor anchoring)\n- Volume: 210 Liters\n- Lock Types: Biometric Fingerprint + Digital PIN + Emergency Key Override\n- Security Rating: 100X Advanced Burglary Resistance",
     "images": [
-      "/images/200x/Godrej-Nx-Advanced-210l-1.webp",
-      "/images/200x/Godrej-Nx-Advanced-210l-2.webp"
+      "/images/100x/Godrej-Nx-Advanced-210l-1.webp",
+      "/images/100x/Godrej-Nx-Advanced-210l-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital",
-      "biometric",
-      "keylock"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digital", "biometric", "keylock"]
   },
   {
     "id": "11",
     "name": "Godrej Nx Advanced 160L (Digi+Bio+KL)",
-    "price": "130299",
-    "size": [
-      "(cm)80(h)x50(w)x50(d)",
-      "(mm)800(h)x500(w)x500(d)"
-    ],
+    "price": "124049",
+    "size": ["(cm)80(h)x50(w)x50(d)", "(mm)800(h)x500(w)x500(d)"],
     "weight": "113kg",
     "volume": "160L",
-    "category": [
-      "200x"
-    ],
+    "category": ["100x"],
     "slug": "godrej-nx-advanced-160l-digi-bio-kl",
-    "description": "The Godrej Nx Advanced 160L is a high-security, advanced-strength locker designed to provide professional-grade protection for modern Indian households and small offices. Part of the 200x advanced range, this safe is certified to be 100 times more resistant to burglary than standard steel cabinets. It features a state-of-the-art triple-access locking system—Biometric Fingerprint, Digital PIN, and Mechanical Key—ensuring that your gold jewellery, property documents, and cash reserves are always accessible to you while remaining impenetrable to intruders. Its 160-liter capacity offers a perfect balance between substantial storage and a compact footprint for bedroom or office placement.\n\nFeatures:\n- Triple-Authentication System: Offers maximum versatility with high-speed biometric fingerprint scanning, a programmable digital keypad, and a secondary mechanical key override.\n- 200x Advanced Strength: Constructed with reinforced steel plates and high-grade alloys designed to withstand forced entry and common burglary tools.\n- Mid-Capacity Storage: The 160-liter volume is ideal for organizing jewellery trays, luxury watches, A4 legal folders, and essential electronics.\n- Smart Anti-Tamper Alarm: Equipped with a built-in security buzzer that activates upon unauthorized physical vibration or repeated incorrect password entries.\n- Premium Aesthetic & Finish: Features a sleek, scratch-resistant powder-coated finish that complements modern interiors while offering long-term corrosion resistance.\n\nSpecifications:\n- Dimensions: 80.0 cm (H) x 50.0 cm (W) x 50.0 cm (D)\n- Weight: 113 kg (Robust heavy-duty build with floor anchoring capabilities)\n- Volume: 160 Liters\n- Lock Types: Biometric Scanner + Digital PIN + Emergency Mechanical Key\n- Security Rating: 200x Advanced Burglary Resistance",
+    "description": "The Godrej Nx Advanced 160L is a high-security, advanced-strength locker designed to provide professional-grade protection for modern Indian households and small offices. Part of the 100X advanced range, this safe is certified to be 100 times more resistant to burglary than standard steel cabinets. It features a state-of-the-art triple-access locking system—Biometric Fingerprint, Digital PIN, and Mechanical Key—ensuring that your gold jewellery, property documents, and cash reserves are always accessible to you while remaining impenetrable to intruders. Its 160-liter capacity offers a perfect balance between substantial storage and a compact footprint for bedroom or office placement.\n\nFeatures:\n- Triple-Authentication System: Offers maximum versatility with high-speed biometric fingerprint scanning, a programmable digital keypad, and a secondary mechanical key override.\n- 100X Advanced Strength: Constructed with reinforced steel plates and high-grade alloys designed to withstand forced entry and common burglary tools.\n- Mid-Capacity Storage: The 160-liter volume is ideal for organizing jewellery trays, luxury watches, A4 legal folders, and essential electronics.\n- Smart Anti-Tamper Alarm: Equipped with a built-in security buzzer that activates upon unauthorized physical vibration or repeated incorrect password entries.\n- Premium Aesthetic & Finish: Features a sleek, scratch-resistant powder-coated finish that complements modern interiors while offering long-term corrosion resistance.\n\nSpecifications:\n- Dimensions: 80.0 cm (H) x 50.0 cm (W) x 50.0 cm (D)\n- Weight: 113 kg (Robust heavy-duty build with floor anchoring capabilities)\n- Volume: 160 Liters\n- Lock Types: Biometric Scanner + Digital PIN + Emergency Mechanical Key\n- Security Rating: 100X Advanced Burglary Resistance",
     "images": [
-      "/images/200x/Godrej-Nx-Advanced-160l-1.webp",
-      "/images/200x/Godrej-Nx-Advanced-160l-2.webp"
+      "/images/100x/Godrej-Nx-Advanced-160l-1.webp",
+      "/images/100x/Godrej-Nx-Advanced-160l-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital",
-      "biometric",
-      "keylock"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digital", "biometric", "keylock"]
   },
   {
     "id": "12",
     "name": "Godrej Rhino Regal (KL)",
-    "price": "67649",
-    "size": [
-      "(cm)61(h)x46(w)x40.7(d)",
-      "(mm)610(h)x460(w)x407(d)"
-    ],
+    "price": "62899",
+    "size": ["(cm)61(h)x46(w)x40.7(d)", "(mm)610(h)x460(w)x407(d)"],
     "weight": "50kg",
     "volume": "100L",
-    "category": [
-      "200x"
-    ],
+    "category": ["100x"],
     "slug": "godrej-rhino-regal-kl",
-    "description": "The Godrej Rhino Regal (KL) is a premium, high-capacity mechanical safe from the 200x advanced range, offering a perfect blend of classic reliability and modern burglary resistance. Specifically designed for users who require significant storage volume—up to 100 liters—this safe is ideal for securing multiple jewellery boxes, bulkier legal documents, and expensive gadgets. Its robust steel construction provides 100 times more resistance than standard cupboards, making it a dependable choice for both high-end residential use and professional business environments where battery-free operation is preferred.\n\nFeatures:\n- 200x Advanced Security: Built with high-strength reinforced steel designed to resist forced entry and common burglary attempts.\n- Precision Mechanical Locking: Features a high-security mechanical key lock system for guaranteed access without the need for power or batteries.\n- Massive 100L Storage: Optimized interior space that comfortably fits A4 files, large document binders, and extensive jewellery collections.\n- Anti-Pry Door Design: Engineered with a fortified door and minimal gaps to prevent tampering with prying tools.\n- Scratch-Resistant Finish: Coated with a premium powder finish to ensure long-term durability and a sophisticated aesthetic in any home or office.\n\nSpecifications:\n- Dimensions: 61.0 cm (H) x 46.0 cm (W) x 40.7 cm (D)\n- Weight: 50 kg (Designed for secure anchoring and solid stability)\n- Volume: 100 Liters (High-capacity storage)\n- Lock Type: High-Security Mechanical Key Lock\n- Security Rating: 200x Advanced Burglary Resistance",
+    "description": "The Godrej Rhino Regal (KL) is a premium, high-capacity mechanical safe from the 100X advanced range, offering a perfect blend of classic reliability and modern burglary resistance. Specifically designed for users who require significant storage volume—up to 100 liters—this safe is ideal for securing multiple jewellery boxes, bulkier legal documents, and expensive gadgets. Its robust steel construction provides 100 times more resistance than standard cupboards, making it a dependable choice for both high-end residential use and professional business environments where battery-free operation is preferred.\n\nFeatures:\n- 100X Advanced Security: Built with high-strength reinforced steel designed to resist forced entry and common burglary attempts.\n- Precision Mechanical Locking: Features a high-security mechanical key lock system for guaranteed access without the need for power or batteries.\n- Massive 100L Storage: Optimized interior space that comfortably fits A4 files, large document binders, and extensive jewellery collections.\n- Anti-Pry Door Design: Engineered with a fortified door and minimal gaps to prevent tampering with prying tools.\n- Scratch-Resistant Finish: Coated with a premium powder finish to ensure long-term durability and a sophisticated aesthetic in any home or office.\n\nSpecifications:\n- Dimensions: 61.0 cm (H) x 46.0 cm (W) x 40.7 cm (D)\n- Weight: 50 kg (Designed for secure anchoring and solid stability)\n- Volume: 100 Liters (High-capacity storage)\n- Lock Type: High-Security Mechanical Key Lock\n- Security Rating: 100X Advanced Burglary Resistance",
     "images": [
-      "/images/200x/Godrej-Rhino-Regal-1.webp",
-      "/images/200x/Godrej-Rhino-Regal-2.webp"
+      "/images/100x/Godrej-Rhino-Regal-1.webp",
+      "/images/100x/Godrej-Rhino-Regal-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "keylock"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["keylock"]
   },
   {
     "id": "13",
     "name": "Godrej Rhino Advanced (Digi)",
-    "price": "59849",
-    "size": [
-      "(cm)61(h)x46(w)x41.5(d)",
-      "(mm)610(h)x460(w)x415(d)"
-    ],
+    "price": "54399",
+    "size": ["(cm)61(h)x46(w)x41.5(d)", "(mm)610(h)x460(w)x415(d)"],
     "weight": "52kg",
     "volume": "79L",
-    "category": [
-      "200x"
-    ],
-    "slug": "godrej-rhino-Advanced-digital",
-    "description": "The Godrej Rhino Advanced (Digi) is a high-performance home safe designed for those who require advanced 200x-rated security combined with the convenience of digital access. Engineered with a heavy-duty reinforced steel body, this safe offers 100 times the burglary resistance of standard cupboards. It is specifically designed for shared households and small businesses, featuring a multi-user digital keypad that supports multiple codes. With its generous 79-liter capacity, the Rhino Advanced is perfect for securing gold jewellery, expensive electronics, and important legal documents in a compact, wardrobe-friendly design.\n\nFeatures:\n- 200x Advanced Security: Independently certified to provide superior resistance against forced entry and professional-grade burglary tools.\n- Multi-User Digital Keypad: Intelligent electronic lock that supports multiple user codes, ideal for families or small office teams.\n- Reinforced Steel Construction: Features a fortified steel door and an anti-drill bolt mechanism to protect the safe’s internal lock-work.\n- Compact & Spacious: A versatile 79-liter volume that fits comfortably in bedroom cabinets while providing ample room for A4 files and jewellery trays.\n- Anti-Pry Design: Engineered with concealed hinges and minimal door gaps to deter tampering and prying attempts.\n\nSpecifications:\n- Dimensions: 61.0 cm (H) x 46.0 cm (W) x 41.5 cm (D)\n- Weight: 52 kg (Optimized for secure anchoring to floor or wardrobe shelves)\n- Volume: 79 Liters\n- Lock Type: Advanced Digital Keypad (Multi-Code Support)\n- Security Rating: 200x Advanced Burglary Resistance",
+    "category": ["100x"],
+    "slug": "godrej-rhino-Advanced-digitel",
+    "description": "The Godrej Rhino Advanced (Digi) is a high-performance home safe designed for those who require advanced 100X-rated security combined with the convenience of digital access. Engineered with a heavy-duty reinforced steel body, this safe offers 100 times the burglary resistance of standard cupboards. It is specifically designed for shared households and small businesses, featuring a multi-user digital keypad that supports multiple codes. With its generous 79-liter capacity, the Rhino Advanced is perfect for securing gold jewellery, expensive electronics, and important legal documents in a compact, wardrobe-friendly design.\n\nFeatures:\n- 100X Advanced Security: Independently certified to provide superior resistance against forced entry and professional-grade burglary tools.\n- Multi-User Digital Keypad: Intelligent electronic lock that supports multiple user codes, ideal for families or small office teams.\n- Reinforced Steel Construction: Features a fortified steel door and an anti-drill bolt mechanism to protect the safe’s internal lock-work.\n- Compact & Spacious: A versatile 79-liter volume that fits comfortably in bedroom cabinets while providing ample room for A4 files and jewellery trays.\n- Anti-Pry Design: Engineered with concealed hinges and minimal door gaps to deter tampering and prying attempts.\n\nSpecifications:\n- Dimensions: 61.0 cm (H) x 46.0 cm (W) x 41.5 cm (D)\n- Weight: 52 kg (Optimized for secure anchoring to floor or wardrobe shelves)\n- Volume: 79 Liters\n- Lock Type: Advanced Digital Keypad (Multi-Code Support)\n- Security Rating: 100X Advanced Burglary Resistance",
     "images": [
-      "/images/200x/Godrej-Rhino-advanced-1.webp",
-      "/images/200x/Godrej-Rhino-advanced-2.webp"
+      "/images/100x/Godrej-Rhino-advanced-1.webp",
+      "/images/100x/Godrej-Rhino-advanced-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digitel"]
   },
   {
     "id": "14",
     "name": "Godrej Rhino Advanced (KL)",
-    "price": "48749",
-    "size": [
-      "(cm)61(h)x46(w)x40.7(d)",
-      "(mm)610(h)x460(w)x407(d)"
-    ],
+    "price": "44299",
+    "size": ["(cm)61(h)x46(w)x40.7(d)", "(mm)610(h)x460(w)x407(d)"],
     "weight": "51kg",
     "volume": "79L",
-    "category": [
-      "200x"
-    ],
+    "category": ["100x"],
     "slug": "godrej-rhino-advanced-kl",
-    "description": "The Godrej Rhino Advanced (KL) is a heavy-duty mechanical security safe that delivers certified 200x-rated burglary resistance. Engineered for users who demand absolute mechanical reliability, this safe provides 100 times more resistance than standard steel cupboards. It is a preferred choice for residential homes and small business offices in India, offering a zero-maintenance, battery-free locking solution. With its generous 79-liter capacity, it is perfectly suited for securing gold jewellery, expensive electronics, and critical A4-sized legal documents under a fortified steel armor.\n\nFeatures:\n- 200x Advanced Security: Built with high-strength reinforced steel designed to resist aggressive prying and forced entry attempts.\n- Mechanical Failsafe: High-security 6-lever mechanical key lock ensures consistent performance without the need for batteries or electronic maintenance.\n- Fortified Construction: Features a reinforced steel door and an anti-drill bolt mechanism specifically engineered to protect the safe’s internal lock-work.\n- Spacious Mid-Sized Storage: The 79-liter interior volume provides ample room for multiple jewellery trays, luxury watches, and essential business ledgers.\n- Anti-Pry Design: Engineered with concealed hinges and narrow door gaps to deter tampering from external burglary tools.\n\nSpecifications:\n- Dimensions: 61.0 cm (H) x 46.0 cm (W) x 40.7 cm (D)\n- Weight: 51 kg (Heavy-duty build designed for secure floor or wardrobe anchoring)\n- Volume: 79 Liters\n- Lock Type: Precision Mechanical Key Lock (6-Lever System)\n- Security Rating: 200x Advanced Burglary Resistance",
+    "description": "The Godrej Rhino Advanced (KL) is a heavy-duty mechanical security safe that delivers certified 100X-rated burglary resistance. Engineered for users who demand absolute mechanical reliability, this safe provides 100 times more resistance than standard steel cupboards. It is a preferred choice for residential homes and small business offices in India, offering a zero-maintenance, battery-free locking solution. With its generous 79-liter capacity, it is perfectly suited for securing gold jewellery, expensive electronics, and critical A4-sized legal documents under a fortified steel armor.\n\nFeatures:\n- 100X Advanced Security: Built with high-strength reinforced steel designed to resist aggressive prying and forced entry attempts.\n- Mechanical Failsafe: High-security 6-lever mechanical key lock ensures consistent performance without the need for batteries or electronic maintenance.\n- Fortified Construction: Features a reinforced steel door and an anti-drill bolt mechanism specifically engineered to protect the safe’s internal lock-work.\n- Spacious Mid-Sized Storage: The 79-liter interior volume provides ample room for multiple jewellery trays, luxury watches, and essential business ledgers.\n- Anti-Pry Design: Engineered with concealed hinges and narrow door gaps to deter tampering from external burglary tools.\n\nSpecifications:\n- Dimensions: 61.0 cm (H) x 46.0 cm (W) x 40.7 cm (D)\n- Weight: 51 kg (Heavy-duty build designed for secure floor or wardrobe anchoring)\n- Volume: 79 Liters\n- Lock Type: Precision Mechanical Key Lock (6-Lever System)\n- Security Rating: 100X Advanced Burglary Resistance",
     "images": [
-      "/images/200x/Godrej-Rhino-advanced-kl-1.webp",
-      "/images/200x/Godrej-Rhino-advanced-kl-2.webp"
+      "/images/100x/Godrej-Rhino-advanced-kl-1.webp",
+      "/images/100x/Godrej-Rhino-advanced-kl-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "keylock"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["keylock"]
   },
   {
     "id": "15",
     "name": "Godrej Rhino (Digi)",
-    "price": "40149",
-    "size": [
-      "(cm)42.4(h)x46(w)x41.5(d)",
-      "(mm)424(h)x460(w)x415(d)"
-    ],
+    "price": "36499",
+    "size": ["(cm)42.4(h)x46(w)x41.5(d)", "(mm)424(h)x460(w)x415(d)"],
     "weight": "35kg",
     "volume": "55L",
-    "category": [
-      "200x"
-    ],
+    "category": ["100x"],
     "slug": "godrej-rhino-digi",
-    "description": "The Godrej Rhino (Digi) is an advanced-strength security safe designed to provide superior 200x-rated protection in a compact, space-efficient form factor. Engineered for modern homeowners who demand both robust physical security and digital convenience, this safe is certified to be 100 times more resistant to burglary than standard steel cupboards. It is the perfect choice for securing gold jewellery, expensive electronics, and essential documents within a bedroom wardrobe or office cabinet, offering a seamless user experience through its high-tech programmable keypad.\n\nFeatures:\n- 200x Advanced Strength: Fabricated with heavy-duty reinforced steel plates designed to withstand aggressive prying and forced entry attempts.\n- Smart Digital Access: Features a programmable electronic keypad with a master and user code system for fast and secure daily operation.\n- Fortified Security Boltwork: Equipped with high-strength shooting bolts and an anti-drill plate that protects the internal locking mechanism from tampering.\n- Optimized 55L Capacity: A generous interior volume that comfortably accommodates jewellery boxes, A4 document folders, and luxury watches.\n- Anti-Pry Design: Engineered with a flush-fit door and concealed hinges to deter the insertion of crowbars and common burglary tools.\n\nSpecifications:\n- Dimensions: 42.4 cm (H) x 46.0 cm (W) x 41.5 cm (D)\n- Weight: 35 kg (Engineered for secure anchoring to floor or wardrobe shelves)\n- Volume: 55 Liters\n- Lock Type: Advanced Digital Keypad (Electronic Access)\n- Security Rating: 200x Advanced Burglary Resistance",
+    "description": "The Godrej Rhino (Digi) is an advanced-strength security safe designed to provide superior 100X-rated protection in a compact, space-efficient form factor. Engineered for modern homeowners who demand both robust physical security and digital convenience, this safe is certified to be 100 times more resistant to burglary than standard steel cupboards. It is the perfect choice for securing gold jewellery, expensive electronics, and essential documents within a bedroom wardrobe or office cabinet, offering a seamless user experience through its high-tech programmable keypad.\n\nFeatures:\n- 100X Advanced Strength: Fabricated with heavy-duty reinforced steel plates designed to withstand aggressive prying and forced entry attempts.\n- Smart Digital Access: Features a programmable electronic keypad with a master and user code system for fast and secure daily operation.\n- Fortified Security Boltwork: Equipped with high-strength shooting bolts and an anti-drill plate that protects the internal locking mechanism from tampering.\n- Optimized 55L Capacity: A generous interior volume that comfortably accommodates jewellery boxes, A4 document folders, and luxury watches.\n- Anti-Pry Design: Engineered with a flush-fit door and concealed hinges to deter the insertion of crowbars and common burglary tools.\n\nSpecifications:\n- Dimensions: 42.4 cm (H) x 46.0 cm (W) x 41.5 cm (D)\n- Weight: 35 kg (Engineered for secure anchoring to floor or wardrobe shelves)\n- Volume: 55 Liters\n- Lock Type: Advanced Digital Keypad (Electronic Access)\n- Security Rating: 100X Advanced Burglary Resistance",
     "images": [
-      "/images/200x/Godrej-Rhino-digi-1.webp",
-      "/images/200x/Godrej-Rhino-digi-2.webp"
+      "/images/100x/Godrej-Rhino-digi-1.webp",
+      "/images/100x/Godrej-Rhino-digi-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digitel"]
   },
   {
     "id": "16",
     "name": "Godrej Rhino Advanced (KL)",
-    "price": "32599",
-    "size": [
-      "(cm)42.4(h)x46(w)x40.7(d)",
-      "(mm)424(h)x460(w)x407(d)"
-    ],
+    "price": "29599",
+    "size": ["(cm)42.4(h)x46(w)x40.7(d)", "(mm)424(h)x460(w)x407(d)"],
     "weight": "35kg",
     "volume": "55L",
-    "category": [
-      "200x"
-    ],
+    "category": ["100x"],
     "slug": "godrej-rhino-kl",
-    "description": "The Godrej Rhino Advanced (KL) is a heavy-duty, compact security safe that brings professional-grade 200x burglary resistance to your home or office. Engineered for those who prioritize mechanical reliability, this safe offers 100 times more resistance to forced entry than standard steel cupboards. Its battery-free, zero-maintenance design makes it an ideal choice for securing gold jewellery, cash reserves, and critical property documents. Despite its compact footprint, the Rhino Advanced is built with a fortified steel body and advanced bolt-work, ensuring elite protection that fits perfectly inside bedroom wardrobes or under office desks.\n\nFeatures:\n- 200x Advanced Strength: Certified high-tensile steel construction designed to withstand aggressive prying and common burglary tools.\n- Precision Mechanical Lock: Equipped with a high-security 6-lever mechanical key lock for guaranteed access without the need for power or electronic maintenance.\n- Anti-Pry Door Design: Features minimal gaps and concealed hinges to deter the insertion of crowbars and tampering instruments.\n- Optimized 55L Capacity: A generous interior space that comfortably accommodates A4 document folders, jewellery boxes, and valuable gadgets.\n- Scratch-Resistant Finish: Premium powder coating ensures long-term durability and a professional look that resists corrosion in various climates.\n\nSpecifications:\n- Dimensions: 42.4 cm (H) x 46.0 cm (W) x 40.7 cm (D)\n- Weight: 35 kg (Robust build engineered for secure anchoring to floor or furniture)\n- Volume: 55 Liters\n- Lock Type: High-Security Mechanical Key Lock (Precision 6-Lever System)\n- Security Rating: 200x Advanced Burglary Resistance",
+    "description": "The Godrej Rhino Advanced (KL) is a heavy-duty, compact security safe that brings professional-grade 100X burglary resistance to your home or office. Engineered for those who prioritize mechanical reliability, this safe offers 100 times more resistance to forced entry than standard steel cupboards. Its battery-free, zero-maintenance design makes it an ideal choice for securing gold jewellery, cash reserves, and critical property documents. Despite its compact footprint, the Rhino Advanced is built with a fortified steel body and advanced bolt-work, ensuring elite protection that fits perfectly inside bedroom wardrobes or under office desks.\n\nFeatures:\n- 100X Advanced Strength: Certified high-tensile steel construction designed to withstand aggressive prying and common burglary tools.\n- Precision Mechanical Lock: Equipped with a high-security 6-lever mechanical key lock for guaranteed access without the need for power or electronic maintenance.\n- Anti-Pry Door Design: Features minimal gaps and concealed hinges to deter the insertion of crowbars and tampering instruments.\n- Optimized 55L Capacity: A generous interior space that comfortably accommodates A4 document folders, jewellery boxes, and valuable gadgets.\n- Scratch-Resistant Finish: Premium powder coating ensures long-term durability and a professional look that resists corrosion in various climates.\n\nSpecifications:\n- Dimensions: 42.4 cm (H) x 46.0 cm (W) x 40.7 cm (D)\n- Weight: 35 kg (Robust build engineered for secure anchoring to floor or furniture)\n- Volume: 55 Liters\n- Lock Type: High-Security Mechanical Key Lock (Precision 6-Lever System)\n- Security Rating: 100X Advanced Burglary Resistance",
     "images": [
-      "/images/200x/Godrej-Rhino-v1-1.webp",
-      "/images/200x/Godrej-Rhino-v1-2.webp"
+      "/images/100x/Godrej-Rhino-v1-1.webp",
+      "/images/100x/Godrej-Rhino-v1-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "keylock"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["keylock"]
   },
   {
     "id": "17",
     "name": "Godrej Ritz (Bio)",
     "price": "40299",
-    "size": [
-      "(cm)33(h)x40(w)x32(d)",
-      "(mm)330(h)x400(w)x320(d)"
-    ],
+    "size": ["(cm)33(h)x40(w)x32(d)", "(mm)330(h)x400(w)x320(d)"],
     "weight": "22.5kg",
     "volume": "30L",
-    "category": [
-      "200x"
-    ],
+    "category": ["100x"],
     "slug": "godrej-ritz-bio",
-    "description": "The Godrej Ritz (Bio) is a sophisticated, compact biometric safe designed for high-end residential use and executive offices. Featuring a state-of-the-art fingerprint scanner, this safe belongs to the 200x advanced strength range, offering 100 times more burglary resistance than conventional steel cupboards. It is the ultimate choice for users seeking instant, keyless access to their gold jewellery, luxury watches, and emergency cash. The Ritz Bio combines sleek, modern aesthetics with a heavy-duty steel body, making it a perfect fit for master bedroom wardrobes or study room cabinets.\n\nFeatures:\n- Advanced Biometric Technology: High-precision fingerprint sensor allows for rapid access while storing multiple user profiles for family members.\n- 200x Advanced Security: Built with high-strength reinforced steel that provides certified protection against forced entry and prying.\n- Intelligent Design: Sleek and space-saving 30L capacity, specifically optimized to secure high-value personal assets without occupying large floor areas.\n- Motorized Shooting Bolts: Features automated locking bolts that provide a secure, tamper-proof seal at the touch of a finger.\n- Emergency Access: Equipped with a secondary mechanical override system to ensure you are never locked out in case of battery depletion.\n\nSpecifications:\n- Dimensions: 33.0 cm (H) x 40.0 cm (W) x 32.0 cm (D)\n- Weight: 22.5 kg (Compact yet robust build with support for secure anchoring)\n- Volume: 30 Liters\n- Lock Type: Biometric Fingerprint Scanner + Emergency Key Override\n- Security Rating: 200x Advanced Burglary Resistance",
+    "description": "The Godrej Ritz (Bio) is a sophisticated, compact biometric safe designed for high-end residential use and executive offices. Featuring a state-of-the-art fingerprint scanner, this safe belongs to the 100X advanced strength range, offering 100 times more burglary resistance than conventional steel cupboards. It is the ultimate choice for users seeking instant, keyless access to their gold jewellery, luxury watches, and emergency cash. The Ritz Bio combines sleek, modern aesthetics with a heavy-duty steel body, making it a perfect fit for master bedroom wardrobes or study room cabinets.\n\nFeatures:\n- Advanced Biometric Technology: High-precision fingerprint sensor allows for rapid access while storing multiple user profiles for family members.\n- 100X Advanced Security: Built with high-strength reinforced steel that provides certified protection against forced entry and prying.\n- Intelligent Design: Sleek and space-saving 30L capacity, specifically optimized to secure high-value personal assets without occupying large floor areas.\n- Motorized Shooting Bolts: Features automated locking bolts that provide a secure, tamper-proof seal at the touch of a finger.\n- Emergency Access: Equipped with a secondary mechanical override system to ensure you are never locked out in case of battery depletion.\n\nSpecifications:\n- Dimensions: 33.0 cm (H) x 40.0 cm (W) x 32.0 cm (D)\n- Weight: 22.5 kg (Compact yet robust build with support for secure anchoring)\n- Volume: 30 Liters\n- Lock Type: Biometric Fingerprint Scanner + Emergency Key Override\n- Security Rating: 100X Advanced Burglary Resistance",
     "images": [
-      "/images/200x/Godrej-Ritz-1.webp",
-      "/images/200x/Godrej-Ritz-2.webp"
+      "/images/100x/Godrej-Ritz-1.webp",
+      "/images/100x/Godrej-Ritz-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "biometric"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["biometric"]
   },
   {
     "id": "18",
     "name": "Godrej Ritz (Digi)",
     "price": "35999",
-    "size": [
-      "(cm)33(h)x40(w)x32(d)",
-      "(mm)330(h)x400(w)x320(d)"
-    ],
+    "size": ["(cm)33(h)x40(w)x32(d)", "(mm)330(h)x400(w)x320(d)"],
     "weight": "22.5kg",
     "volume": "30L",
-    "category": [
-      "200x"
-    ],
+    "category": ["100x"],
     "slug": "godrej-ritz-digi",
-    "description": "The Godrej Ritz (Digi) is a sleek and sophisticated high-security safe designed for modern homes and executive offices. As part of the 200x advanced strength range, it provides 100 times more burglary resistance than standard cupboards, ensuring premium protection for your most sensitive assets. This model features a high-tech digital keypad that offers the perfect balance of security and speed, making it the ideal choice for securing gold jewellery, luxury watches, and legal documents in a compact 30-liter form factor that fits perfectly into wardrobe shelves or office cabinets.\n\nFeatures:\n- 200x Advanced Security: Certified high-tensile steel construction designed to thwart professional-grade prying and forced entry attempts.\n- Smart Digital Keypad: Fast and secure access with a programmable 4-to-6 digit master and user code system for multi-user convenience.\n- Motorized Shooting Bolts: Features heavy-duty automated locking bolts that provide a firm, tamper-proof seal at the press of a button.\n- Compact & Discreet: A space-saving 30L volume optimized for the organized storage of jewellery boxes, passports, and digital storage media.\n- Secondary Re-locking Device: An advanced safety mechanism that automatically deadlocks the safe if the primary lock is tampered with during a burglary.\n\nSpecifications:\n- Dimensions: 33.0 cm (H) x 40.0 cm (W) x 32.0 cm (D)\n- Weight: 22.5 kg (Precision build engineered for secure anchoring to furniture or floors)\n- Volume: 30 Liters\n- Lock Type: Advanced Digital Keypad with Emergency Mechanical Key Override\n- Security Rating: 200x Advanced Burglary Resistance",
+    "description": "The Godrej Ritz (Digi) is a sleek and sophisticated high-security safe designed for modern homes and executive offices. As part of the 100X advanced strength range, it provides 100 times more burglary resistance than standard cupboards, ensuring premium protection for your most sensitive assets. This model features a high-tech digital keypad that offers the perfect balance of security and speed, making it the ideal choice for securing gold jewellery, luxury watches, and legal documents in a compact 30-liter form factor that fits perfectly into wardrobe shelves or office cabinets.\n\nFeatures:\n- 100X Advanced Security: Certified high-tensile steel construction designed to thwart professional-grade prying and forced entry attempts.\n- Smart Digital Keypad: Fast and secure access with a programmable 4-to-6 digit master and user code system for multi-user convenience.\n- Motorized Shooting Bolts: Features heavy-duty automated locking bolts that provide a firm, tamper-proof seal at the press of a button.\n- Compact & Discreet: A space-saving 30L volume optimized for the organized storage of jewellery boxes, passports, and digital storage media.\n- Secondary Re-locking Device: An advanced safety mechanism that automatically deadlocks the safe if the primary lock is tampered with during a burglary.\n\nSpecifications:\n- Dimensions: 33.0 cm (H) x 40.0 cm (W) x 32.0 cm (D)\n- Weight: 22.5 kg (Precision build engineered for secure anchoring to furniture or floors)\n- Volume: 30 Liters\n- Lock Type: Advanced Digital Keypad with Emergency Mechanical Key Override\n- Security Rating: 100X Advanced Burglary Resistance",
     "images": [
-      "/images/200x/Godrej-Ritz-digi-1.webp",
-      "/images/200x/Godrej-Ritz-digi-2.webp"
+      "/images/100x/Godrej-Ritz-digi-1.webp",
+      "/images/100x/Godrej-Ritz-digi-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digitel"]
   },
   {
     "id": "19",
     "name": "Godrej Citadel 45-v2 (KL)",
-    "price": "44649",
-    "size": [
-      "(cm)47(h)x49(w)x45(d)",
-      "(mm)470(h)x490(w)x450(d)"
-    ],
+    "price": "38799",
+    "size": ["(cm)47(h)x49(w)x45(d)", "(mm)470(h)x490(w)x450(d)"],
     "weight": "56kg",
     "volume": "42L",
-    "category": [
-      "200x"
-    ],
+    "category": ["100x"],
     "slug": "godrej-citadel-45-v2-kl",
-    "description": "The Godrej Citadel 45-v2 (KL) is a powerhouse of mechanical security, specifically engineered to provide a fortified sanctuary for your most prized possessions. As a prominent member of the 200x advanced strength series, it offers 100 times the resistance of standard steel cupboards against forced entry. This model is a favorite for those who value the reliability of traditional high-security key locks combined with modern, heavy-duty armor. Its 42-liter capacity is masterfully optimized for the safe-keeping of heavy gold sets, bundles of currency, and vital property deeds in both residential and professional settings.\n\nFeatures:\n- 200x Certified Armor: Built with high-grade reinforced steel plates that provide superior protection against drilling, prying, and heavy impact.\n- High-Security Mechanical Lock: Features a precision 6-lever mechanical key lock system that offers total reliability without ever needing a battery change.\n- Robust Multi-Point Boltwork: Equipped with extra-strong shooting bolts that lock deep into the safe body, creating a virtually impenetrable seal.\n- Anti-Pry Door Design: Crafted with extremely narrow gaps and recessed hinges to effectively neutralize the use of crowbars and prying tools.\n- Compact Strength: At 56kg, it offers a dense, high-security build that is perfectly sized for placement inside office cabinets or master bedroom wardrobes.\n\nSpecifications:\n- Dimensions: 47.0 cm (H) x 49.0 cm (W) x 45.0 cm (D)\n- Weight: 56 kg (Heavy-gauge steel construction for maximum stability and anti-theft anchoring)\n- Volume: 42 Liters\n- Lock Type: High-Security 6-Lever Mechanical Key Lock\n- Security Rating: 200x Advanced Burglary Resistance",
+    "description": "The Godrej Citadel 45-v2 (KL) is a powerhouse of mechanical security, specifically engineered to provide a fortified sanctuary for your most prized possessions. As a prominent member of the 100X advanced strength series, it offers 100 times the resistance of standard steel cupboards against forced entry. This model is a favorite for those who value the reliability of traditional high-security key locks combined with modern, heavy-duty armor. Its 42-liter capacity is masterfully optimized for the safe-keeping of heavy gold sets, bundles of currency, and vital property deeds in both residential and professional settings.\n\nFeatures:\n- 100X Certified Armor: Built with high-grade reinforced steel plates that provide superior protection against drilling, prying, and heavy impact.\n- High-Security Mechanical Lock: Features a precision 6-lever mechanical key lock system that offers total reliability without ever needing a battery change.\n- Robust Multi-Point Boltwork: Equipped with extra-strong shooting bolts that lock deep into the safe body, creating a virtually impenetrable seal.\n- Anti-Pry Door Design: Crafted with extremely narrow gaps and recessed hinges to effectively neutralize the use of crowbars and prying tools.\n- Compact Strength: At 56kg, it offers a dense, high-security build that is perfectly sized for placement inside office cabinets or master bedroom wardrobes.\n\nSpecifications:\n- Dimensions: 47.0 cm (H) x 49.0 cm (W) x 45.0 cm (D)\n- Weight: 56 kg (Heavy-gauge steel construction for maximum stability and anti-theft anchoring)\n- Volume: 42 Liters\n- Lock Type: High-Security 6-Lever Mechanical Key Lock\n- Security Rating: 100X Advanced Burglary Resistance",
     "images": [
-      "/images/200x/Godrej-Citadel-1.webp",
-      "/images/200x/Godrej-Citadel-2.webp"
+      "/images/100x/Godrej-Citadel-1.webp",
+      "/images/100x/Godrej-Citadel-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "keylock"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["keylock"]
   },
   {
     "id": "20",
     "name": "MYST Big (Combination Lock)",
-    "price": "1749",
-    "size": [
-      "(cm)24.3(h)x15.9(w)x5.5(d)",
-      "(mm)243(h)x159(w)x55(d)"
-    ],
+    "price": "1199",
+    "size": ["(cm)24.3(h)x15.9(w)x5.5(d)", "(mm)243(h)x159(w)x55(d)"],
     "weight": "0.78kg",
     "volume": "1.4L",
-    "category": [
-      "gift"
-    ],
+    "category": ["gift"],
     "slug": "myst-big",
     "description": "The MYST Big is a clever and discreet portable security solution designed to blend perfectly into your bookshelf. Camouflaged as a standard hardbound book, this 'hidden safe' is an excellent gift for students, travelers, or anyone needing to secure personal items without drawing attention. It features a high-quality cold-rolled steel internal compartment protected by a reliable 3-digit combination lock, making it the perfect sanctuary for passports, cash, expensive watches, and private journals in shared living spaces or during travel.\n\nFeatures:\n- Discreet Book Camouflage: Authentic book-like texture and appearance allow it to hide in plain sight among real books on any shelf.\n- Secure Combination Lock: Equipped with a customizable 3-digit mechanical combination lock, eliminating the need for keys.\n- Durable Steel Construction: Features a rugged internal steel box that provides basic protection against tampering and unauthorized access.\n- Lightweight & Portable: Weighing just 0.78kg, it is easy to carry in a backpack or suitcase for secure storage while on the move.\n- Versatile Storage: The 1.4-liter interior is ideal for organizing small valuables like credit cards, keys, legal documents, and jewelry.\n\nSpecifications:\n- Dimensions: 24.3 cm (H) x 15.9 cm (W) x 5.5 cm (D)\n- Weight: 0.78 kg (Ultra-portable and lightweight design)\n- Volume: 1.4 Liters\n- Lock Type: 3-Digit Mechanical Combination Lock\n- Category: Lifestyle & Gifting Security",
-    "images": [
-      "/images/gift/myst-big-1.webp",
-      "/images/gift/myst-big-2.webp"
-    ],
+    "images": ["/images/gift/myst-big-1.webp", "/images/gift/myst-big-2.webp"],
     "tags": [],
-    "lock_mechanism": [
-      "Combination Lock"
-    ]
+    "lock_mechanism": ["Combination Lock"]
   },
   {
     "id": "21",
     "name": "MYST Small (Combination Lock)",
-    "price": "1449",
-    "size": [
-      "(cm)18(h)x11.8(w)x5.5(d)",
-      "(mm)180(h)x118(w)x55(d)"
-    ],
+    "price": "999",
+    "size": ["(cm)18(h)x11.8(w)x5.5(d)", "(mm)180(h)x118(w)x55(d)"],
     "weight": "0.5kg",
     "volume": "0.7L",
-    "category": [
-      "gift"
-    ],
+    "category": ["gift"],
     "slug": "myst-small",
     "description": "The MYST Small is a compact, high-utility 'secret safe' designed to provide discreet protection for your most personal items. Cleverly disguised as a pocket-sized book, it seamlessly blends into any bookshelf, desk, or bedside table, making it an excellent security companion for hostel rooms, shared apartments, or travel. The internal compartment is constructed from durable cold-rolled steel, secured by a customizable 3-digit combination lock. It is specifically designed to hold essential items like currency, credit cards, keys, and jewelry, providing a hidden layer of security that stays out of sight from prying eyes.\n\nFeatures:\n- Compact Stealth Design: Pocket-book dimensions allow it to hide naturally among real books or inside a bag without attracting attention.\n- Keyless Combination Lock: Features a high-quality 3-digit mechanical lock that is easy to set and reset, ensuring you never have to worry about losing keys.\n- Robust Inner Steel Shell: Built with a solid steel interior box to provide physical resistance against unauthorized access.\n- Lightweight Portability: At just 0.5kg, it is the perfect lightweight travel safe for securing passports and emergency cash in hotel rooms.\n- Creative Gifting Idea: An ideal gift for students, globetrotters, and anyone who appreciates practical and unique security solutions.\n\nSpecifications:\n- Dimensions: 18.0 cm (H) x 11.8 cm (W) x 5.5 cm (D)\n- Weight: 0.5 kg (Ultra-lightweight and portable build)\n- Volume: 0.7 Liters\n- Lock Type: Customizable 3-Digit Mechanical Combination Lock\n- Category: Lifestyle, Travel & Gifting Security",
     "images": [
@@ -545,23 +357,16 @@
       "/images/gift/myst-small-2.webp"
     ],
     "tags": [],
-    "lock_mechanism": [
-      "Combination Lock"
-    ]
+    "lock_mechanism": ["Combination Lock"]
   },
   {
     "id": "22",
     "name": "Dream Box (Blue)",
-    "price": "4999",
-    "size": [
-      "(cm)17(h)x23(w)x17(d)",
-      "(mm)170(h)x230(w)x170(d)"
-    ],
+    "price": "4499",
+    "size": ["(cm)17(h)x23(w)x17(d)", "(mm)170(h)x230(w)x170(d)"],
     "weight": "2.5kg",
     "volume": "4.5L",
-    "category": [
-      "gift"
-    ],
+    "category": ["gift"],
     "slug": "dreambox-blue",
     "description": "The Dream Box (Blue) is a vibrant and modern personal safe designed to bring high-tech security to your personal space. Combining a playful aesthetic with Godrej's trusted engineering, this compact digital locker is the perfect gift for teenagers, students, or anyone looking to secure their 'daily essentials' like smartphones, pocket money, or sentimental items. Its eye-catching blue finish makes it a stylish addition to any desk or bedside table, while the advanced electronic locking system ensures that your secrets stay safe behind a personalized PIN code.\n\nFeatures:\n- Vibrant Designer Finish: Modern blue powder coating that adds a pop of color to your room while providing a durable, scratch-resistant surface.\n- Advanced Digital Lock: Easy-to-use electronic keypad allowing you to set a 3-to-8 digit personal code for quick, keyless access.\n- Sturdy Steel Body: Features cold-rolled steel construction with a motorized bolt mechanism to deter unauthorized opening.\n- Smart Access Recovery: Comes with an emergency override master key, ensuring you can always access your valuables even if the code is forgotten.\n- Floor & Wall Mounting: Pre-drilled holes allow you to securely anchor the box to a shelf or wall for added theft prevention.\n\nSpecifications:\n- Dimensions: 17.0 cm (H) x 23.0 cm (W) x 17.0 cm (D)\n- Weight: 2.5 kg (Portable yet secure with anchoring support)\n- Volume: 4.5 Liters\n- Lock Type: Electronic Digital Keypad + Emergency Manual Override Key\n- Category: Personal & Gifting Security",
     "images": [
@@ -569,23 +374,16 @@
       "/images/gift/dreambox-blue-2.webp"
     ],
     "tags": [],
-    "lock_mechanism": [
-      "digital"
-    ]
+    "lock_mechanism": ["digital"]
   },
   {
     "id": "23",
     "name": "Dream Box (Pink)",
-    "price": "4999",
-    "size": [
-      "(cm)17(h)x23(w)x17(d)",
-      "(mm)170(h)x230(w)x170(d)"
-    ],
+    "price": "4499",
+    "size": ["(cm)17(h)x23(w)x17(d)", "(mm)170(h)x230(w)x170(d)"],
     "weight": "2.5kg",
     "volume": "4.5L",
-    "category": [
-      "gift"
-    ],
+    "category": ["gift"],
     "slug": "dreambox-pink",
     "description": "The Dream Box (Pink) is a chic and secure personal locker designed to add a touch of personality to your safety. Combining a stylish aesthetic with Godrej's legendary protection, this compact digital safe is an ideal choice for securing 'private treasures'—from daily jewelry and cosmetics to gadgets and journals. Its bright pink finish makes it a standout piece for bedrooms, dorms, or home offices, offering the perfect blend of modern design and high-tech security for anyone who values both form and function.\n\nFeatures:\n- Elegant Pink Finish: A durable, high-quality powder coating that resists scratches and adds a vibrant, modern touch to your decor.\n- User-Friendly Digital Keypad: Features a programmable electronic lock allowing for a personalized 3-to-8 digit security code for effortless, keyless entry.\n- Secure Motorized Boltwork: Built with a robust steel body and automated shooting bolts to provide a solid defense against unauthorized access.\n- Peace-of-Mind Recovery: Includes a manual emergency override key, ensuring you can access your belongings even if the code is forgotten or the batteries run low.\n- Versatile Mounting: Comes with pre-drilled holes for easy and secure anchoring to walls, floors, or wardrobes to prevent the safe from being moved.\n\nSpecifications:\n- Dimensions: 17.0 cm (H) x 23.0 cm (W) x 17.0 cm (D)\n- Weight: 2.5 kg (Portable yet stays put when anchored)\n- Volume: 4.5 Liters\n- Lock Type: Digital Electronic Keypad + Emergency Override Key\n- Category: Lifestyle & Personal Security Gifting",
     "images": [
@@ -593,23 +391,16 @@
       "/images/gift/dreambox-pink-2.webp"
     ],
     "tags": [],
-    "lock_mechanism": [
-      "digital"
-    ]
+    "lock_mechanism": ["digital"]
   },
   {
     "id": "24",
     "name": "Dream Box (Black)",
-    "price": "4999",
-    "size": [
-      "(cm)17(h)x23(w)x17(d)",
-      "(mm)170(h)x230(w)x170(d)"
-    ],
+    "price": "4499",
+    "size": ["(cm)17(h)x23(w)x17(d)", "(mm)170(h)x230(w)x170(d)"],
     "weight": "2.5kg",
     "volume": "4.5L",
-    "category": [
-      "gift"
-    ],
+    "category": ["gift"],
     "slug": "dreambox-black",
     "description": "The Dream Box (Black) offers a sophisticated and stealthy security solution for those who prefer a classic, professional look. Combining a minimalist aesthetic with Godrej’s robust engineering, this compact digital locker is perfect for discreetly securing passports, gadgets, high-end watches, or private journals. Its sleek matte black finish allows it to blend seamlessly into modern office desks or dark-themed bedroom interiors, providing a high-tech sanctuary for your personal items without drawing unnecessary attention.\n\nFeatures:\n- Sleek Matte Black Finish: A professional-grade, powder-coated exterior that is both scratch-resistant and visually understated.\n- Intelligent Digital Keypad: Programmable electronic lock allowing you to set a secure 3-to-8 digit personal code for rapid, keyless entry.\n- Fortified Steel Shell: Constructed from cold-rolled steel with a motorized shooting bolt system to ensure your valuables stay protected.\n- Dual-Access Recovery: Includes a manual emergency override master key, providing a failsafe way to access the safe if batteries run out or the code is forgotten.\n- Easy Installation: Features pre-drilled holes for secure anchoring to walls, shelves, or floors, preventing the safe from being easily moved.\n\nSpecifications:\n- Dimensions: 17.0 cm (H) x 23.0 cm (W) x 17.0 cm (D)\n- Weight: 2.5 kg (Compact and high-stability build with mounting support)\n- Volume: 4.5 Liters\n- Lock Type: Electronic Digital Keypad + Emergency Manual Override Key\n- Category: Personal & Lifestyle Security Gifting",
     "images": [
@@ -617,23 +408,16 @@
       "/images/gift/dreambox-black-2.webp"
     ],
     "tags": [],
-    "lock_mechanism": [
-      "digital"
-    ]
+    "lock_mechanism": ["digital"]
   },
   {
     "id": "25",
     "name": "Dream Box (Red)",
-    "price": "4999",
-    "size": [
-      "(cm)17(h)x23(w)x17(d)",
-      "(mm)170(h)x230(w)x170(d)"
-    ],
+    "price": "4499",
+    "size": ["(cm)17(h)x23(w)x17(d)", "(mm)170(h)x230(w)x170(d)"],
     "weight": "2.5kg",
     "volume": "4.5L",
-    "category": [
-      "gift"
-    ],
+    "category": ["gift"],
     "slug": "dreambox-red",
     "description": "The Dream Box (Red) is a bold and secure personal safe designed to make a statement while keeping your valuables protected. Combining Godrej’s reliable security engineering with a striking crimson aesthetic, this compact digital locker is the perfect gift for those who want to secure 'daily treasures' like gadgets, expensive watches, or private journals with a touch of flair. Its vibrant red finish makes it a standout addition to any modern study desk, bedroom, or creative workspace, offering high-tech peace of mind in a stylish, compact package.\n\nFeatures:\n- Bold Crimson Finish: Features a high-quality, scratch-resistant red powder coating that adds energy and style to your personal space.\n- Smart Digital Keypad: Fast and secure access via a programmable electronic keypad that supports a personalized 3-to-8 digit security code.\n- Sturdy Steel Construction: Built with a cold-rolled steel body and automated shooting bolts for dependable physical protection against tampering.\n- Dual Access Failsafe: Includes a manual emergency override key, ensuring you can always retrieve your items if batteries run low or a code is forgotten.\n- Secure Mounting Support: Equipped with pre-drilled holes for easy and secure anchoring to furniture, walls, or floors for added theft prevention.\n\nSpecifications:\n- Dimensions: 17.0 cm (H) x 23.0 cm (W) x 17.0 cm (D)\n- Weight: 2.5 kg (Portable yet highly stable once anchored)\n- Volume: 4.5 Liters\n- Lock Type: Electronic Digital Keypad + Emergency Manual Override Key\n- Category: Personal & Lifestyle Security Gifting",
     "images": [
@@ -641,23 +425,16 @@
       "/images/gift/dreambox-red-2.webp"
     ],
     "tags": [],
-    "lock_mechanism": [
-      "digital"
-    ]
+    "lock_mechanism": ["digital"]
   },
   {
     "id": "26",
     "name": "Dream Box (Keylock)",
-    "price": "3999",
-    "size": [
-      "(cm)17(h)x23(w)x17(d)",
-      "(mm)170(h)x230(w)x170(d)"
-    ],
+    "price": "3499",
+    "size": ["(cm)17(h)x23(w)x17(d)", "(mm)170(h)x230(w)x170(d)"],
     "weight": "2.5kg",
     "volume": "4.5L",
-    "category": [
-      "gift"
-    ],
+    "category": ["gift"],
     "slug": "dreambox-keylock",
     "description": "The Dream Box (Keylock) is a reliable and straightforward security solution for those who prefer the tactile certainty of a traditional mechanical lock. Designed as a zero-maintenance, battery-free safe, it offers a dependable sanctuary for your personal items without the complexity of electronic keypads. Its compact dimensions make it the perfect desktop companion or wardrobe addition for securing cash, private letters, jewelry, and daily gadgets. This model combines a clean, modern aesthetic with the timeless reliability of a precision-engineered key lock system.\n\nFeatures:\n- Precision Mechanical Key Lock: Features a high-quality manual locking system for guaranteed access without the need for power or electronic maintenance.\n- Zero-Maintenance Security: No batteries or PIN codes required, ensuring the safe is always ready for use at a moment's notice.\n- Solid Steel Construction: Fabricated with cold-rolled steel plates and a secure bolt mechanism to guard against unauthorized access.\n- Compact & Discreet: A space-saving 4.5L interior designed to hold essential valuables like passports, currency, and sentimental items.\n- Secure Mounting Options: Comes with pre-drilled holes for easy and secure anchoring to furniture or walls, preventing the unit from being carried away.\n\nSpecifications:\n- Dimensions: 17.0 cm (H) x 23.0 cm (W) x 17.0 cm (D)\n- Weight: 2.5 kg (Lightweight yet durable with anchoring support)\n- Volume: 4.5 Liters\n- Lock Type: High-Security Mechanical Key Lock (Two keys provided)\n- Category: Personal & Lifestyle Security Gifting",
     "images": [
@@ -665,23 +442,16 @@
       "/images/gift/dreambox-kl-2.webp"
     ],
     "tags": [],
-    "lock_mechanism": [
-      "keylock"
-    ]
+    "lock_mechanism": ["keylock"]
   },
   {
     "id": "27",
     "name": "Verge Biometric",
-    "price": "14049",
-    "size": [
-      "(cm)8.4(h)x34(w)x25.8(d)",
-      "(mm)84(h)x340(w)x258(d)"
-    ],
+    "price": "13499",
+    "size": ["(cm)8.4(h)x34(w)x25.8(d)", "(mm)84(h)x340(w)x258(d)"],
     "weight": "4.5kg",
     "volume": "2L",
-    "category": [
-      "gift"
-    ],
+    "category": ["gift"],
     "slug": "verge-bio",
     "description": "The Verge Biometric is a cutting-edge, ultra-slim security safe designed for those who value speed, style, and high-tech accessibility. Its sleek, low-profile design allows it to fit discreetly into shallow drawers, under car seats, or inside briefcases, making it the ultimate portable sanctuary for high-value personal items. Equipped with a rapid-response fingerprint scanner, the Verge Bio ensures that your smartphone, luxury watch, passport, or emergency cash is accessible only to you at the touch of a finger, combining the elegance of modern tech with the peace of mind of Godrej security.\n\nFeatures:\n- High-Speed Biometric Access: Features a high-precision fingerprint sensor that stores multiple user profiles for instant, keyless entry.\n- Ultra-Slim Form Factor: A compact 8.4 cm height specifically engineered for drawer placement or discreet transport during travel.\n- Durable Steel Body: Constructed from cold-rolled steel with a reinforced locking mechanism to guard against unauthorized prying.\n- Soft Interior Lining: Features a premium padded interior to protect delicate valuables like jewelry and electronics from scratches.\n- Emergency Override: Includes a hidden mechanical override system and an external power backup port to ensure access even if batteries fail.\n\nSpecifications:\n- Dimensions: 8.4 cm (H) x 34.0 cm (W) x 25.8 cm (D)\n- Weight: 4.5 kg (Solid yet portable build for home or travel use)\n- Volume: 2 Liters\n- Lock Type: Advanced Biometric Scanner + Emergency Manual Override\n- Category: Travel & Executive Lifestyle Security",
     "images": [
@@ -689,23 +459,16 @@
       "/images/gift/verge-bio-2.webp"
     ],
     "tags": [],
-    "lock_mechanism": [
-      "biometric"
-    ]
+    "lock_mechanism": ["biometric"]
   },
   {
     "id": "28",
     "name": "Verge Digital",
-    "price": "13549",
-    "size": [
-      "(cm)8.4(h)x34(w)x25.8(d)",
-      "(mm)84(h)x340(w)x258(d)"
-    ],
+    "price": "13000",
+    "size": ["(cm)8.4(h)x34(w)x25.8(d)", "(mm)84(h)x340(w)x258(d)"],
     "weight": "4.5kg",
     "volume": "2L",
-    "category": [
-      "gift"
-    ],
+    "category": ["gift"],
     "slug": "verge-digital",
     "description": "The Verge Digital is an ultra-slim, high-tech security solution designed for the modern professional. Its low-profile, sleek architecture is specifically engineered to fit into shallow desk drawers, under-car seats, or inside luggage, providing premium protection for valuables on the move. Featuring a responsive illuminated digital keypad, this safe allows for quick, keyless access to your smartphone, passport, luxury watches, and travel currency. Combining portability with the rugged reliability of Godrej steel, the Verge Digital is the ultimate lifestyle companion for those who refuse to compromise on security or style.\n\nFeatures:\n- Ultra-Slim Architecture: At just 8.4 cm tall, it is perfectly sized for discreet storage in office drawers or bedside tables.\n- Smart Digital Keypad: Features a programmable electronic lock with a 3-to-6 digit user code and an illuminated display for easy use in low-light conditions.\n- Heavy-Duty Steel Body: Constructed from premium cold-rolled steel with a motorized locking bolt system to resist prying and tampering.\n- Protective Padded Interior: The inner floor is lined with a soft fabric to ensure your delicate electronics and jewelry remain scratch-free.\n- Dual Power Options: Includes an external power backup port and a manual emergency override key to ensure you are never locked out.\n\nSpecifications:\n- Dimensions: 8.4 cm (H) x 34.0 cm (W) x 25.8 cm (D)\n- Weight: 4.5 kg (Dense, high-security build optimized for portability)\n- Volume: 2 Liters\n- Lock Type: Electronic Digital Keypad + Emergency Manual Override\n- Category: Travel, Executive & Lifestyle Security",
     "images": [
@@ -713,23 +476,16 @@
       "/images/gift/verge-digital-2.webp"
     ],
     "tags": [],
-    "lock_mechanism": [
-      "digital"
-    ]
+    "lock_mechanism": ["digital"]
   },
   {
     "id": "29",
     "name": "Godrej Centiguard 1060 (Digi)",
-    "price": "121499",
-    "size": [
-      "(cm)125.4(h)x58(w)x58.7(d)",
-      "(mm)1254(h)x580(w)x587(d)"
-    ],
+    "price": "103399",
+    "size": ["(cm)125.4(h)x58(w)x58.7(d)", "(mm)1254(h)x580(w)x587(d)"],
     "weight": "236kg",
     "volume": "169L",
-    "category": [
-      "fire-resistant"
-    ],
+    "category": ["fire-resistant"],
     "slug": "godrej-centiguard-1060-digi",
     "description": "The Godrej Centiguard 1060 (Digi) is a professional-grade, high-capacity fire-resistant safe engineered to protect critical documents and valuables from extreme thermal threats. Certified to withstand intense heat for up to 120 minutes, this 169-liter powerhouse is the ultimate security solution for large offices, financial institutions, and homeowners with extensive physical records. Combining massive storage volume with an advanced digital locking system, it ensures that your property deeds, share certificates, and luxury assets remain unharmed even in the event of a catastrophic fire.\n\nFeatures:\n- Certified Fire Resistance: Successfully tested to withstand intense fire for up to 2 hours, keeping internal temperatures well below the charred point of paper.\n- High-Security Digital Lock: Features a sophisticated electronic keypad with a programmable user code and a built-in alarm system to deter unauthorized access.\n- Massive 169L Capacity: Designed for heavy-duty storage with adjustable shelving to accommodate large stacks of A4 ledgers, legal files, and multiple jewellery trays.\n- Heavy-Duty Armor: A formidable 236kg build featuring a reinforced steel body and specialized fire-insulating compound for maximum structural integrity.\n- Tongue-and-Groove Construction: Precision-engineered door gaps prevent the passage of hot gases and smoke into the safe's interior during a fire.\n\nSpecifications:\n- Dimensions: 125.4 cm (H) x 58.0 cm (W) x 58.7 cm (D)\n- Weight: 236 kg (Substantial mass designed to stay in place during a structural collapse)\n- Volume: 169 Liters\n- Lock Type: Advanced Digital Keypad with Secondary Manual Override\n- Fire Rating: 120 Minutes (Certified Fire Protection)",
     "images": [
@@ -737,23 +493,16 @@
       "/images/fire-resistant/godrej-centiguard-1060-digi-2.webp"
     ],
     "tags": [],
-    "lock_mechanism": [
-      "digital"
-    ]
+    "lock_mechanism": ["digital"]
   },
   {
     "id": "30",
     "name": "Godrej Centiguard 1060 (Keylock)",
-    "price": "104149",
-    "size": [
-      "(cm)125.4(h)x58(w)x58.7(d)",
-      "(mm)1254(h)x580(w)x587(d)"
-    ],
+    "price": "88599",
+    "size": ["(cm)125.4(h)x58(w)x58.7(d)", "(mm)1254(h)x580(w)x587(d)"],
     "weight": "236kg",
     "volume": "169L",
-    "category": [
-      "fire-resistant"
-    ],
+    "category": ["fire-resistant"],
     "slug": "godrej-centiguard-1060-keylock",
     "description": "The Godrej Centiguard 1060 (Keylock) is a high-capacity, heavy-duty fire-resistant safe designed for organizations and individuals who prioritize maximum reliability and mechanical simplicity. Engineered to protect vital paper documents from extreme temperatures, this safe is certified to withstand fire for up to 120 minutes. Its massive 169-liter interior, secured by a precision-engineered 6-lever mechanical key lock, provides a battery-free, zero-maintenance sanctuary for bulk document storage, land deeds, and corporate ledgers, making it an indispensable asset for large businesses and legal firms.\n\nFeatures:\n- 120-Minute Fire Certification: Independently tested to keep internal temperatures below the charring point of paper for 2 hours during a high-intensity fire.\n- High-Security Mechanical Lock: Equipped with a precision-crafted 6-lever key lock for absolute reliability without the need for electronic power or battery changes.\n- Massive 169L Storage: Features a tall vertical design with adjustable shelving, perfectly suited for organizing large quantities of A4 files and bulky legal binders.\n- Dual-Wall Fire Insulation: Built with a specialized fire-resistant compound sandwiched between thick steel plates for superior thermal and physical protection.\n- Smoke-Tight Construction: Features a unique tongue-and-groove door design that creates a tight seal to prevent hot gases and smoke from entering the safe.\n\nSpecifications:\n- Dimensions: 125.4 cm (H) x 58.0 cm (W) x 58.7 cm (D)\n- Weight: 236 kg (Substantial mass providing high stability and inherent theft deterrence)\n- Volume: 169 Liters\n- Lock Type: Precision 6-Lever Mechanical Key Lock\n- Fire Rating: Certified 120 Minutes Fire Protection",
     "images": [
@@ -761,23 +510,16 @@
       "/images/fire-resistant/godrej-centiguard-1060-kl-2.webp"
     ],
     "tags": [],
-    "lock_mechanism": [
-      "keylock"
-    ]
+    "lock_mechanism": ["keylock"]
   },
   {
     "id": "31",
     "name": "Godrej Centiguard 560 (Digi)",
-    "price": "88549",
-    "size": [
-      "(cm)75.4(h)x58(w)x58.7(d)",
-      "(mm)754(h)x580(w)x587(d)"
-    ],
+    "price": "76999",
+    "size": ["(cm)75.4(h)x58(w)x58.7(d)", "(mm)754(h)x580(w)x587(d)"],
     "weight": "145kg",
     "volume": "89L",
-    "category": [
-      "fire-resistant"
-    ],
+    "category": ["fire-resistant"],
     "slug": "godrej-centiguard-560-digi",
     "description": "The Godrej Centiguard 560 (Digi) is a mid-sized, high-performance fire-resistant safe designed to provide elite thermal protection for your critical documents and digital media. Certified to resist intense fire for up to 120 minutes, this 89-liter model is the ideal security choice for small to medium offices and upscale residences. It features an advanced digital locking interface that combines modern convenience with a heavy-duty, reinforced chassis, ensuring your property titles, contracts, and expensive jewellery remain unharmed even under extreme heat conditions.\n\nFeatures:\n- 120-Minute Fire Rated: Rigorously tested to keep internal temperatures safe for paper documents for up to 2 hours during a high-temperature blaze.\n- Intelligent Digital Access: Features a programmable electronic keypad with an integrated alarm system that triggers upon multiple incorrect attempts.\n- Dual-Wall Fortification: Constructed with a specialized fire-insulating compound encased in a high-grade steel body for superior heat and burglary resistance.\n- Versatile 89L Storage: Offers ample vertical space with adjustable shelving, perfectly suited for A4 files, legal folders, and personal valuables.\n- Smoke & Heat Seal: Features a precision tongue-and-groove door design that acts as a barrier against hot gases, smoke, and water during firefighting efforts.\n\nSpecifications:\n- Dimensions: 75.4 cm (H) x 58.0 cm (W) x 58.7 cm (D)\n- Weight: 145 kg (A formidable weight that ensures high stability and deters theft)\n- Volume: 89 Liters\n- Lock Type: Advanced Digital Keypad with Emergency Manual Override\n- Fire Rating: Certified 120 Minutes Fire Protection",
     "images": [
@@ -785,23 +527,16 @@
       "/images/fire-resistant/godrej-centiguard-560-digi-2.webp"
     ],
     "tags": [],
-    "lock_mechanism": [
-      "digital"
-    ]
+    "lock_mechanism": ["digital"]
   },
   {
     "id": "32",
     "name": "Godrej Centiguard 560 (Keylock)",
-    "price": "76049",
-    "size": [
-      "(cm)75.4(h)x58(w)x58.7(d)",
-      "(mm)754(h)x580(w)x587(d)"
-    ],
+    "price": "64699",
+    "size": ["(cm)75.4(h)x58(w)x58.7(d)", "(mm)754(h)x580(w)x587(d)"],
     "weight": "145kg",
     "volume": "89L",
-    "category": [
-      "fire-resistant"
-    ],
+    "category": ["fire-resistant"],
     "slug": "godrej-centiguard-560-keylock",
     "description": "The Godrej Centiguard 560 (Keylock) is a robust, mid-sized fire-resistant safe engineered to offer foolproof mechanical security for your most critical documents. Certified to withstand intense fire for up to 120 minutes, this 89-liter model is the preferred choice for law firms, medical clinics, and homeowners who value the zero-maintenance reliability of a high-security key lock. Its substantial 145kg build features a specialized fire-insulating barrier that ensures your property deeds, share certificates, and vital paper records remain perfectly preserved even in the face of extreme thermal disasters.\n\nFeatures:\n- 120-Minute Fire Certification: Independently tested to maintain a safe internal temperature for paper documents for up to 2 hours during a high-intensity fire.\n- High-Security Mechanical Lock: Features a precision-engineered 6-lever mechanical key lock for absolute reliability without the need for batteries or electronic components.\n- Advanced Fire Insulation: Constructed with a specialized fire-resistant compound encased within a heavy-duty steel body to provide a formidable barrier against heat and prying.\n- Versatile 89L Capacity: Optimized vertical storage space that easily accommodates A4 files, legal binders, and jewellery boxes with adjustable internal shelving.\n- Smoke-Tight Door Seal: Features a unique tongue-and-groove design that prevents the ingress of hot gases and smoke, ensuring the safe’s interior stays clean and cool.\n\nSpecifications:\n- Dimensions: 75.4 cm (H) x 58.0 cm (W) x 58.7 cm (D)\n- Weight: 145 kg (A heavy-duty build designed for high stability and maximum theft deterrence)\n- Volume: 89 Liters\n- Lock Type: Precision 6-Lever Mechanical Key Lock\n- Fire Rating: Certified 120 Minutes Fire Protection",
     "images": [
@@ -809,47 +544,33 @@
       "/images/fire-resistant/godrej-centiguard-560-kl-2.webp"
     ],
     "tags": [],
-    "lock_mechanism": [
-      "keylock"
-    ]
+    "lock_mechanism": ["keylock"]
   },
   {
     "id": "33",
     "name": "Godrej Centiguard 445 (Keylock)",
-    "price": "55799",
-    "size": [
-      "(cm)63.9(h)x49.5(w)x53.7(d)",
-      "(mm)639(h)x495(w)x537(d)"
-    ],
+    "price": "46499",
+    "size": ["(cm)63.9(h)x49.5(w)x53.7(d)", "(mm)639(h)x495(w)x537(d)"],
     "weight": "95kg",
     "volume": "49L",
-    "category": [
-      "fire-resistant"
-    ],
+    "category": ["fire-resistant"],
     "slug": "godrej-centiguard-445-kl",
     "description": "The Godrej Centiguard 445 (Keylock) is a compact yet formidable fire-resistant safe designed for those who need high-tier thermal protection without the footprint of a full-sized industrial unit. Perfectly sized for executive offices and private residences, this 49-liter safe is certified to withstand intense fire for up to 120 minutes. It offers a purely mechanical security experience, utilizing a precision 6-lever key lock that guarantees access even in the complete absence of power. It is the ideal sanctuary for protecting vital property documents, insurance papers, and family heirlooms from both theft and fire hazards.\n\nFeatures:\n- 120-Minute Fire Rated: Rigorously tested to maintain internal temperatures below the charring point of paper for up to 2 hours during a high-heat fire event.\n- Dependable Mechanical Locking: Equipped with a high-precision 6-lever mechanical key lock, providing a battery-free, zero-maintenance security solution.\n- Fire-Resistant Barrier: Built with a specialized insulating compound poured between heavy-duty steel walls to create a formidable thermal shield.\n- Efficient 49L Interior: A thoughtfully designed storage space that comfortably holds A4 folders, jewelry boxes, and stacks of legal documents on adjustable shelves.\n- Multi-Step Door Design: Features a unique tongue-and-groove construction to prevent the passage of hot gases, smoke, and water into the safe's interior.\n\nSpecifications:\n- Dimensions: 63.9 cm (H) x 49.5 cm (W) x 53.7 cm (D)\n- Weight: 95 kg (Balanced build offering substantial resistance and ease of placement in furniture)\n- Volume: 49 Liters\n- Lock Type: High-Security 6-Lever Mechanical Key Lock\n- Fire Rating: Certified 120 Minutes Fire Protection",
     "images": [
-     "/images/fire-resistant/godrej-centiguard-560-kl-1.webp",
+      "/images/fire-resistant/godrej-centiguard-560-kl-1.webp",
       "/images/fire-resistant/godrej-centiguard-560-kl-2.webp"
     ],
     "tags": [],
-    "lock_mechanism": [
-      "keylock"
-    ]
+    "lock_mechanism": ["keylock"]
   },
   {
     "id": "34",
     "name": "Godrej Safire 40L (Digi)",
-    "price": "51149",
-    "size": [
-      "(cm)56(h)x42.2(w)x49.1(d)",
-      "(mm)560(h)x422(w)491(d)"
-    ],
+    "price": "46499",
+    "size": ["(cm)56(h)x42.2(w)x49.1(d)", "(mm)560(h)x422(w)491(d)"],
     "weight": "61kg",
     "volume": "40L",
-    "category": [
-      "fire-resistant"
-    ],
+    "category": ["fire-resistant"],
     "slug": "godrej-safire-40l-digi",
     "description": "The Godrej Safire 40L (Digi) is a premium fire-resistant safe that strikes the perfect balance between high-tech accessibility and formidable thermal protection. Engineered to safeguard your most critical documents and digital media, the Safire series is certified to withstand intense fire for up to 90 minutes. This 40-liter digital model is a sophisticated choice for modern homes and corporate offices, offering a seamless user experience through its advanced electronic keypad while ensuring that property deeds, passports, and heirloom jewelry remain untouched by external heat or unauthorized access.\n\nFeatures:\n- Certified Fire Protection: Tested and certified to keep internal temperatures safe for paper documents for up to 90 minutes during a high-intensity fire.\n- Advanced Digital Keypad: Features a sleek electronic interface allowing for a personalized 4-to-6 digit user code, ensuring fast and secure keyless access.\n- Tongue-and-Groove Construction: A precision-engineered door design that creates a tight seal against hot gases, smoke, and water ingress during fire emergencies.\n- Heavy-Duty Boltwork: Equipped with multiple solid steel shooting bolts that lock deep into the safe body for enhanced burglary resistance.\n- Optimized 40L Storage: Thoughtfully designed interior with a removable shelf and a drawer, providing organized storage for legal documents, currency, and jewelry.\n\nSpecifications:\n- Dimensions: 56.0 cm (H) x 42.2 cm (W) x 49.1 cm (D)\n- Weight: 61 kg (Substantial build providing a strong physical deterrent and stability)\n- Volume: 40 Liters\n- Lock Type: High-Security Digital Keypad with Emergency Manual Override\n- Fire Rating: Certified 90 Minutes Fire Protection",
     "images": [
@@ -857,23 +578,16 @@
       "/images/fire-resistant/godrej-safire-40l-digi-2.webp"
     ],
     "tags": [],
-    "lock_mechanism": [
-      "digital"
-    ]
+    "lock_mechanism": ["digital"]
   },
   {
     "id": "35",
     "name": "Godrej Safire 40L (Keylock)",
-    "price": "47549",
-    "size": [
-      "(cm)56(h)x42.2(w)x49.1(d)",
-      "(mm)560(h)x422(w)x491(d)"
-    ],
+    "price": "43199",
+    "size": ["(cm)56(h)x42.2(w)x49.1(d)", "(mm)560(h)x422(w)x491(d)"],
     "weight": "61kg",
     "volume": "40L",
-    "category": [
-      "fire-resistant"
-    ],
+    "category": ["fire-resistant"],
     "slug": "godrej-safire-40l-keylock",
     "description": "The Godrej Safire 40L (Keylock) is a dependable, fire-resistant security solution designed for those who prefer the absolute reliability of mechanical locking systems. Certified to protect paper documents for up to 90 minutes in intense fire conditions, this 40-liter model is an essential asset for securing property deeds, birth certificates, and family heirlooms. With its robust 61kg build and zero-maintenance operation, it provides a 'set-and-forget' peace of mind, ensuring your most vital records remain intact even in the face of a thermal disaster.\n\nFeatures:\n- Certified 90-Minute Fire Protection: Rigorously tested to keep internal temperatures safe for paper records for up to 1.5 hours during high-heat fires.\n- Precision Mechanical Key Lock: Features a high-security 6-lever mechanical lock for guaranteed access without the need for batteries or electronic components.\n- Fire-Resistant Barrier: Built with a specialized insulating compound poured between thick steel walls to create a formidable thermal shield.\n- Tongue-and-Groove Seal: A precision-engineered door gap design that prevents hot gases, smoke, and water from penetrating the safe's interior.\n- Organized 40L Interior: Includes a removable shelf and an internal drawer, making it easy to separate documents from jewelry and small valuables.\n\nSpecifications:\n- Dimensions: 56.0 cm (H) x 42.2 cm (W) x 49.1 cm (D)\n- Weight: 61 kg (Solid construction designed for high stability and physical theft deterrence)\n- Volume: 40 Liters\n- Lock Type: High-Security 6-Lever Mechanical Key Lock\n- Fire Rating: Certified 90 Minutes Fire Protection",
     "images": [
@@ -881,662 +595,434 @@
       "/images/fire-resistant/godrej-safire-40l-kl-2.webp"
     ],
     "tags": [],
-    "lock_mechanism": [
-      "keylock"
-    ]
+    "lock_mechanism": ["keylock"]
   },
-
+  {
+    "id": "36",
+    "name": "Godrej Safire 20L (Keylock)",
+    "price": "46499",
+    "size": ["(cm)44(h)x37.7(w)x43.1(d)", "(mm)440(h)x377(w)x431(d)"],
+    "weight": "40kg",
+    "volume": "20L",
+    "category": ["fire-resistant"],
+    "slug": "godrej-safire-20l-keylock",
+    "description": "The Godrej Safire 20L (Keylock) is a compact, high-performance fire-resistant safe designed for those who require elite thermal protection in a space-saving form factor. Perfectly suited for home offices or master bedrooms, this 20-liter model is certified to protect your most vital paper documents for up to 90 minutes in the event of a high-intensity fire. Combining Godrej’s legendary 6-lever mechanical locking reliability with specialized fire-insulating armor, it ensures that your passports, property deeds, and family heirlooms remain intact and secure without ever needing a battery change.\n\nFeatures:\n- Certified 90-Minute Fire Protection: Rigorously tested to keep internal temperatures well below the charring point of paper for 1.5 hours of fire exposure.\n- Precision Mechanical Key Lock: Features a high-security 6-lever mechanical lock for absolute reliability and zero-maintenance operation.\n- Advanced Fire Insulation: Constructed with a specialized fire-resistant compound encased within a reinforced steel body for superior thermal defense.\n- Tongue-and-Groove Seal: A precision-engineered door design that acts as a barrier against hot gases, smoke, and water during a fire emergency.\n- Compact & Practical: A 20L interior optimized for the storage of essential legal documents, jewelry boxes, and digital storage media.\n\nSpecifications:\n- Dimensions: 44.0 cm (H) x 37.7 cm (W) x 43.1 cm (D)\n- Weight: 40 kg (Solid, dense construction for stable placement and physical theft resistance)\n- Volume: 20 Liters\n- Lock Type: High-Security 6-Lever Mechanical Key Lock\n- Fire Rating: Certified 90 Minutes Fire Protection",
+    "images": [
+      "/images/fire-resistant/godrej-safire-40l-kl-1.webp",
+      "/images/fire-resistant/godrej-safire-40l-kl-2.webp"
+    ],
+    "tags": [],
+    "lock_mechanism": ["keylock"]
+  },
   {
     "id": "37",
     "name": "Godrej Nx Pro Luxe 48L (Digi+Bio)",
-    "price": "51599",
-    "size": [
-      "(cm)53(h)x40(w)x35(d)",
-      "(mm)530(h)x400(w)x350(d)"
-    ],
+    "price": "47999",
+    "size": ["(cm)53(h)x40(w)x35(d)", "(mm)530(h)x400(w)x350(d)"],
     "weight": "29.5kg",
     "volume": "48L",
-    "category": [
-      "10x"
-    ],
+    "category": ["10x"],
     "slug": "godrej-nx-pro-luxe-48l-digi-bio",
     "description": "The Godrej Nx Pro Luxe 48L (Digi+Bio) represents the pinnacle of modern home security, offering a sophisticated dual-authentication system for the discerning user. Combining high-speed biometric fingerprint recognition with a tactile digital keypad, this 'Luxe' edition safe provides 10 times the strength of standard cupboards. With a generous 48-liter capacity, it is masterfully designed to house larger collections of jewelry, legal documents, and digital devices, ensuring that only authorized users gain access through the most advanced tech-security interface available in the 10X range.\n\nFeatures:\n- Dual-Tech Security: Integrated biometric fingerprint scanner and digital keypad for multiple layers of secure access.\n- 10X Enhanced Strength: Built with high-tensile steel designed to be 10 times more resistant to prying than conventional storage units.\n- Motorized Shooting Bolts: Features automated heavy-duty locking bolts for a smooth, keyless locking experience at the touch of a button.\n- High-Capacity 48L Interior: Large enough to hold A4 files vertically and multiple jewelry trays with an adjustable shelf for organization.\n- Master & User Code Support: Manage access easily with a master code for the owner and secondary profiles for family members.\n\nSpecifications:\n- Dimensions: 53.0 cm (H) x 40.0 cm (W) x 35.0 cm (D)\n- Weight: 29.5 kg (Precision engineered for stability and secure furniture anchoring)\n- Volume: 48 Liters\n- Lock Type: Biometric Fingerprint + Electronic Digital Keypad\n- Security Rating: 10X Advanced Burglary Resistance",
     "images": [
       "/images/10x/godrej-nx-pro-luxe-48l-digi-bio-1.webp",
       "/images/10x/godrej-nx-pro-luxe-48l-digi-bio-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital",
-      "biometric"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digital", "biometric"]
   },
   {
     "id": "38",
     "name": "Godrej Nx Pro Luxe 30L (Digi+Bio)",
-    "price": "40549",
-    "size": [
-      "(cm)33(h)x40(w)x35(d)",
-      "(mm)330(h)x400(w)x350(d)"
-    ],
+    "price": "38599",
+    "size": ["(cm)33(h)x40(w)x35(d)", "(mm)330(h)x400(w)x350(d)"],
     "weight": "20.9kg",
     "volume": "30L",
-    "category": [
-      "10x"
-    ],
+    "category": ["10x"],
     "slug": "godrej-nx-pro-luxe-30l-digi-bio",
     "description": "The Godrej Nx Pro Luxe 30L (Digi+Bio) is a compact, ultra-secure safe that seamlessly blends into high-end wardrobes while providing elite-level protection. Part of the exclusive Luxe series, it features a hybrid locking mechanism that allows for instant biometric access or secure digital PIN entry. As a 10X strength-rated safe, it provides significantly higher burglary resistance than standard home safes. Its 30-liter volume is the 'sweet spot' for securing daily-use valuables like luxury watches, passports, and essential cash, making it an indispensable security asset for any modern household.\n\nFeatures:\n- Hybrid Locking Interface: Features a fast-response biometric sensor and a digital keypad, providing zero-compromise security and convenience.\n- 10X Burglary Resistance: Reinforced steel construction engineered to thwart prying attempts and unauthorized access effectively.\n- Sleek Aesthetic: A premium, modern finish that complements luxury interiors and fits perfectly into standard closet shelving.\n- Auto-Freeze Function: Automatically locks the safe after consecutive wrong attempts, preventing brute-force code cracking.\n- Mechanical Override: Includes an emergency manual key to ensure you are never locked out in the event of battery exhaustion.\n\nSpecifications:\n- Dimensions: 33.0 cm (H) x 40.0 cm (W) x 35.0 cm (D)\n- Weight: 20.9 kg (Optimized weight for secure anchoring to shelves or floors)\n- Volume: 30 Liters\n- Lock Type: Biometric Fingerprint + Electronic Digital Keypad\n- Security Rating: 10X Advanced Burglary Resistance",
     "images": [
       "/images/10x/godrej-nx-pro-luxe-30l-digi-bio-1.webp",
       "/images/10x/godrej-nx-pro-luxe-30l-digi-bio-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital",
-      "biometric"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digital", "biometric"]
   },
   {
     "id": "39",
     "name": "Godrej Nx Pro Slide (Digi+Bio)",
     "price": "26299",
-    "size": [
-      "(cm)19.5(h)x35.5(w)x40(d)",
-      "(mm)195(h)x355(w)x400(d)"
-    ],
+    "size": ["(cm)19.5(h)x35.5(w)x40(d)", "(mm)195(h)x355(w)x400(d)"],
     "weight": "13.4kg",
     "volume": "13L",
-    "category": [
-      "10x"
-    ],
+    "category": ["10x"],
     "slug": "godrej-nx-pro-slide-digi-bio",
     "description": "The Godrej Nx Pro Slide (Digi+Bio) is a revolutionary top-opening security solution designed for seamless integration into drawers and pull-out cabinetry. Part of the elite 10X strength-rated series, this safe provides ten times the prying resistance of standard storage units while offering the convenience of 'slide-to-access' visibility. Featuring a dual-access hybrid system of biometric fingerprint scanning and a digital PIN, it is the perfect discreet sanctuary for high-value items like passports, cash, and luxury timepieces that you need to access quickly and securely from a seated position.\n\nFeatures:\n- Innovative Slide-Access Design: Top-opening mechanism specifically engineered for drawer installation, providing a bird's-eye view of your valuables.\n- Dual-Biometric Security: Combines an ultra-fast fingerprint sensor with a tactile digital keypad for flexible, high-tier authentication.\n- 10X Strength Rating: Constructed with reinforced steel and superior anti-drill plates to provide significantly higher resistance against forced entry.\n- Drawer-Optimized Profile: At just 19.5 cm in height, it fits comfortably into most standard modular kitchen or bedroom drawers.\n- Internal Lighting: Features an integrated LED that illuminates the safe interior upon opening, ensuring clear visibility in low-light environments.\n\nSpecifications:\n- Dimensions: 19.5 cm (H) x 35.5 cm (W) x 40.0 cm (D)\n- Weight: 13.4 kg (Dense, high-security build optimized for horizontal mounting)\n- Volume: 13 Liters\n- Lock Type: Biometric Fingerprint + Electronic Digital Keypad\n- Security Rating: 10X Advanced Burglary Resistance",
     "images": [
       "/images/10x/godrej-nx-pro-slide-digi-bio-1.webp",
       "/images/10x/godrej-nx-pro-slide-digi-bio-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital",
-      "biometric"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digital", "biometric"]
   },
   {
     "id": "40",
     "name": "Godrej Nx Pro Seal (Keylock)",
-    "price": "18299",
-    "size": [
-      "(cm)25(h)x35(w)x40(d)",
-      "(mm)250(h)x350(w)x400(d)"
-    ],
+    "price": "16599",
+    "size": ["(cm)25(h)x35(w)x40(d)", "(mm)250(h)x350(w)x400(d)"],
     "weight": "15.6kg",
     "volume": "25L",
-    "category": [
-      "10x"
-    ],
+    "category": ["10x"],
     "slug": "godrej-nx-pro-seal-kl",
     "description": "The Godrej Nx Pro Seal (Keylock) is the ultimate choice for those who demand the brute-force protection of the 10X range with the absolute reliability of a mechanical locking system. Engineered to be 10 times stronger than standard home cupboards, this safe features a high-precision mechanical lock that requires no batteries or electronic maintenance. Its 25-liter capacity is perfectly balanced for home or office use, providing a fortified sanctuary for cash, jewelry, and legal documents. The 'Seal' model is designed with a reinforced door and frame, ensuring your valuables remain 'sealed' away from unauthorized prying and tampering.\n\nFeatures:\n- 10X Enhanced Burglary Resistance: Built with high-tensile steel and reinforced plates, offering significantly higher strength against forced entry compared to conventional lockers.\n- High-Precision Mechanical Keylock: Equipped with a heavy-duty mechanical lock for guaranteed access without the need for power or PIN codes.\n- Fortified Door Frame: Features a unique construction that reduces gaps, making it exceptionally difficult for tools to gain leverage during a prying attempt.\n- Versatile 25L Volume: Ample space for securing essential family documents, bundles of currency, and jewelry boxes with ease.\n- Multi-Surface Anchoring: Includes pre-drilled holes for secure mounting to the floor or inside a wardrobe, preventing the safe from being moved or carried away.\n\nSpecifications:\n- Dimensions: 25.0 cm (H) x 35.0 cm (W) x 40.0 cm (D)\n- Weight: 15.6 kg (Substantial steel-heavy build for high physical security)\n- Volume: 25 Liters\n- Lock Type: High-Security Precision Mechanical Keylock\n- Security Rating: 10X Advanced Strength Series",
     "images": [
       "/images/10x/godrej-nx-pro-seal-kl-1.webp",
       "/images/10x/godrej-nx-pro-seal-kl-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "keylock"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["keylock"]
   },
   {
     "id": "41",
     "name": "Godrej Nx Pro Plus 70L (Digi+Bio)",
-    "price": "50949",
-    "size": [
-      "(cm)55.8(h)x37(w)x44.5(d)",
-      "(mm)558(h)x370(w)x445(d)"
-    ],
+    "price": "46299",
+    "size": ["(cm)55.8(h)x37(w)x44.5(d)", "(mm)558(h)x370(w)x445(d)"],
     "weight": "27.1kg",
     "volume": "70L",
-    "category": [
-      "10x"
-    ],
+    "category": ["10x"],
     "slug": "godrej-nx-pro-plus-70l-digi-bio",
     "description": "The Godrej Nx Pro Plus 70L is the high-capacity titan of the 10X strength series, designed for users with extensive storage needs who refuse to compromise on tech-driven security. Boasting a massive 70-liter interior, this safe features a sophisticated hybrid locking system that combines biometric fingerprint scanning with a digital PIN. Engineered to be 10 times stronger than ordinary wooden cupboards, it provides a fortified environment for bulkier valuables, including multiple jewelry sets, large document binders, and high-end electronics, all protected by Godrej's legendary anti-pry technology.\n\nFeatures:\n- Dual-Access Hybrid Lock: Instant biometric fingerprint recognition paired with a tactile digital keypad for versatile and redundant security.\n- 10X Strength Engineering: Specialized steel construction that offers ten times the resistance to forced entry compared to traditional home storage.\n- Extra-Large 70L Capacity: Vertical design optimized for high-volume storage, featuring an adjustable shelf for efficient organization.\n- Auto-Freeze Security: Intelligent system that locks out the safe after multiple failed access attempts to prevent brute-force tampering.\n- Interior Illumination: Built-in lighting ensures you can easily find your items even in dark closets or low-light office settings.\n\nSpecifications:\n- Dimensions: 55.8 cm (H) x 37.0 cm (W) x 44.5 cm (D)\n- Weight: 27.1 kg (Heavy-duty vertical build for maximum interior space)\n- Volume: 70 Liters\n- Lock Type: Biometric + Digital Electronic Keypad\n- Security Series: 10X Advanced Strength",
     "images": [
       "/images/10x/godrej-nx-pro-plus-70l-digi-bio-1.webp",
       "/images/10x/godrej-nx-pro-plus-70l-digi-bio-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital",
-      "biometric"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digital", "biometric"]
   },
   {
     "id": "42",
     "name": "Godrej Nx Pro Plus 45L (Digi+Bio)",
-    "price": "39449",
-    "size": [
-      "(cm)50(h)x35.5(w)x33(d)",
-      "(mm)500(h)x355(w)x330(d)"
-    ],
+    "price": "35849",
+    "size": ["(cm)50(h)x35.5(w)x33(d)", "(mm)500(h)x355(w)x330(d)"],
     "weight": "20.9kg",
     "volume": "45L",
-    "category": [
-      "10x"
-    ],
+    "category": ["10x"],
     "slug": "godrej-nx-pro-plus-45l-digi-bio",
     "description": "The Godrej Nx Pro Plus 45L offers a versatile mid-sized security solution for the modern home or executive office. Combining the advanced 'Plus' series features—biometric and digital locking—with the 10X strength rating, this safe is a formidable barrier against theft. Its 45-liter volume provides ample room for tall documents and personal valuables, while its sleek vertical profile allows for convenient placement within wardrobes or bedside cabinets. Experience the peace of mind that comes with Godrej's dual-authentication technology and enhanced structural integrity.\n\nFeatures:\n- Advanced Biometric Scanner: Fast and accurate fingerprint sensor that stores multiple users for personalized access.\n- 10X Anti-Pry Strength: Precision-welded body and reinforced door frame designed to resist high-impact prying attempts.\n- Smart Digital Keypad: Features a backlit display for easy operation and the ability to set a secure 4-to-6 digit PIN.\n- Motorized Locking Mechanism: Dual shooting bolts that lock and unlock automatically, eliminating the need for a physical handle.\n- Internal Drawer/Shelf: Includes organizational tools to keep small items like jewelry and watches separate from larger files.\n\nSpecifications:\n- Dimensions: 50.0 cm (H) x 35.5 cm (W) x 33.0 cm (D)\n- Weight: 20.9 kg (Optimized balance of high-strength steel and manageable weight)\n- Volume: 45 Liters\n- Lock Type: Biometric + Digital Electronic Keypad\n- Security Series: 10X Advanced Strength",
     "images": [
       "/images/10x/godrej-nx-pro-plus-45l-digi-bio-1.webp",
       "/images/10x/godrej-nx-pro-plus-45l-digi-bio-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital",
-      "biometric"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digital", "biometric"]
   },
   {
     "id": "43",
     "name": "Godrej Nx Pro Plus 30L (Digi+Bio)",
-    "price": "30399",
-    "size": [
-      "(cm)32(h)x40(w)x32(d)",
-      "(mm)320(h)x400(w)x320(d)"
-    ],
+    "price": "27599",
+    "size": ["(cm)32(h)x40(w)x32(d)", "(mm)320(h)x400(w)x320(d)"],
     "weight": "15.8kg",
     "volume": "30L",
-    "category": [
-      "10x"
-    ],
+    "category": ["10x"],
     "slug": "godrej-nx-pro-plus-30l-digi-bio",
     "description": "The Godrej Nx Pro Plus 30L is a high-performance, compact safe designed for elite-level personal security. Utilizing a dual-access system of biometric and digital entry, this model ensures that your daily essentials are reachable in seconds while remaining 10 times more secure than traditional storage. Its wider 40cm profile makes it ideal for storing tablets, luxury watches, and flat-stacked documents. Built to withstand prying and forced entry, the Nx Pro Plus 30L is a masterclass in modern security engineering for the tech-savvy individual.\n\nFeatures:\n- Dual-Keyless Entry: Choose between fingerprint access or a digital code for a completely key-free lifestyle.\n- 10X Prying Resistance: Engineered with high-grade steel and a reinforced door designed to foil forced entry attempts.\n- Low Battery Indicator: Visual and audio alerts to ensure you replace batteries well before they run out of power.\n- Emergency Override: Includes a manual override key and external power port to ensure access during any contingency.\n- Wide Horizon Storage: The horizontal layout is perfect for storing gadgets and passports without stacking items too deep.\n\nSpecifications:\n- Dimensions: 32.0 cm (H) x 40.0 cm (W) x 32.0 cm (D)\n- Weight: 15.8 kg (Sturdy construction with secure anchoring points)\n- Volume: 30 Liters\n- Lock Type: Biometric + Digital Electronic Keypad\n- Security Series: 10X Advanced Strength",
     "images": [
       "/images/10x/godrej-nx-pro-plus-30l-digi-bio-1.webp",
       "/images/10x/godrej-nx-pro-plus-30l-digi-bio-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital",
-      "biometric"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digital", "biometric"]
   },
   {
     "id": "44",
     "name": "Godrej Nx Pro Plus 15L (Digi+Bio)",
-    "price": "21249",
-    "size": [
-      "(cm)25(h)x35(w)x25(d)",
-      "(mm)250(h)x350(w)x250(d)"
-    ],
+    "price": "18449",
+    "size": ["(cm)25(h)x35(w)x25(d)", "(mm)250(h)x350(w)x250(d)"],
     "weight": "8.7kg",
     "volume": "15L",
-    "category": [
-      "10x"
-    ],
+    "category": ["10x"],
     "slug": "godrej-nx-pro-plus-15l-digi-bio",
     "description": "The Godrej Nx Pro Plus 15L is a compact security powerhouse, perfect for users who need 10X strength-rated protection for their most essential items. Despite its smaller footprint, it houses the same elite biometric and digital locking technology found in larger models. This 15-liter safe is the ideal sanctuary for passports, cash, and heirloom jewelry, fitting effortlessly into small closet spaces or desk drawers. It offers a premium, high-tech solution for personal security that is light enough for easy installation yet strong enough to resist serious tampering.\n\nFeatures:\n- Compact Dual Access: State-of-the-art biometric and digital security in a space-saving 15-liter chassis.\n- 10X Security Fabric: Manufactured with the same high-tensile steel as industrial units, providing vastly superior protection over standard lockers.\n- Simple User Management: Program and store multiple fingerprints for shared family use or backup profiles.\n- Visual Feedback: Features an LED display that guides you through the opening and locking process.\n- Secure Anchoring: Pre-drilled holes allow for quick mounting to walls or floors to ensure the unit cannot be carried away.\n\nSpecifications:\n- Dimensions: 25.0 cm (H) x 35.0 cm (W) x 25.0 cm (D)\n- Weight: 8.7 kg (Ideal for shelf mounting and discreet placement)\n- Volume: 15 Liters\n- Lock Type: Biometric + Digital Electronic Keypad\n- Security Series: 10X Advanced Strength",
     "images": [
       "/images/10x/godrej-nx-pro-plus-15l-digi-bio-1.webp",
       "/images/10x/godrej-nx-pro-plus-15l-digi-bio-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital",
-      "biometric"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digital", "biometric"]
   },
   {
     "id": "45",
     "name": "Godrej Nx Pro 40L (Digi)",
-    "price": "25999",
-    "size": [
-      "(cm)42(h)x35(w)x35(d)",
-      "(mm)420(h)x350(w)x350(d)"
-    ],
+    "price": "23599",
+    "size": ["(cm)42(h)x35(w)x35(d)", "(mm)420(h)x350(w)x350(d)"],
     "weight": "16kg",
     "volume": "40L",
-    "category": [
-      "10x"
-    ],
+    "category": ["10x"],
     "slug": "godrej-nx-pro-40l-digi",
     "description": "The Godrej Nx Pro 40L (Digi) is a versatile and spacious home safe that brings professional-grade security to your personal space. As part of the 10X series, it is engineered to be ten times stronger than traditional wooden cupboards, providing a significant deterrent against forced entry. The 40-liter interior offers a tall vertical layout, making it perfect for organizing a variety of valuables from A4 folders and legal documents to jewelry boxes and high-end electronics, all secured behind a sleek, user-friendly digital interface.\n\nFeatures:\n- 10X Strength Advantage: Manufactured with high-grade steel to provide superior resistance against prying and tampering compared to standard storage.\n- Advanced Digital Lock: Features a programmable electronic keypad with a personalized user code for fast and secure keyless access.\n- Motorized Locking Bolts: Dual shooting bolts lock and unlock automatically, ensuring a smooth and reliable door operation.\n- Optimized 40L Volume: A generous interior height that accommodates tall documents and bulky items with ease.\n- Low Battery & Tamper Alert: Built-in audio-visual signals to notify you of low power or unauthorized attempts to access the safe.\n\nSpecifications:\n- Dimensions: 42.0 cm (H) x 35.0 cm (W) x 35.0 cm (D)\n- Weight: 16 kg (Sturdy vertical build with anchoring support)\n- Volume: 40 Liters\n- Lock Type: Electronic Digital Keypad with Master Code support\n- Security Rating: 10X Strength Series",
     "images": [
       "/images/10x/godrej-nx-pro-40l-digi-1.webp",
       "/images/10x/godrej-nx-pro-40l-digi-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digital"]
   },
   {
     "id": "46",
     "name": "Godrej Nx Pro 30L (Digi)",
-    "price": "23449",
-    "size": [
-      "(cm)32(h)x40(w)x32(d)",
-      "(mm)320(h)x400(w)x320(d)"
-    ],
+    "price": "21299",
+    "size": ["(cm)32(h)x40(w)x32(d)", "(mm)320(h)x400(w)x320(d)"],
     "weight": "13kg",
     "volume": "30L",
-    "category": [
-      "10x"
-    ],
+    "category": ["10x"],
     "slug": "godrej-nx-pro-30l-digi",
     "description": "The Godrej Nx Pro 30L (Digi) offers a wide-profile security solution that fits perfectly on closet shelves or inside office cabinets. This 10X strength-rated safe is designed to bridge the gap between compact storage and high-capacity security. Its horizontal orientation is ideal for laying out flat items like tablet computers, passports, and envelopes without the need for deep stacking. With its fast-acting digital keypad and reinforced steel body, the Nx Pro 30L provides a reliable, high-tech sanctuary for your daily essentials.\n\nFeatures:\n- Wide Horizontal Layout: Designed with a 40cm width to accommodate flat valuables and small electronics comfortably.\n- 10X Burglary Resistance: Reinforced with high-tensile steel to resist prying, offering ten times the strength of standard cupboards.\n- Keyless Convenience: A programmable digital lock that eliminates the need for physical keys while ensuring maximum security.\n- Auto-Freeze Function: Automatically disables the keypad after consecutive incorrect PIN attempts to prevent unauthorized tampering.\n- Emergency Override: Includes a manual override key and an external power backup option to ensure you are never locked out.\n\nSpecifications:\n- Dimensions: 32.0 cm (H) x 40.0 cm (W) x 32.0 cm (D)\n- Weight: 13 kg (Balanced weight for easy installation and high stability)\n- Volume: 30 Liters\n- Lock Type: Electronic Digital Keypad\n- Security Rating: 10X Strength Series",
     "images": [
       "/images/10x/godrej-nx-pro-30l-digi-1.webp",
       "/images/10x/godrej-nx-pro-30l-digi-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digital"]
   },
   {
     "id": "47",
     "name": "Godrej Nx Pro 25L (Digi)",
-    "price": "20049",
-    "size": [
-      "(cm)20(h)x42(w)x37(d)",
-      "(mm)200(h)x420(w)x370(d)"
-    ],
+    "price": "18199",
+    "size": ["(cm)20(h)x42(w)x37(d)", "(mm)200(h)x420(w)x370(d)"],
     "weight": "11kg",
     "volume": "25L",
-    "category": [
-      "10x"
-    ],
+    "category": ["10x"],
     "slug": "godrej-nx-pro-25l-digi",
     "description": "The Godrej Nx Pro 25L (Digi) is a low-profile, high-strength safe specifically designed for drawer placement or discreet shelf storage. Despite its slim 20cm height, it boasts a wide 42cm frame, making it a favorite for securing high-end laptops, cameras, and professional documents. Part of the 10X series, it delivers superior prying resistance in a modern form factor. Its sleek digital interface and motorized boltwork provide the smooth, high-tech experience today's users demand for their personal security.\n\nFeatures:\n- Low-Profile Architecture: Optimized for shallow spaces and drawers while maintaining a 25-liter storage capacity.\n- 10X Anti-Pry Strength: Precision-engineered steel body designed to provide ten times the protection of standard home storage units.\n- Laptop-Ready Width: Wide interior specifically suited for tablets, laptops, and legal-sized envelopes.\n- One-Touch Locking: Motorized shooting bolts ensure the safe locks securely with a simple press of the keypad.\n- Stealth Aesthetics: A premium, scratch-resistant finish that blends seamlessly into minimalist home and office interiors.\n\nSpecifications:\n- Dimensions: 20.0 cm (H) x 42.0 cm (W) x 37.0 cm (D)\n- Weight: 11 kg (Lightweight enough for furniture integration yet physically robust)\n- Volume: 25 Liters\n- Lock Type: Electronic Digital Keypad\n- Security Rating: 10X Strength Series",
     "images": [
       "/images/10x/godrej-nx-pro-25l-digi-1.webp",
       "/images/10x/godrej-nx-pro-25l-digi-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digital"]
   },
   {
     "id": "48",
     "name": "Godrej Nx Pro 15L (Digi)",
-    "price": "13899",
-    "size": [
-      "(cm)25(h)x35(w)x25(d)",
-      "(mm)250(h)x350(w)x250(d)"
-    ],
+    "price": "12899",
+    "size": ["(cm)25(h)x35(w)x25(d)", "(mm)250(h)x350(w)x250(d)"],
     "weight": "9kg",
     "volume": "15L",
-    "category": [
-      "10x"
-    ],
+    "category": ["10x"],
     "slug": "godrej-nx-pro-15l-digi",
     "description": "The Godrej Nx Pro 15L (Digi) is the ultimate compact security guardian for your most essential valuables. Perfectly sized for jewelry, cash, and passports, this 15-liter safe provides the same 10X strength-rated protection as its larger counterparts in a space-saving footprint. It is an ideal entry-level professional safe for those who want to move beyond basic cupboards to a high-security digital locker. Durable, reliable, and incredibly simple to operate, the Nx Pro 15L is the perfect addition to any bedside table or study desk.\n\nFeatures:\n- Compact 10X Security: Small footprint with ten times the strength of conventional storage for maximum essential protection.\n- Intuitive Digital Keypad: Easy-to-program user code system with an illuminated display for convenient access at any time.\n- Solid Steel Construction: Built with reinforced steel plates and high-security bolts to thwart unauthorized access.\n- Flexible Mounting: Pre-drilled holes for anchoring to walls or floors, ensuring the safe remains exactly where you put it.\n- Modern Design: Features a contemporary finish that looks great while standing guard over your sentimental and financial treasures.\n\nSpecifications:\n- Dimensions: 25.0 cm (H) x 35.0 cm (W) x 25.0 cm (D)\n- Weight: 9 kg (Perfectly sized for shelf and discreet placement)\n- Volume: 15 Liters\n- Lock Type: Electronic Digital Keypad with Emergency Master Key\n- Security Rating: 10X Strength Series",
     "images": [
       "/images/10x/godrej-nx-pro-15l-digi-1.webp",
       "/images/10x/godrej-nx-pro-15l-digi-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digital"]
   },
   {
     "id": "49",
     "name": "Godrej Nx Pro 8L (Digi)",
-    "price": "11249",
-    "size": [
-      "(cm)20(h)x30(w)x20(d)",
-      "(mm)200(h)x300(w)x200(d)"
-    ],
+    "price": "10699",
+    "size": ["(cm)20(h)x30(w)x20(d)", "(mm)200(h)x300(w)x200(d)"],
     "weight": "5kg",
     "volume": "8L",
-    "category": [
-      "10x"
-    ],
+    "category": ["10x"],
     "slug": "godrej-nx-pro-8l-digi",
     "description": "The Godrej Nx Pro 8L (Digi) is the ultimate ultra-compact security guardian for those who need elite protection in the smallest of spaces. Part of the 10X series, this safe is engineered to be ten times stronger than standard home cupboards, making it a formidable barrier against prying. Its 8-liter capacity is specifically designed to secure 'daily essentials'—from expensive timepieces and heirloom jewelry to emergency cash and passports—all while featuring a high-tech digital interface for rapid, keyless entry.\n\nFeatures:\n- 10X Strength Series: Manufactured with high-tensile steel to provide significantly higher resistance to forced entry compared to traditional lockers.\n- Intelligent Digital Keypad: Fast access via a programmable 4-to-6 digit user code with a sleek, modern interface.\n- Ultra-Compact Footprint: At just 20cm high and 30cm wide, it fits perfectly on vanity tables, inside small drawers, or bedside cabinets.\n- Automated Locking: Features motorized shooting bolts that ensure a secure and smooth locking experience every time.\n- Tamper Alert System: Built-in safety logic that freezes the safe after multiple incorrect attempts, preventing unauthorized brute-force access.\n\nSpecifications:\n- Dimensions: 20.0 cm (H) x 30.0 cm (W) x 20.0 cm (D)\n- Weight: 5 kg (Lightweight and portable, yet highly secure when anchored)\n- Volume: 8 Liters\n- Lock Type: Electronic Digital Keypad with Emergency Manual Override\n- Security Rating: 10X Advanced Strength",
     "images": [
       "/images/10x/godrej-nx-pro-8l-digi-1.webp",
       "/images/10x/godrej-nx-pro-8l-digi-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digital"]
   },
   {
     "id": "50",
     "name": "Godrej Nx Pro 33L (Keylock)",
-    "price": "19799",
-    "size": [
-      "(cm)25(h)x45.5(w)x37.5(d)",
-      "(mm)250(h)x455(w)x375(d)"
-    ],
+    "price": "18399",
+    "size": ["(cm)25(h)x45.5(w)x37.5(d)", "(mm)250(h)x455(w)x375(d)"],
     "weight": "14.5kg",
     "volume": "33L",
-    "category": [
-      "10x"
-    ],
+    "category": ["10x"],
     "slug": "godrej-nx-pro-33l-kl",
     "description": "The Godrej Nx Pro 33L (Keylock) is a wide-profile, high-security mechanical safe designed for those who prioritize brute-force strength and battery-free reliability. As part of the 10X strength range, it is built ten times tougher than standard wardrobes to resist prying and tampering. Its generous 33-liter horizontal layout is perfectly suited for storing laptops, legal documents, and jewelry boxes. Secured by a precision-engineered 6-lever mechanical lock, it offers a timeless security solution that is always ready for use, requiring zero maintenance or electronic power.\n\nFeatures:\n- 10X Prying Resistance: Constructed with reinforced steel plates and a fortified door frame to provide 10 times the strength of conventional storage units.\n- High-Security 6-Lever Lock: Features a precision mechanical key system for guaranteed, zero-maintenance access.\n- Wide Horizon Storage: The 45.5cm width is specifically optimized for storing large laptops, tablets, and flat-stacked documents.\n- Solid Steel Boltwork: Equipped with heavy-duty mechanical shooting bolts that lock deep into the safe body for enhanced physical security.\n- Permanent Anchoring: Includes pre-drilled holes for secure mounting to floors or wardrobe bases to ensure the safe cannot be carried away.\n\nSpecifications:\n- Dimensions: 25.0 cm (H) x 45.5 cm (W) x 37.5 cm (D)\n- Weight: 14.5 kg (Dense, steel-heavy construction for maximum physical deterrence)\n- Volume: 33 Liters\n- Lock Type: Precision 6-Lever Mechanical Key Lock\n- Security Rating: 10X Advanced Strength",
     "images": [
       "/images/10x/godrej-nx-pro-33l-kl-1.webp",
       "/images/10x/godrej-nx-pro-33l-kl-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "keylock"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["keylock"]
   },
   {
     "id": "51",
     "name": "Godrej Nx Pro 15L (Keylock)",
-    "price": "10049",
-    "size": [
-      "(cm)25(h)x35(w)x25(d)",
-      "(mm)250(h)x350(w)x250(d)"
-    ],
+    "price": "9099",
+    "size": ["(cm)25(h)x35(w)x25(d)", "(mm)250(h)x350(w)x250(d)"],
     "weight": "9kg",
     "volume": "15L",
-    "category": [
-      "10x"
-    ],
+    "category": ["10x"],
     "slug": "godrej-nx-pro-15l-kl",
     "description": "The Godrej Nx Pro 15L (Keylock) is a robust and dependable essential-security safe, combining the massive 10X strength rating with the simplicity of mechanical locking. Engineered to be ten times stronger than standard cupboards, this 15-liter model is the perfect sanctuary for jewelry, cash, and passports. Its compact size allows it to fit discreetly in wardrobes or study cabinets, while the precision 6-lever key lock ensures that you never have to worry about batteries, PIN codes, or electronic failure—just pure, mechanical peace of mind.\n\nFeatures:\n- 10X Strength Engineering: High-tensile steel body designed to provide 10 times the resistance to forced entry compared to traditional home storage.\n- Reliable 6-Lever Lock: A precision mechanical locking system that offers foolproof access with a high-security key.\n- Battery-Free Operation: Requires no electronic power, making it the ideal choice for long-term storage and low-maintenance security.\n- Optimized Personal Capacity: 15-liter interior designed to organize family essentials, jewelry trays, and travel documents.\n- Anti-Pry Construction: Features a reinforced door frame and minimal gaps to thwart leverage attempts by common burglary tools.\n\nSpecifications:\n- Dimensions: 25.0 cm (H) x 35.0 cm (W) x 25.0 cm (D)\n- Weight: 9 kg (Solidly built yet easily integrated into home furniture)\n- Volume: 15 Liters\n- Lock Type: Precision 6-Lever Mechanical Key Lock\n- Security Rating: 10X Advanced Strength",
     "images": [
       "/images/10x/godrej-nx-pro-15l-kl-1.webp",
       "/images/10x/godrej-nx-pro-15l-kl-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "keylock"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["keylock"]
   },
   {
     "id": "52",
     "name": "Godrej E-Swipe (Digi)",
-    "price": "24899",
-    "size": [
-      "(cm)25(h)x45.5(w)x37.5(d)",
-      "(mm)250(h)x455(w)x375(d)"
-    ],
+    "price": "23699",
+    "size": ["(cm)25(h)x45.5(w)x37.5(d)", "(mm)250(h)x455(w)x375(d)"],
     "weight": "15.5kg",
     "volume": "35L",
-    "category": [
-      "10x"
-    ],
+    "category": ["10x"],
     "slug": "godrej-e-swipe-digi",
     "description": "The Godrej E-Swipe (Digi) is a modern security marvel designed for the hospitality industry and tech-forward homeowners. Part of the 10X strength series, this safe introduces a versatile dual-access system: it can be operated via a personal 4-to-6 digit PIN or by simply swiping a credit/debit card with a magnetic strip. With a 35-liter wide-body capacity, it is perfectly tailored to accommodate laptops and professional tablets, offering ten times the prying resistance of standard storage. It combines the seamless convenience of a hotel-style safe with the rugged industrial reliability of Godrej steel.\n\nFeatures:\n- Innovative Magnetic Swipe Access: Unique ability to use a credit or debit card as a digital key for rapid and personalized entry.\n- 10X Fortified Strength: Built with high-tensile steel designed to provide ten times the resistance to forced entry compared to conventional cupboards.\n- Wide Horizon 35L Storage: Spacious interior width specifically optimized for the flat storage of laptops, tech gadgets, and legal files.\n- High-Resolution LED Display: Clear digital interface that provides visual confirmation of locking and battery status.\n- Emergency Access Protocols: Features a mechanical override key and a master code system to ensure you are never locked out.\n\nSpecifications:\n- Dimensions: 25.0 cm (H) x 45.5 cm (W) x 37.5 cm (D)\n- Weight: 15.5 kg (Substantial build providing a strong physical deterrent)\n- Volume: 35 Liters\n- Lock Type: Digital Keypad + Magnetic Card Swipe\n- Security Series: 10X Advanced Strength",
     "images": [
       "/images/10x/godrej-e-swipe-digi-1.webp",
       "/images/10x/godrej-e-swipe-digi-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digital"]
   },
   {
     "id": "53",
     "name": "Godrej Premium Coffer (Keylock)",
-    "price": "16049",
-    "size": [
-      "(cm)25.4(h)x36.2(w)x34(d)",
-      "(mm)254(h)x362(w)x340(d)"
-    ],
+    "price": "14899",
+    "size": ["(cm)25.4(h)x36.2(w)x34(d)", "(mm)254(h)x362(w)x340(d)"],
     "weight": "12.5kg",
     "volume": "22L",
-    "category": [
-      "10x"
-    ],
+    "category": ["10x"],
     "slug": "godrej-premium-coffer-kl",
     "description": "The Godrej Premium Coffer (Keylock) is a classic security essential, reimagined with the superior durability of the 10X series. This 22-liter safe is built for those who value mechanical simplicity without sacrificing high-end protection. Engineered to be ten times stronger than traditional home lockers, the Premium Coffer features a heavy-duty steel body and a precision-crafted 6-lever mechanical lock. It serves as a reliable, battery-free sanctuary for jewelry, cash, and sensitive documents, fitting elegantly into both traditional and contemporary home interiors.\n\nFeatures:\n- 10X Strength Architecture: Manufactured using high-grade steel plates to provide 10 times the structural integrity of standard cupboard lockers.\n- Precision 6-Lever Mechanical Lock: A high-security mechanical system that offers foolproof reliability and requires zero maintenance or power.\n- Anti-Drill Plates: Specialized hardened steel plates protect the locking mechanism from drilling and forced tool attacks.\n- 22L Storage Capacity: A versatile interior volume ideal for family jewelry boxes, passports, and essential financial records.\n- Premium Finish: Features a durable, powder-coated scratch-resistant finish that maintains its sleek appearance over years of use.\n\nSpecifications:\n- Dimensions: 25.4 cm (H) x 36.2 cm (W) x 34.0 cm (D)\n- Weight: 12.5 kg (Dense and stable construction for high physical security)\n- Volume: 22 Liters\n- Lock Type: Precision 6-Lever Mechanical Key Lock\n- Security Series: 10X Advanced Strength",
     "images": [
       "/images/10x/Godrej-premium-coffer-kl-1.webp",
       "/images/10x/Godrej-premium-coffer-kl-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "keylock"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["keylock"]
   },
   {
     "id": "54",
     "name": "Godrej Cashbox (Keylock)",
-    "price": "13249",
-    "size": [
-      "(cm)15.1(h)x35.6(w)x25.4(d)",
-      "(mm)151(h)x356(w)x254(d)"
-    ],
+    "price": "12299",
+    "size": ["(cm)15.1(h)x35.6(w)x25.4(d)", "(mm)151(h)x356(w)x254(d)"],
     "weight": "13.7kg",
     "volume": "6.3L",
-    "category": [
-      "10x"
-    ],
+    "category": ["10x"],
     "slug": "godrej-cashbox-kl",
     "description": "The Godrej Cashbox (Keylock) is a specialized, heavy-duty security unit designed for high-density storage of currency, collectibles, and small precious assets. Engineered as part of the 10X series, this compact powerhouse is ten times more resistant to prying than standard storage units. Its slim profile is intentionally crafted to fit into shallow drawers or to be bolted onto desktop surfaces. With a weight of 13.7kg for its size, it offers a high concentration of solid steel protection, secured by a precision mechanical 6-lever lock that ensures zero-maintenance, lifetime reliability for retail or personal cash management.\n\nFeatures:\n- 10X Industrial Strength: High-tensile steel construction providing ten times the prying resistance of traditional lockers.\n- Dense Security Profile: Weighing nearly 14kg for a 6.3L capacity, it offers an exceptional metal-to-volume ratio for maximum physical deterrence.\n- Precision 6-Lever Lock: A battery-free mechanical locking system that guarantees consistent access in any environment.\n- Low-Profile Architecture: At just 15.1 cm tall, it is optimized for discreet placement in cash drawers or under-counter mounting.\n- Anti-Drill Shield: Hardened steel plates protect the vital locking components from forced tool attacks.\n\nSpecifications:\n- Dimensions: 15.1 cm (H) x 35.6 cm (W) x 25.4 cm (D)\n- Weight: 13.7 kg (Heavy-duty build for superior physical mass)\n- Volume: 6.3 Liters\n- Lock Type: Precision 6-Lever Mechanical Key Lock\n- Security Series: 10X Advanced Strength",
     "images": [
       "/images/10x/godrej-cashbox-1.webp",
       "/images/10x/godrej-cashbox-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "keylock"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["keylock"]
   },
   {
     "id": "55",
     "name": "Godrej Privy (Digi)",
-    "price": "23649",
-    "size": [
-      "(cm)18(h)x40(w)x35(d)",
-      "(mm)180(h)x400(w)x350(d)"
-    ],
+    "price": "22499",
+    "size": ["(cm)18(h)x40(w)x35(d)", "(mm)180(h)x400(w)x350(d)"],
     "weight": "13kg",
     "volume": "25L",
-    "category": [
-      "10x"
-    ],
+    "category": ["10x"],
     "slug": "godrej-privy-digi",
     "description": "The Godrej Privy (Digi) is a sleek, wide-format digital safe designed for the modern user who requires quick, tech-enabled access to their personal electronics and documents. Part of the 10X strength range, it provides significantly higher protection than standard cupboard lockers. The horizontal 'Privy' design is specifically engineered for easy interaction when placed inside wardrobe shelves, allowing you to lay flat items like tablets, legal folders, and jewelry trays without the clutter of vertical stacking. Its responsive digital keypad and motorized locking system provide a seamless blend of high-end aesthetics and industrial-grade safety.\n\nFeatures:\n- Wide Horizon 25L Capacity: Optimized horizontal layout perfect for storing flat documents, tablets, and luxury watches.\n- 10X Fortified Steel: Engineered to be ten times stronger than conventional home storage, offering superior resistance against prying tools.\n- Keyless Digital Access: Features an illuminated electronic keypad for setting a personalized 4-to-6 digit user code.\n- Motorized Shooting Bolts: Dual locking bolts that automatically actuate for a secure, key-free closure.\n- Master Code & Mechanical Override: Includes secondary access options to ensure you never lose access to your valuables.\n\nSpecifications:\n- Dimensions: 18.0 cm (H) x 40.0 cm (W) x 35.0 cm (D)\n- Weight: 13 kg (Sturdy, wide build for maximum stability)\n- Volume: 25 Liters\n- Lock Type: Electronic Digital Keypad\n- Security Series: 10X Advanced Strength",
     "images": [
       "/images/10x/Godrej-privy-1.webp",
       "/images/10x/Godrej-privy-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "digital"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["digital"]
   },
   {
     "id": "56",
     "name": "Godrej Nx Key Storage Locker (Keylock)",
-    "price": "17949",
-    "size": [
-      "(cm)36(h)x30(w)x10(d)",
-      "(mm)360(h)x300(w)x100(d)"
-    ],
+    "price": "16298",
+    "size": ["(cm)36(h)x30(w)x10(d)", "(mm)360(h)x300(w)x100(d)"],
     "weight": "7.3kg",
     "volume": "6.4L",
-    "category": [
-      "10x"
-    ],
+    "category": ["10x"],
     "slug": "godrej-nx-key-storage-locker",
     "description": "The Godrej Nx Key Storage Locker (Keylock) is a specialized security solution designed for the organized and secure management of multiple keys. Engineered as part of the 10X strength series, this wall-mountable unit is ten times more resistant to prying than standard key cabinets. It is the ideal choice for businesses, automotive dealerships, and property managers who need a centralized, fortified location to protect high-value keys. With its slim 10cm depth and robust mechanical locking system, it provides a high-density storage sanctuary that ensures unauthorized personnel cannot gain access to your facility's vital entry points.\n\nFeatures:\n- 10X Fortified Construction: Built with high-tensile steel to provide ten times the prying resistance of conventional key boxes.\n- High-Security Mechanical Lock: Equipped with a precision 6-lever key lock for zero-maintenance, battery-free reliability.\n- Optimized Slim Profile: Designed with a shallow 10cm depth to sit flush against walls in hallways or management offices without obstructing passage.\n- Organized Internal Layout: Features high-quality internal hooks and labels for easy categorization and rapid identification of various keys.\n- Surface-Ready Mounting: Includes pre-drilled holes for secure wall anchoring, preventing the entire unit from being removed from the premises.\n\nSpecifications:\n- Dimensions: 36.0 cm (H) x 30.0 cm (W) x 10.0 cm (D)\n- Weight: 7.3 kg (Solid, steel-heavy build for its compact size)\n- Volume: 6.4 Liters (Dedicated for high-capacity key storage)\n- Lock Type: Precision 6-Lever Mechanical Key Lock\n- Security Series: 10X Advanced Strength",
     "images": [
       "/images/10x/godrej-nx-keylocker-1.webp",
       "/images/10x/godrej-nx-keylocker-2.webp"
     ],
-    "tags": [
-      "featured"
-    ],
-    "lock_mechanism": [
-      "keylock"
-    ]
+    "tags": ["featured"],
+    "lock_mechanism": ["keylock"]
   },
 
   {
-  "id": "57",
-  "name": "Godrej Neo Pro-View Smart Door Lock",
-  "price": "24999",
-  "category": [
-    "locks"
-  ],
-  "slug": "godrej-neo-pro-view",
-  "description": "The Godrej Neo Pro-View (Model 9690) is a premium 'Smart Safety with Vision' digital lock that integrates a high-definition camera, an electronic doorbell, and an indoor monitoring screen into one unified system. Designed to replace traditional doorbells and video door phones, it features a 'Pro' camera that captures high-resolution, head-to-toe images of visitors the moment the doorbell is pressed. The visuals are instantly transmitted to both the indoor 3.3-inch HD screen and the Godrej Neo Connect mobile app. Built with a robust 3-bolt stainless steel locking mechanism and an aluminum alloy body, it offers elite-level security combined with 7 versatile access modes for modern homes and luxury apartments.\n\nFeatures:\n- 7-in-1 Versatile Access: Unlock via Fingerprint (360° sensor on handle), WiFi (Remote Unlock), User Passcode, RFID Card, Mobile App, One-Time Password (OTP), and Mechanical Emergency Key.\n- Integrated HD Camera & Screen: Features a wide-angle camera for full visitor visibility and an indoor 3.3-inch display that acts as a digital peephole.\n- Smart App Connectivity: Use the Godrej Neo Connect app for remote unlocking, real-time video alerts, and a complete audit trail of every entry and exit.\n- Advanced Security Suite: Equipped with an Anti-Prank Alarm (triggers after 5 failed attempts), Spy Code (hide your PIN among random digits), and a Privacy Function to block external electronic access.\n- Auto-Locking Mechanism: Motorized bolts engage automatically as soon as the door is closed, ensuring your home is never left accidentally unsecured.\n- Emergency Power: Powered by 4 AA Alkaline batteries with a built-in Type-C USB port for emergency power backup if batteries are drained.\n\nSpecifications:\n- Door Compatibility: Ideal for wooden doors with 35mm–65mm thickness; standard 60mm backset.\n- Access Capacity: Stores up to 99 Fingerprints, 99 User Passcodes, and 99 RFID Cards.\n- Construction: High-strength Aluminum Alloy with 3 Stainless Steel (SS 304) locking bolts.\n- Finish: Luxury Matte Black.\n- Warranty: 3-year brand warranty with free professional installation by Godrej experts.",
-  "images": [
-    "/images/locks/neo-pro-view-1.webp",
-    "/images/locks/neo-pro-view-5.webp",
-    "/images/locks/neo-pro-view-2.webp",
-    "/images/locks/neo-pro-view-3.webp",
-    "/images/locks/neo-pro-view-4.webp"
-  ],
-  "tags": [
-    "best-seller",
-    "featured",
-    "smart-lock",
-    "camera-lock"
-  ],
-  "lock_mechanism": [
-    "fingerprint",
-    "passcode",
-    "RFID",
-    "wifi",
-    "app",
-    "key"
-  ]
-},
-{
-  "id": "58",
-  "name": "Godrej Neo Connect Smart Door Lock",
-  "price": "12599",
- 
-  "category": [
-    "locks"
-  ],
-  "slug": "godrej-neo-connect",
-  "description": "The Godrej Neo Connect is a next-generation WiFi-enabled smart digital lock designed to bring seamless connectivity and advanced security to modern homes. Unlike the Pro-View, which focuses on visual monitoring, the Neo Connect is engineered for users who prioritize remote access and flexible entry management at an attractive price point. With built-in WiFi, you can control your home's safety from anywhere in the world via the Godrej Neo Connect app. The lock features a minimalist, premium design with a robust 3-bolt system, making it an ideal security upgrade for main wooden doors and apartments.\n\nFeatures:\n- 5-in-1 Smart Access: Multiple secure ways to unlock including a 360° Fingerprint sensor on the handle, Digital Passcode, RFID Card, Mobile App (WiFi/Bluetooth), and a Mechanical Emergency Key.\n- Built-in WiFi Connectivity: No external gateway required. Manage the lock remotely, generate One-Time Passwords (OTP) for guests, and receive instant alerts on your smartphone.\n- Activity Trail & Monitoring: Maintain a complete digital record of everyone who enters or exits your home, accessible 24/7 through the mobile app.\n- Advanced Security Alarms: Features an Anti-Prank Alarm (triggers after 5 wrong attempts), Anti-Theft Alarm for forced entry, and a Spycode function to hide your real PIN from onlookers.\n- Flexible Modes: Includes Privacy Mode (disables electronic access from outside) and Passage Mode (allows free entry for gatherings or high-traffic periods).\n- Emergency Power Management: Operates on 4 AA Alkaline batteries with a built-in Type-C USB port for external power backup to ensure you are never locked out.\n\nSpecifications:\n- Door Compatibility: Designed for wooden doors and frames with 35mm–65mm thickness; standard 60mm backset.\n- Access Capacity: Registration for up to 100 Fingerprints, 100 User PINs, and 100 RFID Cards.\n- Construction: High-durability Aluminum Alloy body with 3 Solid SS 304 locking bolts.\n- Finishes: Available in elegant Matte Black, Rose Gold, and White to match any home aesthetic.\n- Warranty: Includes a 3-year manufacturer warranty and free professional installation by Godrej authorized experts.",
-  "images": [
-    "/images/locks/neo-connect-black.webp",
-    "/images/locks/neo-connect-black-1.webp",
-    "/images/locks/neo-connect-rosegold.webp",
-    "/images/locks/neo-connect-rosegold-1.webp",
-    "/images/locks/neo-connect-white.webp",
-    "/images/locks/neo-connect-white-1.webp"
+    "id": "57",
+    "name": "Godrej Neo Pro-View Smart Door Lock",
+    "price": "24999",
+    "category": ["locks"],
+    "slug": "godrej-neo-pro-view",
+    "description": "The Godrej Neo Pro-View (Model 9690) is a premium 'Smart Safety with Vision' digital lock that integrates a high-definition camera, an electronic doorbell, and an indoor monitoring screen into one unified system. Designed to replace traditional doorbells and video door phones, it features a 'Pro' camera that captures high-resolution, head-to-toe images of visitors the moment the doorbell is pressed. The visuals are instantly transmitted to both the indoor 3.3-inch HD screen and the Godrej Neo Connect mobile app. Built with a robust 3-bolt stainless steel locking mechanism and an aluminum alloy body, it offers elite-level security combined with 7 versatile access modes for modern homes and luxury apartments.\n\nFeatures:\n- 7-in-1 Versatile Access: Unlock via Fingerprint (360° sensor on handle), WiFi (Remote Unlock), User Passcode, RFID Card, Mobile App, One-Time Password (OTP), and Mechanical Emergency Key.\n- Integrated HD Camera & Screen: Features a wide-angle camera for full visitor visibility and an indoor 3.3-inch display that acts as a digital peephole.\n- Smart App Connectivity: Use the Godrej Neo Connect app for remote unlocking, real-time video alerts, and a complete audit trail of every entry and exit.\n- Advanced Security Suite: Equipped with an Anti-Prank Alarm (triggers after 5 failed attempts), Spy Code (hide your PIN among random digits), and a Privacy Function to block external electronic access.\n- Auto-Locking Mechanism: Motorized bolts engage automatically as soon as the door is closed, ensuring your home is never left accidentally unsecured.\n- Emergency Power: Powered by 4 AA Alkaline batteries with a built-in Type-C USB port for emergency power backup if batteries are drained.\n\nSpecifications:\n- Door Compatibility: Ideal for wooden doors with 35mm–65mm thickness; standard 60mm backset.\n- Access Capacity: Stores up to 99 Fingerprints, 99 User Passcodes, and 99 RFID Cards.\n- Construction: High-strength Aluminum Alloy with 3 Stainless Steel (SS 304) locking bolts.\n- Finish: Luxury Matte Black.\n- Warranty: 3-year brand warranty with free professional installation by Godrej experts.",
+    "images": [
+      "/images/locks/neo-pro-view-1.webp",
+      "/images/locks/neo-pro-view-5.webp",
+      "/images/locks/neo-pro-view-2.webp",
+      "/images/locks/neo-pro-view-3.webp",
+      "/images/locks/neo-pro-view-4.webp"
+    ],
+    "tags": ["best-seller", "featured", "smart-lock", "camera-lock"],
+    "lock_mechanism": ["fingerprint", "passcode", "RFID", "wifi", "app", "key"]
+  },
+  {
+    "id": "58",
+    "name": "Godrej Neo Connect Smart Door Lock",
+    "price": "12599",
 
-  ],
-  "tags": [
-    "best-seller",
-    "wifi-lock",
-    "featured"
-  ],
-  "lock_mechanism": [
-    "fingerprint",
-    "passcode",
-    "RFID",
-    "wifi",
-    "app",
-    "key"
-  ]
-},
-{
-  "id": "59",
-  "name": "Godrej Neo Prime Smart Door Lock",
-  "price": "10999",
-  "size": [
-    "(cm)26.5(h)x17(w)x10.5(d)"
-  ],
-  "weight": "0.8kg",
-  "category": [
-    "locks"
-  ],
-  "slug": "godrej-neo-prime",
-  "description": "The Godrej Neo Prime is a premium non-connected smart digital lock designed for homeowners who seek a perfect balance of high-end aesthetics and robust mechanical security without the need for WiFi connectivity. Available in luxury Titanium Grey and Rose Gold finishes, the Neo Prime focuses on 'offline' excellence, offering ultra-fast biometric response and a high-strength 3-bolt mortise assembly. It is the ideal choice for bedroom doors, internal home offices, or main doors where localized, keyless access is preferred over remote app management. Built with a durable aluminum alloy body, it provides elite protection with a touch of modern sophistication.\n\nFeatures:\n- 4-in-1 Secure Access: Fast and reliable unlocking via 360° Fingerprint sensor (integrated into the handle), User Passcode, RFID Card, and a high-strength Mechanical Emergency Key.\n- Premium Aesthetic Finishes: Specifically crafted to enhance modern interiors, available in distinct Titanium Grey and Rose Gold matte finishes.\n- 3-Bolt Fortified Security: Features a robust locking mechanism with three solid bolts for superior resistance against forced entry and prying.\n- Advanced Privacy Suite: Includes a Privacy Function (safety button) that, when activated from inside, blocks all external electronic access, ensuring complete solitude.\n- Smart Safety Alarms: Equipped with an Anti-Prank Alarm that triggers after 5 consecutive incorrect attempts and a Low Battery Indication to ensure you are never caught off guard.\n- Backup Power Ready: Features a Type-C USB emergency port to provide temporary power for unlocking if the 4 AA batteries are fully depleted.\n\nSpecifications:\n- Door Compatibility: Suitable for wooden doors with 35mm–65mm thickness; standard 60mm backset.\n- Access Capacity: Registration for up to 100 Fingerprints, 100 User PINs, and 100 RFID Cards.\n- Construction: High-grade Aluminum Alloy fascia and handle for long-lasting durability.\n- Orientation: Universal design compatible with both left-hand and right-hand opening doors.\n- Warranty: 3-year brand warranty including free professional installation by Godrej authorized experts.",
-  "images": [
-    "/images/locks/neo-prime-titanium.webp",
-    "/images/locks/neo-prime-titanium-1.webp",
-    "/images/locks/neo-prime-rosegold.webp",
-    "/images/locks/neo-prime-rosegold-1.webp"
-
-  ],
-  "tags": [
-    "best-seller",
-    "premium-finish",
-    "featured"
-  ],
-  "lock_mechanism": [
-    "fingerprint",
-    "passcode",
-    "RFID",
-    "key"
-  ]
-},
-{
-  "id": "60",
-  "name": "Godrej Neo Advantage Smart Door Lock",
-  "price": "8999",
-  "size": [
-    "(cm)26.5(h)x17(w)x10.5(d)"
-  ],
-  "weight": "2.0kg",
-  "category": [
-    "locks"
-  ],
-  "slug": "godrej-neo-advantage",
-  "description": "The Godrej Neo Advantage is the perfect entry-point into the world of smart home security, offering high-tech biometric protection at a highly accessible price. Positioned as the 'Essential' model in the Neo series, it focuses on providing core digital safety features without the complexity of WiFi. While it shares the same robust 3-bolt aluminum alloy construction as its premium siblings, the Neo Advantage is designed for users who want reliable, keyless access for main doors or internal rooms. Available in a sophisticated Black finish, it blends seamlessly with contemporary wooden doors and offers the same industrial-grade durability that Godrej is known for.\n\nFeatures:\n- 4-in-1 Secure Unlocking: Access your home effortlessly via Fingerprint, User Passcode, RFID Card, or a high-strength Mechanical Emergency Key.\n- 360° Biometric Sensor: High-precision fingerprint scanner integrated into the handle that recognizes authorized prints from any angle in under a second.\n- Fortified Physical Security: Equipped with a 3-bolt lock body featuring a stainless steel (SS 304) manual bolt for maximum resistance against prying and forced entry.\n- Smart Safety Suite: Built-in Anti-Prank Alarm (triggers after 5 failed attempts), Spycode function (add random digits to hide your real PIN), and Low Battery alerts.\n- Privacy & Passage Modes: Use 'Privacy Mode' to block external electronic access for total solitude, or 'Passage Mode' to keep the door unlocked during high-traffic family events.\n- Emergency Power Access: Includes a Type-C USB port to provide temporary power for unlocking if the 4 AA batteries are completely drained.\n\nSpecifications:\n- Door Compatibility: Suitable for wooden doors and frames with 35mm–65mm thickness; standard 60mm backset.\n- Access Capacity: Registration for up to 100 Fingerprints, 100 User PINs, and 100 RFID Cards.\n- Construction: Durable Aluminum Alloy fascia and handle with SS 304 internal bolts.\n- Finish: Sleek, minimalist Black finish.\n- Warranty: 3-year brand warranty with free professional installation by Godrej authorized experts.",
-  "images": [
-    "/images/locks/neo-advantage-black-1.webp",
-    "/images/locks/neo-advantage-black-2.webp"
-  ],
-  "tags": [
-    "best-seller",
-    "budget-friendly",
-    "featured"
-  ],
-  "lock_mechanism": [
-    "fingerprint",
-    "passcode",
-    "RFID",
-    "key"
-  ]
-}
+    "category": ["locks"],
+    "slug": "godrej-neo-connect",
+    "description": "The Godrej Neo Connect is a next-generation WiFi-enabled smart digital lock designed to bring seamless connectivity and advanced security to modern homes. Unlike the Pro-View, which focuses on visual monitoring, the Neo Connect is engineered for users who prioritize remote access and flexible entry management at an attractive price point. With built-in WiFi, you can control your home's safety from anywhere in the world via the Godrej Neo Connect app. The lock features a minimalist, premium design with a robust 3-bolt system, making it an ideal security upgrade for main wooden doors and apartments.\n\nFeatures:\n- 5-in-1 Smart Access: Multiple secure ways to unlock including a 360° Fingerprint sensor on the handle, Digital Passcode, RFID Card, Mobile App (WiFi/Bluetooth), and a Mechanical Emergency Key.\n- Built-in WiFi Connectivity: No external gateway required. Manage the lock remotely, generate One-Time Passwords (OTP) for guests, and receive instant alerts on your smartphone.\n- Activity Trail & Monitoring: Maintain a complete digital record of everyone who enters or exits your home, accessible 24/7 through the mobile app.\n- Advanced Security Alarms: Features an Anti-Prank Alarm (triggers after 5 wrong attempts), Anti-Theft Alarm for forced entry, and a Spycode function to hide your real PIN from onlookers.\n- Flexible Modes: Includes Privacy Mode (disables electronic access from outside) and Passage Mode (allows free entry for gatherings or high-traffic periods).\n- Emergency Power Management: Operates on 4 AA Alkaline batteries with a built-in Type-C USB port for external power backup to ensure you are never locked out.\n\nSpecifications:\n- Door Compatibility: Designed for wooden doors and frames with 35mm–65mm thickness; standard 60mm backset.\n- Access Capacity: Registration for up to 100 Fingerprints, 100 User PINs, and 100 RFID Cards.\n- Construction: High-durability Aluminum Alloy body with 3 Solid SS 304 locking bolts.\n- Finishes: Available in elegant Matte Black, Rose Gold, and White to match any home aesthetic.\n- Warranty: Includes a 3-year manufacturer warranty and free professional installation by Godrej authorized experts.",
+    "images": [
+      "/images/locks/neo-connect-black.webp",
+      "/images/locks/neo-connect-black-1.webp",
+      "/images/locks/neo-connect-rosegold.webp",
+      "/images/locks/neo-connect-rosegold-1.webp",
+      "/images/locks/neo-connect-white.webp",
+      "/images/locks/neo-connect-white-1.webp"
+    ],
+    "tags": ["best-seller", "wifi-lock", "featured"],
+    "lock_mechanism": ["fingerprint", "passcode", "RFID", "wifi", "app", "key"]
+  },
+  {
+    "id": "59",
+    "name": "Godrej Neo Prime Smart Door Lock",
+    "price": "10999",
+    "size": ["(cm)26.5(h)x17(w)x10.5(d)"],
+    "weight": "0.8kg",
+    "category": ["locks"],
+    "slug": "godrej-neo-prime",
+    "description": "The Godrej Neo Prime is a premium non-connected smart digital lock designed for homeowners who seek a perfect balance of high-end aesthetics and robust mechanical security without the need for WiFi connectivity. Available in luxury Titanium Grey and Rose Gold finishes, the Neo Prime focuses on 'offline' excellence, offering ultra-fast biometric response and a high-strength 3-bolt mortise assembly. It is the ideal choice for bedroom doors, internal home offices, or main doors where localized, keyless access is preferred over remote app management. Built with a durable aluminum alloy body, it provides elite protection with a touch of modern sophistication.\n\nFeatures:\n- 4-in-1 Secure Access: Fast and reliable unlocking via 360° Fingerprint sensor (integrated into the handle), User Passcode, RFID Card, and a high-strength Mechanical Emergency Key.\n- Premium Aesthetic Finishes: Specifically crafted to enhance modern interiors, available in distinct Titanium Grey and Rose Gold matte finishes.\n- 3-Bolt Fortified Security: Features a robust locking mechanism with three solid bolts for superior resistance against forced entry and prying.\n- Advanced Privacy Suite: Includes a Privacy Function (safety button) that, when activated from inside, blocks all external electronic access, ensuring complete solitude.\n- Smart Safety Alarms: Equipped with an Anti-Prank Alarm that triggers after 5 consecutive incorrect attempts and a Low Battery Indication to ensure you are never caught off guard.\n- Backup Power Ready: Features a Type-C USB emergency port to provide temporary power for unlocking if the 4 AA batteries are fully depleted.\n\nSpecifications:\n- Door Compatibility: Suitable for wooden doors with 35mm–65mm thickness; standard 60mm backset.\n- Access Capacity: Registration for up to 100 Fingerprints, 100 User PINs, and 100 RFID Cards.\n- Construction: High-grade Aluminum Alloy fascia and handle for long-lasting durability.\n- Orientation: Universal design compatible with both left-hand and right-hand opening doors.\n- Warranty: 3-year brand warranty including free professional installation by Godrej authorized experts.",
+    "images": [
+      "/images/locks/neo-prime-titanium.webp",
+      "/images/locks/neo-prime-titanium-1.webp",
+      "/images/locks/neo-prime-rosegold.webp",
+      "/images/locks/neo-prime-rosegold-1.webp"
+    ],
+    "tags": ["best-seller", "premium-finish", "featured"],
+    "lock_mechanism": ["fingerprint", "passcode", "RFID", "key"]
+  },
+  {
+    "id": "60",
+    "name": "Godrej Neo Advantage Smart Door Lock",
+    "price": "8999",
+    "size": ["(cm)26.5(h)x17(w)x10.5(d)"],
+    "weight": "2.0kg",
+    "category": ["locks"],
+    "slug": "godrej-neo-advantage",
+    "description": "The Godrej Neo Advantage is the perfect entry-point into the world of smart home security, offering high-tech biometric protection at a highly accessible price. Positioned as the 'Essential' model in the Neo series, it focuses on providing core digital safety features without the complexity of WiFi. While it shares the same robust 3-bolt aluminum alloy construction as its premium siblings, the Neo Advantage is designed for users who want reliable, keyless access for main doors or internal rooms. Available in a sophisticated Black finish, it blends seamlessly with contemporary wooden doors and offers the same industrial-grade durability that Godrej is known for.\n\nFeatures:\n- 4-in-1 Secure Unlocking: Access your home effortlessly via Fingerprint, User Passcode, RFID Card, or a high-strength Mechanical Emergency Key.\n- 360° Biometric Sensor: High-precision fingerprint scanner integrated into the handle that recognizes authorized prints from any angle in under a second.\n- Fortified Physical Security: Equipped with a 3-bolt lock body featuring a stainless steel (SS 304) manual bolt for maximum resistance against prying and forced entry.\n- Smart Safety Suite: Built-in Anti-Prank Alarm (triggers after 5 failed attempts), Spycode function (add random digits to hide your real PIN), and Low Battery alerts.\n- Privacy & Passage Modes: Use 'Privacy Mode' to block external electronic access for total solitude, or 'Passage Mode' to keep the door unlocked during high-traffic family events.\n- Emergency Power Access: Includes a Type-C USB port to provide temporary power for unlocking if the 4 AA batteries are completely drained.\n\nSpecifications:\n- Door Compatibility: Suitable for wooden doors and frames with 35mm–65mm thickness; standard 60mm backset.\n- Access Capacity: Registration for up to 100 Fingerprints, 100 User PINs, and 100 RFID Cards.\n- Construction: Durable Aluminum Alloy fascia and handle with SS 304 internal bolts.\n- Finish: Sleek, minimalist Black finish.\n- Warranty: 3-year brand warranty with free professional installation by Godrej authorized experts.",
+    "images": [
+      "/images/locks/neo-advantage-black-1.webp",
+      "/images/locks/neo-advantage-black-2.webp"
+    ],
+    "tags": ["best-seller", "budget-friendly", "featured"],
+    "lock_mechanism": ["fingerprint", "passcode", "RFID", "key"]
+  }
 ]
