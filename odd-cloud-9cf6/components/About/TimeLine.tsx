@@ -6,7 +6,7 @@ export default function Timeline() {
     },
     {
       year: "2019",
-      desc: "Expanded our expertise with CCTV surveillance and advanced security solutions."
+      desc: "Expanded our expertise with CCTV surveillance and advanced security solutions to serve every kind of home and business needs."
     },
     {
       year: "2021",
