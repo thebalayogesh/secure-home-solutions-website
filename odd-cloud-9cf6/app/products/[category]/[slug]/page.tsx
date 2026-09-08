@@ -1,33 +1,46 @@
 // app/products/[category]/[slug]/page.tsx
-import { getProductBySlug } from "@/lib/getProducts";
-import ProductPageClient from "@/components/ProductPageClient";
-import { ProductType } from "@/types/product";
-import products from "@/data/products.json";
+
 import { Metadata } from "next";
 
-// Base URL for absolute images
+import { getProductBySlug } from "@/lib/getProducts";
+import ProductPageClient from "@/components/ProductPageClient";
+
+import { ProductType } from "@/types/product";
+import products from "@/data/products.json";
+import { Weight } from "lucide-react";
+
 const BASE_URL = "https://www.homelockers.in";
 
-// ✅ Pre-generate all product pages at build time
+// --------------------------------------------------
+// Pre-generate all product pages at build time
+// --------------------------------------------------
+
 export function generateStaticParams() {
-  return products.flatMap((p: ProductType) =>
-    p.category.map((c: string) => ({
-      category: c,
-      slug: p.slug,
+  return products.flatMap((product: ProductType) =>
+    product.category.map((category: string) => ({
+      category,
+      slug: product.slug,
     }))
   );
 }
 
-// ✅ Generate per-product metadata for OG/Twitter
+// --------------------------------------------------
+// Generate SEO + Open Graph metadata
+// --------------------------------------------------
+
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ category: string; slug: string }>;
+  params: Promise<{
+    category: string;
+    slug: string;
+  }>;
 }): Promise<Metadata> {
   const { category, slug } = await params;
 
   const product: ProductType | undefined = getProductBySlug(slug);
 
+  // Product not found
   if (!product) {
     return {
       title: "Product Not Found | Secure Home Solutions",
@@ -35,65 +48,163 @@ export async function generateMetadata({
     };
   }
 
-  const seoDescription =
-    product.description?.slice(0, 160) ||
-    `Buy ${product.name} at Secure Home Solutions. Premium quality, secure storage, and durable design.`;
+  // --------------------------------------------------
+  // Basic product information
+  // --------------------------------------------------
 
-
-  const formattedSize = product.size?.[0]?.replace("(cm)", "").trim();
+  const productName = product.name;
 
   const formattedPrice = new Intl.NumberFormat("en-IN", {
     style: "currency",
     currency: "INR",
+    maximumFractionDigits: 0,
   }).format(Number(product.price));
 
-  // const ogDescription = `Size: ${formattedPrice}cm \nprice: ${formattedSize}`
-  const methods = product.lock_mechanism?.join(" + ").toUpperCase();
-  let ogDescription ="";
+  const formattedWeight = product.weight;
+
+  const formattedSize =
+    product.size?.[0]?.replace("(cm)", "").trim() || "";
+
+  const volume = product.volume
+    ? `${product.volume}`
+    : "";
+
+  // --------------------------------------------------
+  // Normal SEO description
+  // --------------------------------------------------
+
+  const seoDescription =
+    product.description?.slice(0, 160) ||
+    `Buy ${productName} from Secure Home Solutions. Premium security, durable construction, and reliable protection for your home.`;
+
+  // --------------------------------------------------
+  // OG description
+  //
+  // Keep this SHORT.
+  // WhatsApp/Facebook/LinkedIn previews have limited space.
+  // --------------------------------------------------
+
+  let ogDescription = "";
 
   if (category === "locks") {
-    ogDescription = `Price: ${formattedPrice} • Unlock with ${methods} • Smart Keyless Security for Your Home`;
-  } else {
-    ogDescription = `Price: ${formattedPrice} • Size: ${formattedSize}cm • Volume: ${product.volume} Weight: ${product.weight} Heavy Duty • Premium Security Locker`;
+    const methods =
+      product.lock_mechanism?.join(" + ").toUpperCase() || "";
 
+    ogDescription = [
+      formattedPrice,
+      methods ? `Unlock: ${methods}` : "",
+      "Smart keyless security",
+    ]
+      .filter(Boolean)
+      .join(" ");
+  } else {
+    ogDescription = [
+      formattedPrice,
+      formattedWeight,
+      formattedSize ? `${formattedSize} cm` : "",
+      volume ? `${volume} capacity` : "",
+      
+    ]
+      .filter(Boolean)
+      .join(" • ");
   }
 
-  // const ogDescription1 = `${formattedPrice} • ${formattedSize} • ${product.weight} • ${product.volume}`;
+  // Add a short business description
+  ogDescription += " • Secure Home Solutions";
 
-  const firstImage = product.images[0] || "/images/site/shs-ico.webp";
+  // --------------------------------------------------
+  // Product image
+  // --------------------------------------------------
+
+  const firstImage =
+    product.images?.[0] || "/images/site/shs-ico.webp";
+
   const productImage = firstImage.startsWith("http")
     ? firstImage
-    : `${BASE_URL}${firstImage.startsWith("/") ? "" : "/"}${firstImage}`;
+    : `${BASE_URL}${
+        firstImage.startsWith("/") ? "" : "/"
+      }${firstImage}`;
+
+  // --------------------------------------------------
+  // Canonical product URL
+  // --------------------------------------------------
+
+  const productUrl =
+    `${BASE_URL}/products/${category}/${slug}`;
+
+  // --------------------------------------------------
+  // Metadata
+  // --------------------------------------------------
 
   return {
-    title: `${product.name} | Secure Home Solutions`,
+    title: `${productName} | Secure Home Solutions`,
+
     description: seoDescription,
-    openGraph: {
-      title: product.name,
-      description: ogDescription,
-      url: `${BASE_URL}/products/${category}/${slug}`,
-      siteName: "Secure Home Solutions",
-      type: "website", // ✅ Must be "website" to avoid Next.js errors
-      images: [productImage],
+
+    alternates: {
+      canonical: productUrl,
     },
+
+    openGraph: {
+      title: productName,
+
+      description: ogDescription,
+
+      url: productUrl,
+
+      siteName: "Secure Home Solutions",
+
+      locale: "en_IN",
+
+      type: "website",
+
+      images: [
+        {
+          url: productImage,
+          width: 1200,
+          height: 630,
+          alt: productName,
+        },
+      ],
+    },
+
     twitter: {
       card: "summary_large_image",
-      title: product.name,
+
+      title: productName,
+
       description: seoDescription,
-      images: [productImage],
+
+      images: [
+        {
+          url: productImage,
+          alt: productName,
+        },
+      ],
     },
   };
 }
 
-// ✅ Product page component
+// --------------------------------------------------
+// Product Page
+// --------------------------------------------------
+
 export default async function ProductPage({
   params,
 }: {
-  params: Promise<{ category: string; slug: string }>;
+  params: Promise<{
+    category: string;
+    slug: string;
+  }>;
 }) {
   const { category, slug } = await params;
 
-  const product: ProductType | undefined = getProductBySlug(slug);
+  const product: ProductType | undefined =
+    getProductBySlug(slug);
+
+  // --------------------------------------------------
+  // Product not found
+  // --------------------------------------------------
 
   if (!product) {
     return (
@@ -103,39 +214,88 @@ export default async function ProductPage({
     );
   }
 
+  // --------------------------------------------------
+  // Related products
+  // --------------------------------------------------
+
   const relatedProducts = products
-    .filter((p) => p.slug !== product.slug && p.category.includes(category))
+    .filter(
+      (p) =>
+        p.slug !== product.slug &&
+        p.category.includes(category)
+    )
     .slice(0, 4);
+
+  // --------------------------------------------------
+  // Product SEO description
+  // --------------------------------------------------
 
   const seoDescription =
     product.description?.slice(0, 160) ||
-    `Buy ${product.name} at Secure Home Solutions. Premium quality, secure storage, and durable design.`;
+    `Buy ${product.name} from Secure Home Solutions. Premium security, durable construction, and reliable protection for your home.`;
+
+  // --------------------------------------------------
+  // JSON-LD Product Schema
+  // --------------------------------------------------
+
+  const productImages = (product.images || []).map((img) =>
+    img.startsWith("http")
+      ? img
+      : `${BASE_URL}${
+          img.startsWith("/") ? "" : "/"
+        }${img}`
+  );
 
   return (
     <>
-      {/* JSON-LD Product schema for SEO */}
+      {/* ---------------------------------------------
+          Product Structured Data
+      ---------------------------------------------- */}
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org/",
             "@type": "Product",
+
             name: product.name,
-            image: product.images.map((img) =>
-              img.startsWith("http") ? img : `${BASE_URL}${img.startsWith("/") ? "" : "/"}${img}`
-            ),
-            description: product.description || seoDescription,
-            brand: { "@type": "Brand", name: "Secure Home Solutions" },
+
+            image: productImages,
+
+            description:
+              product.description || seoDescription,
+
+            brand: {
+              "@type": "Brand",
+              name: "Godrej",
+            },
+
             offers: {
               "@type": "Offer",
+
               priceCurrency: "INR",
+
               price: product.price,
-              availability: "https://schema.org/InStock",
+
+              availability:
+                "https://schema.org/InStock",
+
+              url:
+                `${BASE_URL}/products/${category}/${slug}`,
             },
           }),
         }}
       />
-      <ProductPageClient product={product} relatedProducts={relatedProducts} />
+
+      {/* ---------------------------------------------
+          Product UI
+      ---------------------------------------------- */}
+
+      <ProductPageClient
+        product={product}
+        relatedProducts={relatedProducts}
+      />
     </>
   );
 }
