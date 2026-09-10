@@ -51,7 +51,7 @@ export default function ContactTopbar() {
             {/* Search */}
             <button
               type="button"
-              onClick={() => setSearchOpen(true)}
+              onClick={() => setSearchOpen((prev) => !prev)}
               aria-label="Search products"
               className="absolute right-0 top-4 flex items-center justify-center w-9 h-9 rounded-full text-gray-800 hover:bg-gray-100 active:bg-gray-200 transition"
             >
@@ -91,10 +91,10 @@ export default function ContactTopbar() {
               {/* Phone */}
               <a
                 href="tel:+917550084414"
-                className="ml-4 flex items-center gap-1 text-blue-600 font-bold text-xl"
+                className="ml-4 flex items-center gap-1 text-blue-600 font-semibold text-xl"
               >
                 <Phone
-                  className="w-5 h-5 text-blue-700"
+                  className="w-5 h-5 text-blue-600"
                   strokeWidth={2.5}
                 />
 
@@ -106,7 +106,8 @@ export default function ContactTopbar() {
             {/* Search */}
             <button
               type="button"
-              onClick={() => setSearchOpen(true)}
+              onClick={() => setSearchOpen((prev) => !prev)}
+
               aria-label="Search products"
               className="absolute right-0 flex items-center justify-center w-10 h-10 rounded-full text-gray-800 hover:text-blue-600 hover:bg-gray-100 transition"
             >
