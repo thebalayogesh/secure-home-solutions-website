@@ -26,6 +26,11 @@ const categorie = [
     slug: "fire-resistant",
     image: "/images/fire-resistant/godrej-safire-40l-digi-1.webp",
   },
+  {
+    name: "Hotel Safes",
+    slug: "hotel",
+    image: "/images/hotel/Godrej-Odyssey-Pro-25L-Hotel-Locker-1.webp",
+  },
 ];
 
 export const dynamic = "force-static";
