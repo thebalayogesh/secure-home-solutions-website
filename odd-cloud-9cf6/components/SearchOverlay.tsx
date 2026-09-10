@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useEffect, useState } from "react";
@@ -19,24 +20,27 @@ export default function SearchOverlay({
 
   const products = getAllProducts();
 
-  const results =
-    query.trim().length > 0
-      ? products
-          .filter((product) => {
-            const searchText = [
-              product.name,
-              product.slug,
-              product.category?.join(" "),
-            ]
-              .join(" ")
-              .toLowerCase();
+  const searchWords = query
+  .toLowerCase()
+  .trim()
+  .split(/\s+/);
 
-            return searchText.includes(query.toLowerCase());
-          })
-          .slice(0, 6)
-      : [];
+const results = products
+  .filter((product) => {
+    const searchText = [
+      product.name,
+      product.slug,
+      product.category?.join(" "),
+    ]
+      .join(" ")
+      .toLowerCase();
 
-  // Close with Escape
+    return searchWords.every((word) =>
+      searchText.includes(word)
+    );
+  })
+  .slice(0, 6);
+  // Close with Escape key
   useEffect(() => {
     if (!open) return;
 
@@ -52,6 +56,13 @@ export default function SearchOverlay({
       document.removeEventListener("keydown", handleKeyDown);
     };
   }, [open, onClose]);
+
+  // Clear search whenever the overlay closes
+  useEffect(() => {
+    if (!open) {
+      setQuery("");
+    }
+  }, [open]);
 
   // Prevent background scrolling
   useEffect(() => {
@@ -72,7 +83,7 @@ export default function SearchOverlay({
         onClick={onClose}
       />
 
-      {/* Desktop Search Panel */}
+      {/* Search Panel */}
       <div className="fixed top-[72px] left-1/2 -translate-x-1/2 z-50 w-[min(600px,calc(100vw-32px))]">
         <div
           className="bg-white border border-gray-200 rounded-xl shadow-xl overflow-hidden"
@@ -91,6 +102,7 @@ export default function SearchOverlay({
               className="flex-1 min-w-0 outline-none text-[15px] text-gray-800 placeholder:text-gray-400"
             />
 
+            {/* Clear Search */}
             {query && (
               <button
                 type="button"
@@ -102,6 +114,7 @@ export default function SearchOverlay({
               </button>
             )}
 
+            {/* Close Search */}
             <button
               type="button"
               onClick={onClose}
@@ -121,7 +134,7 @@ export default function SearchOverlay({
             </div>
           )}
 
-          {/* Results */}
+          {/* Search Results */}
           {query.trim() && (
             <div className="border-t border-gray-100">
               {results.length > 0 ? (
@@ -133,7 +146,7 @@ export default function SearchOverlay({
                       onClick={onClose}
                       className="flex items-center gap-3 px-4 py-2.5 hover:bg-gray-50 transition"
                     >
-                      {/* Image */}
+                      {/* Product Image */}
                       <div className="relative w-12 h-12 bg-gray-50 border border-gray-100 rounded-lg overflow-hidden shrink-0">
                         {product.images?.[0] ? (
                           <Image
@@ -150,7 +163,7 @@ export default function SearchOverlay({
                         )}
                       </div>
 
-                      {/* Product Info */}
+                      {/* Product Information */}
                       <div className="min-w-0 flex-1">
                         <h3 className="text-sm font-medium text-gray-800 truncate">
                           {product.name}
@@ -166,6 +179,7 @@ export default function SearchOverlay({
                   ))}
                 </div>
               ) : (
+                /* No Results */
                 <div className="px-4 py-6 text-center">
                   <p className="text-sm font-medium text-gray-700">
                     No products found
@@ -183,3 +197,4 @@ export default function SearchOverlay({
     </>
   );
 }
+
