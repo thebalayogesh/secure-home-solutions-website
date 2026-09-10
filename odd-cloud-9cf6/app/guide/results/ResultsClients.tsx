@@ -1,7 +1,7 @@
 "use client";
 
 import { useSearchParams, useRouter } from "next/navigation";
-import rawProducts from "@/data/raw/products.json";
+import rawProducts from "@/data/raw/product.parse.json";
 import ProductCard from "@/components/ProductCardRecommender";
 
 import {
