@@ -43,14 +43,19 @@ const ALLOWED_TAGS: ProductTag[] = [
 ];
 
 /* ---------- NORMALIZATION ---------- */
-
 function normalizeProducts(raw: RawProduct[]): Product[] {
-  return raw.map((p) => ({
-    ...p,
-    tags: p.tags?.filter((t): t is ProductTag =>
-      ALLOWED_TAGS.includes(t as ProductTag)
-    ),
-  }));
+  return raw
+    .filter((p) => p.dimensions?.cm)
+    .map((p): Product => ({
+      ...p,
+
+      tags: (p.tags ?? []).filter(
+        (t): t is ProductTag =>
+          ALLOWED_TAGS.includes(t as ProductTag)
+      ),
+
+      dimensions: p.dimensions!,
+    }));
 }
 
 /* ---------- DATA GUARDS ---------- */

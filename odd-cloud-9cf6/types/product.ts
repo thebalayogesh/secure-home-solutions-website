@@ -44,23 +44,50 @@ export type ProductTag =
 export type RawProduct = {
   id: string;
   name: string;
-  slug: string;
-  category: string[];
-  price?: string;
+  price: string;
+  size?: string[];
   weight?: string;
   volume?: string;
+  category: string[];
+  slug: string;
+  description: string;
   images: string[];
-  description?: string;
-  lock_mechanism?: string[];
-  tags?: string[];
-  dimensions: {
+  tags: string[];
+  lock_mechanism: string[];
+
+  dimensions?: {
     cm: {
+      height: number;
+      width: number;
+      depth: number;
+    };
+    mm: {
       height: number;
       width: number;
       depth: number;
     };
   };
 };
+// export type RawProduct = {
+//   id: string;
+//   name: string;
+//   slug: string;
+//   category: string[];
+//   price?: string;
+//   weight?: string;
+//   volume?: string;
+//   images: string[];
+//   description?: string;
+//   lock_mechanism?: string[];
+//   tags?: string[];
+//   dimensions?: {
+//     cm: {
+//       height: number;
+//       width: number;
+//       depth: number;
+//     };
+//   };
+// };
 
 
 export type Product = {
