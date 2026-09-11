@@ -2,12 +2,13 @@
 
 import { Metadata } from "next";
 
+
 import { getProductBySlug } from "@/lib/getProducts";
 import ProductPageClient from "@/components/ProductPageClient";
 
 import { ProductType } from "@/types/product";
 import products from "@/data/products.json";
-import { Weight } from "lucide-react";
+
 
 const BASE_URL = "https://www.homelockers.in";
 
@@ -103,7 +104,7 @@ export async function generateMetadata({
       formattedWeight,
       formattedSize ? `${formattedSize} cm` : "",
       volume ? `${volume} capacity` : "",
-      
+
     ]
       .filter(Boolean)
       .join(" • ");
@@ -121,9 +122,8 @@ export async function generateMetadata({
 
   const productImage = firstImage.startsWith("http")
     ? firstImage
-    : `${BASE_URL}${
-        firstImage.startsWith("/") ? "" : "/"
-      }${firstImage}`;
+    : `${BASE_URL}${firstImage.startsWith("/") ? "" : "/"
+    }${firstImage}`;
 
   // --------------------------------------------------
   // Canonical product URL
@@ -241,9 +241,8 @@ export default async function ProductPage({
   const productImages = (product.images || []).map((img) =>
     img.startsWith("http")
       ? img
-      : `${BASE_URL}${
-          img.startsWith("/") ? "" : "/"
-        }${img}`
+      : `${BASE_URL}${img.startsWith("/") ? "" : "/"
+      }${img}`
   );
 
   return (

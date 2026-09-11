@@ -8,6 +8,10 @@ import ProductCard from "@/components/ProductCard";
 import ShareButtons from "@/components/ShareButtons";
 import ShareButtonFloating from "@/components/ShareButtonFloating";
 
+import { parseProductDescription } from "@/lib/parseProductDescription";
+import OfferPopup from "./OfferPopup";
+
+
 const toTitleCase = (text: string) => {
   return text
     .split(/[-\s]/)
@@ -42,6 +46,10 @@ export default function ProductPageClient({
 
   const siteUrl = typeof window !== "undefined" ? window.location.origin : "";
   const productUrl = `${siteUrl}/products/${product.category}/${product.slug}`;
+
+  const parsedDescription = parseProductDescription(
+  product.description
+);
 
   return (
     <main className="max-w-7xl mx-auto px-6 py-12 pb-28 overflow-x-hidden">
@@ -149,9 +157,37 @@ export default function ProductPageClient({
         {/* Right Side: Info & Buttons */}
         <div className="min-w-0">
           <h1 className="text-3xl font-bold text-gray-900">{product.name}</h1>
-          <p className="text-2xl text-blue-600 font-semibold mt-2">
+          {/* <p className="text-2xl text-blue-600 font-semibold mt-2">
             ₹{new Intl.NumberFormat("en-IN").format(Number(product.price))}
-          </p>
+          </p> */}
+
+          <div className="mt-2">
+  {product.offer_price ? (
+    <div className="flex items-center gap-3 flex-wrap">
+      <span className="text-2xl text-blue-600 font-semibold">
+        ₹{new Intl.NumberFormat("en-IN").format(
+          Number(product.offer_price)
+        )}
+      </span>
+
+      <span className="text-lg text-gray-400 line-through">
+        ₹{new Intl.NumberFormat("en-IN").format(
+          Number(product.price)
+        )}
+      </span>
+
+      <span className="px-2 py-1 text-xs font-semibold rounded-md bg-red-100 text-red-600">
+        OFFER
+      </span>
+    </div>
+  ) : (
+    <span className="text-2xl text-blue-600 font-semibold">
+      ₹{new Intl.NumberFormat("en-IN").format(
+        Number(product.price)
+      )}
+    </span>
+  )}
+</div>
 
           <div className="mt-4">
             <ShareButtons url={productUrl} title={product.name} />
@@ -218,10 +254,87 @@ export default function ProductPageClient({
 
       {/* Full Width Description */}
       <div className="mt-12">
-        <h2 className="text-2xl font-semibold mb-4">Product Description</h2>
-        <p className="whitespace-pre-line text-gray-700 leading-relaxed">
+        {/* <h2 className="text-2xl font-semibold mb-4">Product Description</h2> */}
+        {/* <p className="whitespace-pre-line text-gray-700 leading-relaxed">
           {product.description}
-        </p>
+        </p> */}
+
+
+        <div className="space-y-10">
+
+  {/* Overview */}
+  {parsedDescription.intro && (
+    <section>
+      <h2 className="text-2xl font-bold mb-4">
+        Product Overview
+      </h2>
+
+      <p className="text-gray-600 leading-7 whitespace-pre-line">
+        {parsedDescription.intro}
+      </p>
+    </section>
+  )}
+
+  {/* Features */}
+  {parsedDescription.features.length > 0 && (
+    <section>
+      <h2 className="text-2xl font-bold mb-6">
+        Key Features
+      </h2>
+
+      <div className="grid gap-4 md:grid-cols-2">
+        {parsedDescription.features.map((feature, index) => (
+          <div
+            key={index}
+            className="rounded-xl border border-gray-200 p-5"
+          >
+            <h3 className="font-semibold text-lg mb-2">
+              {feature.title}
+            </h3>
+
+            {feature.description && (
+              <p className="text-gray-600 leading-6">
+                {feature.description}
+              </p>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {/* Specifications */}
+  {parsedDescription.specifications.length > 0 && (
+    <section>
+      <h2 className="text-2xl font-bold mb-6">
+        Specifications
+      </h2>
+
+      <div className="overflow-hidden rounded-xl border border-gray-200">
+        {parsedDescription.specifications.map((spec, index) => (
+          <div
+            key={index}
+            className={`grid grid-cols-1 sm:grid-cols-2 ${
+              index !==
+              parsedDescription.specifications.length - 1
+                ? "border-b border-gray-200"
+                : ""
+            }`}
+          >
+            <div className="bg-gray-50 px-5 py-4 font-medium">
+              {spec.label}
+            </div>
+
+            <div className="px-5 py-4 text-gray-600">
+              {spec.value}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+</div>
       </div>
 
       {/* Related Products */}
@@ -245,6 +358,10 @@ export default function ProductPageClient({
           <MessageCircle className="w-5 h-5" /> WhatsApp
         </a>
       </div>
+
+      {product.offer_price && (
+  <OfferPopup product={product} />
+)}
     </main>
   );
 }
