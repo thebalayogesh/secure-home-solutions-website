@@ -1002,6 +1002,42 @@
     ]
   },
   {
+    "id": "68",
+    "name": "Godrej NX Pro Ncrypt 40L",
+    "price": "47499",
+    "ln_code": "46171591SD00780",
+    "size": [
+      "(cm) 28(h) x 49.5(w) x 37.2(d)",
+      "(mm) 280(h) x 495(w) x 372(d)"
+    ],
+    "weight": "19.8kg",
+    "volume": "40L",
+    "category": [
+      "10x"
+    ],
+    "slug": "godrej-nx-pro-ncrypt-40l",
+    "description": "The Godrej NX Pro Ncrypt 40L is a premium smart home locker that combines Face Recognition, Digital PIN and Biometric access with an advanced motorised locking system. Designed for modern homes, it offers single and dual-mode access, encrypted face authentication, real-person detection and infrared face recognition for secure access even in low-light conditions. With elegant interiors, LED illumination, toughened glass shelving and multiple emergency access options, the NX Pro Ncrypt combines intelligent security with a premium design.\n\nFeatures:\n- 10X Security: Designed to be 10X stronger than a wooden cupboard based on controlled in-house tests.\n- Face Recognition: Advanced face recognition provides convenient keyless access.\n- Digital PIN Access: Supports digital access codes for secure entry.\n- Biometric Access: Fingerprint authentication provides an additional access method.\n- Single & Dual Access Modes: Supports single-mode access using Fingerprint, Digital or Face Recognition, as well as dual modes including Digital-Biometric, Face-Digital and Face-Biometric.\n- Encrypted Face Access: Face data is converted into secure digital templates instead of stored images and protected using 128-bit AES encryption.\n- Real Person Detection: Liveness detection helps distinguish a real person from a photo, video or mask to reduce spoofing attempts.\n- Infrared Face Recognition: Enables face recognition in low-light and dark conditions.\n- Advanced Motorised Lock: Motorised locking provides enhanced security and automatic door locking.\n- Multiple User Access: Stores up to 19 user faces and 1 admin face, up to 19 user codes and 1 admin code, and up to 49 user fingerprints and 1 admin fingerprint.\n- Emergency Access: Provides USB and key emergency access along with a master 6-digit code for authorised emergency override.\n- Auto Freeze: The lock automatically freezes after 5 consecutive incorrect access attempts.\n- In-Built Alarm: Includes an in-built I-buzz alarm system.\n- Voice Acknowledgements: Provides voice-based acknowledgements during operation.\n- LED Illumination: Provision for LED lighting helps illuminate the locker interior.\n- Access Audit Trail: Stores up to 1,000 access records including date, time, opening method and user details, viewable directly on the locker display.\n- Door Open Alert: Alerts when the door remains open for an extended period.\n- Low Battery Indicator: Provides an indication when the battery is low.\n- Auto Door Lock Closure: Automatically locks the door after closure.\n- Toughened Glass Shelf: Includes a durable toughened glass shelf for organised storage.\n- Secure Installation: Provides grouting and anchoring provisions for secure installation.\n\nSpecifications:\n- External Dimensions: 28 cm (H) x 49.5 cm (W) x 37.2 cm (D)\n- External Dimensions: 280 mm (H) x 495 mm (W) x 372 mm (D)\n- Internal Dimensions: 27 cm (H) x 48.5 cm (W) x 30.5 cm (D)\n- Weight: 19.8 kg\n- Volume: 40 Litres\n- Internal Capacity: 40 Litres\n- Category: 10X\n- Door Thickness: 5 mm\n- Wall Thickness: 2 mm\n- Shooting Bolts: 2\n- Lock: Face + Digital + Biometric\n- Anchor Bolts: 4 Bottom + 2 Back\n- Finish: Automative paint finish\n- Door Opening Degree: 90°\n- Internal Lighting: Yes\n- Emergency Access: USB + Key\n- Warranty: Warranty card included\n- Country of Origin: India",
+    "images": [
+      "/images/10x/Godrej-NX-Pro-Ncrypt-40L-1.webp",
+      "/images/10x/Godrej-NX-Pro-Ncrypt-40L-2.webp",
+      "/images/10x/Godrej-NX-Pro-Ncrypt-40L-3.webp"
+
+    ],
+    "tags": [
+      "featured",
+      "smart-locker",
+      "face-recognition",
+      "biometric",
+      "digital-lock",
+      "high-security"
+    ],
+    "lock_mechanism": [
+      "face-recognition",
+      "digital",
+      "biometric"
+    ]
+  },
+  {
     "id": "37",
     "name": "Godrej Nx Pro Luxe 48L (Digi+Bio)",
     "price": "51599",
