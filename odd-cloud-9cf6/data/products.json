@@ -1831,5 +1831,251 @@
       "RFID",
       "key"
     ]
-  }
+  },
+
+{
+  "id": "63",
+  "name": "Godrej ACE PRO 3 Wi-Fi Robo",
+  "price": "3399",
+  "size": [],
+  "weight": "",
+  "volume": "",
+  "category": [
+    "cctv"
+  ],
+  "slug": "godrej-ace-pro-3-wifi-robo",
+  "description": "The Godrej ACE PRO 3 Wi-Fi Robo is a smart Wi-Fi-enabled security camera designed to help monitor your home and surroundings remotely. Featuring a 3 MP camera, AI human tracking and 360-degree viewing capability, it helps you monitor activity and keep an eye on your property through the mobile app. Its two-way communication feature allows you to communicate remotely through the camera.\n\nFeatures:\n- 3 MP Camera: Captures video with a 3-megapixel camera.\n- Wi-Fi Connectivity: Connects to a Wi-Fi network for remote monitoring.\n- AI Human Tracking: Uses AI-based human tracking to follow detected human movement.\n- 360-Degree View: Provides 360-degree viewing capability for monitoring the surroundings.\n- Two-Way Communication: Supports two-way audio communication through the camera.\n- Remote Monitoring: Allows you to monitor the camera remotely through the mobile app.\n\nSpecifications:\n- Brand: Godrej\n- Model: ACE PRO 3 Wi-Fi Robo\n- Product Type: Wi-Fi Robo Security Camera\n- Product Code: C001\n- UNSPSC: 46171610SD01405\n- Camera Resolution: 3 MP\n- Connectivity: Wi-Fi\n- Human Detection: AI Human Tracking\n- Viewing Angle: 360 Degrees\n- Communication: Two-Way Communication\n- Remote Access: Mobile App\n- Colour: White\n- Standard Package: 1 Unit\n- MRP: ₹3,399",
+  "images": [
+    "/images/cctv/Godrej-ACE-PRO-3-WiFi-Robo-1.webp",
+    "/images/cctv/Godrej-ACE-PRO-3-WiFi-Robo-2.webp"
+  ],
+  "tags": [
+    "wifi-camera",
+    "indoor-security-camera",
+    "ai-human-tracking",
+    "two-way-audio",
+    "featured"
+  ],
+  "lock_mechanism": []
+},
+
+{
+  "id": "64",
+  "name": "Godrej ACE PRO 3 Wi-Fi Dome",
+  "price": "3999",
+  "size": [],
+  "weight": "",
+  "volume": "",
+  "category": [
+    "cctv"
+  ],
+  "slug": "godrej-ace-pro-3-wifi-dome",
+  "description": "The Godrej ACE PRO 3 Wi-Fi Dome is a smart Wi-Fi-connected security camera designed for home and property surveillance. Equipped with a 3 MP camera, smart human detection and 10X digital zoom, it helps monitor your surroundings and identify human activity. With remote monitoring through the mobile app and built-in audio intercom functionality, it provides convenient security monitoring and communication.\n\nFeatures:\n- 3 MP Camera: Captures video using a 3-megapixel camera.\n- Wi-Fi Connectivity: Connects to a Wi-Fi network for remote camera access.\n- Smart Human Detection: Detects human activity to help monitor your surroundings.\n- 10X Digital Zoom: Supports up to 10X digital zoom for viewing distant details.\n- Remote Monitoring: Allows remote monitoring through the mobile app.\n- Audio Intercom: Supports audio intercom functionality for communication.\n\nSpecifications:\n- Brand: Godrej\n- Model: ACE PRO 3 Wi-Fi Dome\n- Product Type: Wi-Fi Dome Security Camera\n- Product Code: C002\n- UNSPSC: 46171610SD01406\n- Camera Resolution: 3 MP\n- Connectivity: Wi-Fi\n- Human Detection: Smart Human Detection\n- Digital Zoom: 10X\n- Remote Access: Mobile App\n- Audio: Audio Intercom\n- Colour: White\n- Standard Package: 1 Unit\n- MRP: ₹3,999",
+  "images": [
+    "/images/cctv/Godrej-ACE-PRO-3-WiFi-Dome-1.webp",
+    "/images/cctv/Godrej-ACE-PRO-3-WiFi-Dome-2.webp"
+  ],
+  "tags": [
+    "wifi-camera",
+    "dome-camera",
+    "smart-human-detection",
+    "10x-digital-zoom",
+    "audio-intercom",
+    "featured"
+  ],
+  "lock_mechanism": []
+},
+
+
+{
+  "id": "65",
+  "name": "Godrej ACE PRO 4G Dome IP",
+  "price": "4399",
+  "size": [],
+  "weight": "",
+  "volume": "",
+  "category": [
+    "cctv"
+  ],
+  "slug": "godrej-ace-pro-4g-dome-ip",
+  "description": "The Godrej ACE PRO 4G Dome IP is a smart security camera designed for remote surveillance using 4G SIM connectivity. Featuring a 3 MP camera, smart human detection and 10X digital zoom, it helps monitor your home, property and surroundings. With remote monitoring through the mobile app and audio intercom functionality, this camera provides convenient security monitoring even in locations where Wi-Fi connectivity is unavailable.\n\nFeatures:\n- 4G SIM Connectivity: Supports 4G SIM connectivity for remote camera monitoring.\n- 3 MP Camera: Captures video using a 3-megapixel camera.\n- Smart Human Detection: Detects human activity to help monitor your surroundings.\n- 10X Digital Zoom: Supports up to 10X digital zoom for viewing distant details.\n- Remote Monitoring: Allows you to monitor the camera remotely through the mobile app.\n- Audio Intercom: Supports audio communication through the camera.\n\nSpecifications:\n- Brand: Godrej\n- Model: ACE PRO 4G Dome IP\n- Product Type: 4G Dome IP Security Camera\n- Product Code: C005\n- UNSPSC: 46171610SD01409\n- Camera Resolution: 3 MP\n- Connectivity: 4G SIM\n- Human Detection: Smart Human Detection\n- Digital Zoom: 10X\n- Remote Access: Mobile App\n- Audio: Audio Intercom\n- Colour: White\n- Standard Package: 1 Unit\n- MRP: ₹4,399",
+  "images": [
+    "/images/cctv/Godrej-ACE-PRO-4G-Dome-IP-1.webp",
+    "/images/cctv/Godrej-ACE-PRO-4G-Dome-IP-2.webp"
+  ],
+  "tags": [
+    "4g-camera",
+    "dome-camera",
+    "ip-camera",
+    "smart-human-detection",
+    "10x-digital-zoom",
+    "audio-intercom",
+    "featured"
+  ],
+  "lock_mechanism": []
+},
+
+{
+  "id": "66",
+  "name": "Godrej ACE PRO Wi-Fi Bullet",
+  "price": "4099",
+  "size": [],
+  "weight": "",
+  "volume": "",
+  "category": [
+    "cctv"
+  ],
+  "slug": "godrej-ace-pro-wifi-bullet",
+  "description": "The Godrej ACE PRO Wi-Fi Bullet is a smart Wi-Fi-enabled security camera designed for home and property surveillance. Equipped with a 3 MP camera, smart human detection and 10X digital zoom, it helps monitor your surroundings and identify human activity. With IP66 certification and remote monitoring through the mobile app, it is designed for reliable security monitoring in indoor and outdoor environments.\n\nFeatures:\n- 3 MP Camera: Captures video using a 3-megapixel camera.\n- Wi-Fi Connectivity: Connects to a Wi-Fi network for remote camera monitoring.\n- Smart Human Detection: Detects human activity to help monitor your property.\n- 10X Digital Zoom: Supports up to 10X digital zoom for viewing distant details.\n- Remote Monitoring: Allows you to monitor the camera remotely through the mobile app.\n- IP66 Certified: Provides protection against dust and water ingress.\n\nSpecifications:\n- Brand: Godrej\n- Model: ACE PRO Wi-Fi Bullet\n- Product Type: Wi-Fi Bullet Security Camera\n- Product Code: C003\n- UNSPSC: 46171610SD01407\n- Camera Resolution: 3 MP\n- Connectivity: Wi-Fi\n- Human Detection: Smart Human Detection\n- Digital Zoom: 10X\n- Remote Access: Mobile App\n- Protection Rating: IP66\n- Colour: White\n- Standard Package: 1 Unit\n- MRP: ₹4,099",
+  "images": [
+    "/images/cctv/Godrej-ACE-PRO-WiFi-Bullet-1.webp",
+    "/images/cctv/Godrej-ACE-PRO-WiFi-Bullet-2.webp"
+  ],
+  "tags": [
+    "wifi-camera",
+    "bullet-camera",
+    "outdoor-security-camera",
+    "ip66-certified",
+    "smart-human-detection",
+    "10x-digital-zoom",
+    "featured"
+  ],
+  "lock_mechanism": []
+},
+
+
+{
+  "id": "67",
+  "name": "Godrej ACE PRO 4G Bullet",
+  "price": "4499",
+  "size": [
+    "(mm) 70(w) x 70(h) x 135(l)"
+  ],
+  "weight": "460g",
+  "volume": "",
+  "category": [
+    "cctv"
+  ],
+  "slug": "godrej-ace-pro-4g-bullet",
+  "description": "The Godrej ACE PRO 4G Bullet is a smart outdoor and indoor security camera designed for reliable property surveillance. Featuring a 3 MP camera, 4G SIM connectivity and smart human detection, it allows you to monitor your surroundings remotely through the Godrej ACE mobile application. With two-way audio communication, infrared and full-colour night vision, and IP66-rated protection, this camera provides advanced monitoring for homes, offices and other properties.\n\nFeatures:\n- 4G SIM Connectivity: Connects to the internet through a 4G SIM card, allowing remote monitoring without requiring a Wi-Fi connection.\n- 3 MP Camera: Captures video at 2304 x 1296 resolution.\n- Smart Human Detection: Detects human activity and sends alarm notifications through the mobile application.\n- Two-Way Audio: Built-in microphone and speaker allow remote audio communication.\n- Full-Colour Night Vision: Supports colour and black-and-white night vision modes using white light and infrared illumination.\n- Built-in Siren: Supports an audible alarm when human movement is detected.\n- Remote Monitoring: Supports monitoring through the Godrej ACE mobile application and PC client software.\n- 256GB MicroSD Support: Supports MicroSD cards up to 256GB for local recording. Memory card is not included.\n- IP66 Protection: Dust-resistant and water-resistant housing designed for outdoor use.\n\nSpecifications:\n- Brand: Godrej\n- Model: ACE PRO 4G Bullet\n- Product Type: 4G Bullet Security Camera\n- Product Code: C006\n- UNSPSC: 46171610SD01410\n- Image Sensor: 1/2.7-inch CMOS\n- Camera Resolution: 3 MP (2304 x 1296)\n- Connectivity: 4G SIM\n- Lens: 4mm Fixed Lens\n- Human Detection: Yes\n- Motion Detection: Yes\n- Audio: Built-in Microphone and Speaker\n- Night Vision: Infrared and Full Colour\n- IR Distance: More than 20 metres\n- White LED Distance: More than 15 metres\n- Storage Support: MicroSD up to 256GB\n- Video Compression: H.264+ / H.265 / H.265+\n- Protection Rating: IP66\n- Power Input: DC 12V / 1A\n- Power Consumption: Up to 5W\n- Dimensions: 70 x 70 x 135 mm\n- Net Weight: 460g\n- Gross Weight: 615g\n- Operating Temperature: -10°C to +50°C\n- Colour: White\n- Standard Package: 1 Unit\n- MRP: ₹4,499",
+  "images": [
+    "/images/cctv/Godrej-ACE-PRO-WiFi-Bullet-1.webp",
+    "/images/cctv/Godrej-ACE-PRO-WiFi-Bullet-2.webp"
+  ],
+  "tags": [
+    "4g-camera",
+    "bullet-camera",
+    "outdoor-security-camera",
+    "ip66-certified",
+    "smart-human-detection",
+    "motion-detection",
+    "two-way-audio",
+    "colour-night-vision",
+    "featured"
+  ],
+  "lock_mechanism": []
+},
+
+
+{
+  "id": "68",
+  "name": "Godrej ACE PRO Wi-Fi Mini PT",
+  "price": "5099",
+  "size": [],
+  "weight": "",
+  "volume": "",
+  "category": [
+    "cctv"
+  ],
+  "slug": "godrej-ace-pro-wifi-mini-pt",
+  "description": "The Godrej ACE PRO Wi-Fi Mini PT is a smart Wi-Fi-enabled pan and tilt security camera designed for home and property surveillance. Featuring a 3 MP camera, AI human tracking and 360-degree viewing capability, it helps monitor your surroundings and track human movement. With remote monitoring through the mobile app and audio intercom functionality, this camera provides convenient security monitoring and communication.\n\nFeatures:\n- 3 MP Camera: Captures video using a 3-megapixel camera.\n- Wi-Fi Connectivity: Connects to a Wi-Fi network for remote camera monitoring.\n- AI Human Tracking: Uses AI-powered human tracking to follow detected human movement.\n- 360-Degree View: Provides 360-degree viewing capability for wider surveillance coverage.\n- Cruise Support: Supports cruise functionality for camera movement and monitoring.\n- Remote Monitoring: Allows you to monitor the camera remotely through the mobile app.\n- Audio Intercom: Supports audio communication through the camera.\n\nSpecifications:\n- Brand: Godrej\n- Model: ACE PRO Wi-Fi Mini PT\n- Product Type: Wi-Fi Pan and Tilt Security Camera\n- Product Code: C004\n- UNSPSC: 46171610SD01408\n- Camera Resolution: 3 MP\n- Connectivity: Wi-Fi\n- Human Detection: AI Human Tracking\n- Viewing Capability: 360 Degrees\n- Camera Movement: Pan and Tilt\n- Cruise Support: Yes\n- Remote Access: Mobile App\n- Audio: Audio Intercom\n- Colour: White\n- Standard Package: 1 Unit\n- MRP: ₹5,099",
+  "images": [
+    "/images/cctv/Godrej-ACE-PRO-WiFi-Mini-PT-1.webp",
+    "/images/cctv/Godrej-ACE-PRO-WiFi-Mini-PT-2.webp"
+  ],
+  "tags": [
+    "wifi-camera",
+    "mini-pt-camera",
+    "pan-tilt-camera",
+    "ai-human-tracking",
+    "360-degree-view",
+    "cruise-support",
+    "audio-intercom",
+    "featured"
+  ],
+  "lock_mechanism": []
+},
+
+
+{
+  "id": "69",
+  "name": "Godrej ACE PRO 4G Mini PT",
+  "price": "5799",
+  "size": [
+    "(mm) 132(w) x 191(h) x 170(l)"
+  ],
+  "weight": "523g",
+  "volume": "",
+  "category": [
+    "cctv"
+  ],
+  "slug": "godrej-ace-pro-4g-mini-pt",
+  "description": "The Godrej ACE PRO 4G Mini PT is a smart pan and tilt security camera designed for home and outdoor surveillance. Featuring a 3 MP camera, 4G SIM connectivity and AI human tracking, it helps monitor your surroundings and automatically track detected human movement. With cruise support, remote monitoring through the mobile app and Alexa compatibility, it offers convenient security monitoring without requiring a Wi-Fi connection.\n\nFeatures:\n- 4G SIM Connectivity: Supports 4G SIM connectivity for remote camera monitoring without requiring a Wi-Fi network.\n- 3 MP Camera: Captures high-resolution video at 2304 x 1296 pixels.\n- AI Human Tracking: Automatically tracks detected human movement within the monitored area.\n- Pan and Tilt Functionality: Supports horizontal and vertical camera movement for wider surveillance coverage.\n- Cruise Support: Supports camera cruise functionality for monitoring different areas.\n- Remote Monitoring: Allows you to monitor the camera remotely through the mobile app.\n- Alexa Compatibility: Compatible with Amazon Alexa for supported smart home integrations.\n- Two-Way Audio: Built-in microphone and speaker support two-way audio communication.\n- Night Vision: Supports infrared and full-colour night vision modes.\n- Human Detection: Detects human activity and supports alarm notifications through the mobile application.\n- IP66 Protection: Weather-resistant housing designed for outdoor surveillance.\n- MicroSD Storage: Supports MicroSD cards up to 256GB for local video recording. Memory card is not included.\n\nSpecifications:\n- Brand: Godrej\n- Model: ACE PRO 4G Mini PT\n- Product Type: 4G Pan and Tilt Security Camera\n- Product Code: C007\n- UNSPSC: 46171610SD01411\n- Camera Resolution: 3 MP (2304 x 1296)\n- Image Sensor: 1/3-inch CMOS\n- Lens: 4mm F1.6\n- Connectivity: 4G SIM\n- 4G Frequency Bands: FDD-LTE B1/B3/B5/B8, TDD-LTE B34/B38/B39/B40/B41\n- Human Detection: Yes\n- AI Human Tracking: Yes\n- Camera Movement: Pan and Tilt\n- Horizontal Viewing Angle: 53 Degrees\n- Diagonal Viewing Angle: 81 Degrees\n- Night Vision: Infrared and Full Colour\n- IR Distance: 30 Metres\n- White LED Distance: 20 Metres\n- Audio: Built-in Microphone and Speaker\n- Storage Support: MicroSD up to 256GB\n- Video Compression: H.264 / H.265 / H.265+\n- Protection Rating: IP66\n- Power Input: DC 12V / 1A\n- Power Consumption: Up to 6W\n- Dimensions: 132 x 191 x 170 mm\n- Net Weight: 523g\n- Gross Weight: 600g\n- Operating Temperature: 0°C to 50°C\n- Colour: White\n- Standard Package: 1 Unit\n- MRP: ₹5,799",
+  "images": [
+    "/images/cctv/Godrej-ACE-PRO-WiFi-Mini-PT-1.webp",
+    "/images/cctv/Godrej-ACE-PRO-WiFi-Mini-PT-2.webp"
+  ],
+  "tags": [
+    "4g-camera",
+    "mini-pt-camera",
+    "pan-tilt-camera",
+    "outdoor-security-camera",
+    "ai-human-tracking",
+    "human-detection",
+    "two-way-audio",
+    "night-vision",
+    "ip66-certified",
+    "alexa-compatible",
+    "featured"
+  ],
+  "lock_mechanism": []
+},
+
+
+{
+  "id": "70",
+  "name": "Godrej ACE PRO Solar Panel",
+  "price": "7799",
+  "size": [],
+  "weight": "",
+  "volume": "",
+  "category": [
+    "cctv"
+  ],
+  "slug": "godrej-ace-pro-solar-panel",
+  "description": "The Godrej ACE PRO Solar Panel is a solar charging accessory designed for compatible ACE PRO Mini PT security cameras. Featuring a built-in 13500 mAh battery and smart battery management, it helps provide a convenient power solution for compatible Wi-Fi and 4G Mini PT cameras. Its low-battery protection and battery short-circuit protection help safeguard the battery system, while the IP65-rated design provides protection against dust and water ingress.\n\nFeatures:\n- Built-in 13500 mAh Battery: Features an integrated 13500 mAh battery for energy storage.\n- Smart Battery Management: Provides intelligent battery management for efficient power handling.\n- Low-Battery Protection: Includes protection against low-battery conditions.\n- Battery Short-Circuit Protection: Provides battery short-circuit protection.\n- IP65 Rating: Designed with IP65-rated protection against dust and water ingress.\n- Camera Compatibility: Compatible with Godrej ACE PRO Mini PT cameras in both Wi-Fi and 4G variants.\n\nSpecifications:\n- Brand: Godrej\n- Model: ACE PRO Solar Panel\n- Product Type: Solar Charging Accessory\n- Product Code: C008\n- UNSPSC: 60104701SD00068\n- Built-in Battery Capacity: 13500 mAh\n- Battery Management: Smart Battery Management\n- Battery Protection: Low-Battery Protection\n- Short-Circuit Protection: Yes\n- Protection Rating: IP65\n- Compatibility: ACE PRO Mini PT Wi-Fi and 4G Cameras\n- Colour: White\n- Standard Package: 1 Unit\n- MRP: ₹7,799",
+  "images": [
+    "/images/cctv/Godrej-ACE-PRO-Solar-Panel-1.webp"
+  ],
+  "tags": [
+    "solar-panel",
+    "solar-camera-accessory",
+    "13500mah-battery",
+    "smart-battery-management",
+    "ip65-certified",
+    "mini-pt-compatible",
+    "wifi-camera-accessory",
+    "4g-camera-accessory",
+    "featured"
+  ],
+  "lock_mechanism": []
+}
+
+
+
+
+
+
+
+
 ]
